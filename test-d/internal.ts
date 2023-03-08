@@ -1,5 +1,5 @@
 import {expectType} from 'tsd';
-import type {IsWhitespace, IsNumeric} from '../source/internal';
+import type {IsWhitespace, IsNumeric, LastArrayElement} from '../source/internal';
 
 expectType<IsWhitespace<''>>(false);
 expectType<IsWhitespace<' '>>(true);
@@ -27,3 +27,7 @@ expectType<IsNumeric<' 1.2'>>(false);
 expectType<IsNumeric<'1 2'>>(false);
 expectType<IsNumeric<'1_200'>>(false);
 expectType<IsNumeric<' 1 '>>(false);
+
+expectType<LastArrayElement<[1]>>(1);
+expectType<LastArrayElement<[1, 2, 3]>>(3);
+expectType<LastArrayElement<[1, 2, '3']>>('3');

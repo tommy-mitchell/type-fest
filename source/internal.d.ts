@@ -257,3 +257,12 @@ export type HasMultipleCallSignatures<T extends (...arguments: any[]) => unknown
 			? false
 			: true
 		: false;
+
+/**
+Extracts the type of the last element of an array or tuple.
+*/
+export type LastArrayElement<TArray extends UnknownArrayOrTuple> = (
+	TArray extends [...unknown[], infer LastElement]
+		? LastElement
+		: never
+);
