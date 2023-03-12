@@ -15,6 +15,7 @@
 		"node": ">=14.16"
 	},
 	"scripts": {
+		"readme": "npm run test && node script/readme/generate-readme.js",
 		"test": "xo && tsd && tsc && node script/test/source-files-extension.js"
 	},
 	"files": [
@@ -36,6 +37,8 @@
 	"devDependencies": {
 		"@sindresorhus/tsconfig": "~0.7.0",
 		"expect-type": "^0.15.0",
+		"liquidjs": "^10.6.1",
+		"lz-string": "^1.5.0",
 		"tsd": "^0.24.1",
 		"typescript": "^4.9.3",
 		"xo": "^0.53.1"
