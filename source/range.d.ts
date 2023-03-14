@@ -5,6 +5,7 @@ import type {TupleToUnion} from './tuple-to-union';
 import type {LastArrayElement} from './internal';
 import type {IsEqual} from './is-equal';
 
+// TODO: IsLiteral (and IsNumericLiteral) has landed
 type LiteralCheck<T, LiteralType extends Primitive> = (
 	[T] extends [never] // Must be wider than `never`
 		? false
@@ -72,11 +73,13 @@ type _Range<
 	Start extends number,
 	End extends number,
 	Options extends RangeOptions,
+  // TODO: why is this 'boolean'?
 	WeakTypedOutput extends boolean = Options['asUnion'] extends true ? number : number[],
 > = (
 	IsNumericLiteral<Start> extends true
 		? IsNumericLiteral<End> extends true
 			? Options['asUnion'] extends true
+        // TODO: could just be (Range<>)[number] - index to turn tuple into union
 				? TupleToUnion<IterateRange<Start, End, Options>>
 				: IterateRange<Start, End, Options>
 			: WeakTypedOutput
