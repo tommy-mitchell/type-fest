@@ -54,11 +54,11 @@ expectType<IsBooleanLiteral<typeof _boolean>>(false);
 expectType<IsSymbolLiteral<typeof symbolLiteral>>(true);
 expectType<IsSymbolLiteral<typeof _symbol>>(false);
 
-declare const anything: any;
+declare const _any: any;
 
 // Missing generic parameter
-expectError<IsLiteral>(anything);
-expectError<IsStringLiteral>(anything);
-expectError<IsNumericLiteral>(anything);
-expectError<IsBooleanLiteral>(anything);
-expectError<IsSymbolLiteral>(anything);
+expectError<IsLiteral>(_any);
+expectError<IsStringLiteral>(_any);
+expectError<IsNumericLiteral>(_any);
+expectError<IsBooleanLiteral>(_any);
+expectError<IsSymbolLiteral>(_any);
