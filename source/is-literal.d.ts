@@ -249,4 +249,4 @@ stripLeading(str, 'abc');
 @category Utilities
 @category Type Guard
 */
-export type IsLiteral<T extends Primitive> = IsNotFalse<IsLiteralUnion<T>>;
+export type IsLiteral<T> = IsNotFalse<IsLiteralUnion<T>>;
