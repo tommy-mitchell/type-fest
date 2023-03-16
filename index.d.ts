@@ -84,6 +84,13 @@ export type {
 	IsBooleanLiteral,
 	IsSymbolLiteral,
 } from './source/is-literal';
+export type {
+	IfLiteral,
+	IfStringLiteral,
+	IfNumericLiteral,
+	IfBooleanLiteral,
+	IfSymbolLiteral,
+} from './source/if-literal';
 
 // Template literal types
 export type {CamelCase} from './source/camel-case';
