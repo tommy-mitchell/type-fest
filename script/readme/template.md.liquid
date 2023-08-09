@@ -96,7 +96,7 @@ type FooWithoutRainbow = Except<Foo, 'rainbow'>;
 
 ## API
 
-Click the type source for complete docs.
+Click the type name for complete docs.
 
 ### Type Categories
 
@@ -113,10 +113,10 @@ Click the type source for complete docs.
 ### {{ category.name }}
 
 {% for type in category.types -%}
-- `{{ type.name }}` - {{ type.description }}
+- [`{{ type.name }}`]({{ type.source }}) - {{ type.description }}
 	<details>
 	<summary>
-		Example | <a href="{{ type.example.playground_link }}">TS Playground</a> | <a href="{{ type.source }}">Source</a>
+		Example | <a href="{{ type.example.playground_link }}">TS Playground</a>
 	</summary>
 
 	```ts

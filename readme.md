@@ -96,7 +96,7 @@ type FooWithoutRainbow = Except<Foo, 'rainbow'>;
 
 ## API
 
-Click the type source for complete docs.
+Click the type name for complete docs.
 
 ### Type Categories
 
@@ -121,10 +121,10 @@ Click the type source for complete docs.
 
 ### Array
 
-- `Entries` - Many collections have an `entries` method which returns an array of a given object's own enumerable string-keyed property [key, value] pairs. The `Entries` type will return the type of that collection's entries.
+- [`Entries`](source/entries.d.ts) - Many collections have an `entries` method which returns an array of a given object's own enumerable string-keyed property [key, value] pairs. The `Entries` type will return the type of that collection's entries.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gUQHYysFAZwF84AzKCEOAciVQFoyiYaBuAKA+FxSjICGAYzSYAHgPAAbNOg6EqKANIpEALjjYAriABGfTsS5CI2QvBADswMFqkCYRHHgKE4AXjgAKFBOlENZ3wiAB5xSTAZAD4ASg8ouF8ImUIAOkswHz9ItHcEgG0OAHoiuAARCCI4BRA0AShdYDx6xDgwShFCQh4AczhTBAALNABrVW8AdybBhGQ0HjJoSxhgAYEANwFge10ZGI4k-3yABgBdVJgIAFUwVCgAYQFCFC8YgBouEvLKtxq6hqaUBabQ6RG62D6AxgwzgmykWjQXim0NmqDgCyWDlW2DgGy2Oz2B2yMnyAEZzpcAGLAMQoAAmrw4pxinA4JjM8EOOUCxNyGD+KnUcFJxE47PMiVwwTcngA8roAFYoIQwVIoKWuLLJFBxJ5wIKuMK8qJi0wSiBaGC2eCeSzWWz2RyEA1EHwaogsz6leVKlWENlm+AQRXKmDhfweDACDQi00c-ohlUuwiBd2EEL0FAQMgJ31h42R-L5GgCGhvYWnU6sr4AQSgQMQ-vF8HqDfDOULJbLFbjEtbAkQydTLlCmezuPrA-b0ULJ3LXdO5bJ5fJVa9cAAsgIwE3A3AMtO+dgUBNN9uvEWuyvK57m-vt0P9WmM3NxxkEp5L6Xr2viqUAMooDAu7xs8+bapGx6noBMAXleFa3nuYGPsmL6oOOyEFp+xbfrQpaLnAy4VlWQA">TS Playground</a> | <a href="source/entries.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gUQHYysFAZwF84AzKCEOAciVQFoyiYaBuAKA+FxSjICGAYzSYAHgPAAbNOg6EqKANIpEALjjYAriABGfTsS5CI2QvBADswMFqkCYRHHgKE4AXjgAKFBOlENZ3wiAB5xSTAZAD4ASg8ouF8ImUIAOkswHz9ItHcEgG0OAHoiuAARCCI4BRA0AShdYDx6xDgwShFCQh4AczhTBAALNABrVW8AdybBhGQ0HjJoSxhgAYEANwFge10ZGI4k-3yABgBdVJgIAFUwVCgAYQFCFC8YgBouEvLKtxq6hqaUBabQ6RG62D6AxgwzgmykWjQXim0NmqDgCyWDlW2DgGy2Oz2B2yMnyAEZzpcAGLAMQoAAmrw4pxinA4JjM8EOOUCxNyGD+KnUcFJxE47PMiVwwTcngA8roAFYoIQwVIoKWuLLJFBxJ5wIKuMK8qJi0wSiBaGC2eCeSzWWz2RyEA1EHwaogsz6leVKlWENlm+AQRXKmDhfweDACDQi00c-ohlUuwiBd2EEL0FAQMgJ31h42R-L5GgCGhvYWnU6sr4AQSgQMQ-vF8HqDfDOULJbLFbjEtbAkQydTLlCmezuPrA-b0ULJ3LXdO5bJ5fJVa9cAAsgIwE3A3AMtO+dgUBNN9uvEWuyvK57m-vt0P9WmM3NxxkEp5L6Xr2viqUAMooDAu7xs8+bapGx6noBMAXleFa3nuYGPsmL6oOOyEFp+xbfrQpaLnAy4VlWQA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -164,10 +164,10 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `Entry` - Many collections have an `entries` method which returns an array of a given object's own enumerable string-keyed property [key, value] pairs. The `Entry` type will return the type of that collection's entry.
+- [`Entry`](source/entry.d.ts) - Many collections have an `entries` method which returns an array of a given object's own enumerable string-keyed property [key, value] pairs. The `Entry` type will return the type of that collection's entry.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gUQHYyogXzgDMoIQ4ByJVAWmJQGcZKBuAKHeFxSmIEMAxmkwAPfuAA2adO0bkUAaRSIAXHGwBXEACNeHAp0ERszOCH7ZgYTZP4wmOPIjgBeOAAoU4qSnVP8AB4xCTBpAD4ASjdwuABtdgB6RLgAEQgmOHkQNH4oHWA8PJcwMmFGRm4AczgTBAALNABrFU8Ad0L6hGQ0bmJoCxhgOv4AN35gOx1pSPZvUOk4gAYAXQA6GAgAVTBUKABhfkYUD0iAGk5ktIzGLIU4PIKi-DhSiHLK7Bq6mEa4cckmjQHg6v26qDgfQG9mG2Ae40m-GmKFm818cQAjOtNgAxYCiFAAE1OFxWHHYxlM8DRYT8cBCvjcGGyShU6gxBA4lLMKFwL3cAHkdAArFCCGBrXl4YBMLw+WmRZYrB63AKIYLyiJckxmCCaGA2eDuCxWGx2ByMNVePmISLkq5C0XixgUnXwCAisUwBm0pnofjszmuqm1T3itX+G2BGgoCDEUNO72alCxdxxSj8ShnOBY+0pACCUCg-EQLu58DyxcQPukTPTmezueDZkrJbVAGVpV9I85oz04w8i23k6n4ktsxnKGTmxWh9WbQA5bR6KA9oIxget6sjusYxvTpIpACy-DAZbd5lPNbQ7mwKDacBPYA8cXrWZzKxWdpnl7AEfpUYbvGFh-juaaTvueZwO2KAwOeIbHEmCw3ho97QbBL4QR+37llksEdl2VRruqQF4Uhvijm+E6ZtOuGIWqS66LwxF9qgA70WB8R7h+rBAA">TS Playground</a> | <a href="source/entry.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gUQHYyogXzgDMoIQ4ByJVAWmJQGcZKBuAKHeFxSmIEMAxmkwAPfuAA2adO0bkUAaRSIAXHGwBXEACNeHAp0ERszOCH7ZgYTZP4wmOPIjgBeOAAoU4qSnVP8AB4xCTBpAD4ASjdwuABtdgB6RLgAEQgmOHkQNH4oHWA8PJcwMmFGRm4AczgTBAALNABrFU8Ad0L6hGQ0bmJoCxhgOv4AN35gOx1pSPZvUOk4gAYAXQA6GAgAVTBUKABhfkYUD0iAGk5ktIzGLIU4PIKi-DhSiHLK7Bq6mEa4cckmjQHg6v26qDgfQG9mG2Ae40m-GmKFm818cQAjOtNgAxYCiFAAE1OFxWHHYxlM8DRYT8cBCvjcGGyShU6gxBA4lLMKFwL3cAHkdAArFCCGBrXl4YBMLw+WmRZYrB63AKIYLyiJckxmCCaGA2eDuCxWGx2ByMNVePmISLkq5C0XixgUnXwCAisUwBm0pnofjszmuqm1T3itX+G2BGgoCDEUNO72alCxdxxSj8ShnOBY+0pACCUCg-EQLu58DyxcQPukTPTmezueDZkrJbVAGVpV9I85oz04w8i23k6n4ktsxnKGTmxWh9WbQA5bR6KA9oIxget6sjusYxvTpIpACy-DAZbd5lPNbQ7mwKDacBPYA8cXrWZzKxWdpnl7AEfpUYbvGFh-juaaTvueZwO2KAwOeIbHEmCw3ho97QbBL4QR+37llksEdl2VRruqQF4Uhvijm+E6ZtOuGIWqS66LwxF9qgA70WB8R7h+rBAA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -209,10 +209,10 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `FixedLengthArray` - Create a type that represents an array of the given type and length. The array's length and the `Array` prototype methods that manipulate its length are excluded in the resulting type.
+- [`FixedLengthArray`](source/fixed-length-array.d.ts) - Create a type that represents an array of the given type and length. The array's length and the `Array` prototype methods that manipulate its length are excluded in the resulting type.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gMWADxQEwBkUA7AcxgAsBBKKAQ0QF84AzKCEOAciVQFpWKAM4xuAbgBQkvmkykAxsHIAVFPS4BeONjxFSFGnUYAeUVGVkANHADMAPimSFEEqLhkAriJjySS1XUQAC4dRUs1DThtAG1uACkIYUpuG24AWWAFSnoUABtUngAlCAAjFFhuAF0nFzd4Sk4UPwCySJCw-wig6Lg4gHEUaDIUQoSIShJqqQB6Gc17OAqOKDgVAGUAJltNzdCVZDRzSxiquGBhOBIIeHphYWAyEnpSvLQYCARDnhbujW5pF4fL9AhoAHRgTzJAAU3HW-wAlLN5otltA1ltbLYAJyhAAKHFQsEQPEhyW4cHwEBEVxuSxwF3gri+qB+4VBIG4QA">TS Playground</a> | <a href="source/fixed-length-array.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gMWADxQEwBkUA7AcxgAsBBKKAQ0QF84AzKCEOAciVQFpWKAM4xuAbgBQkvmkykAxsHIAVFPS4BeONjxFSFGnUYAeUVGVkANHADMAPimSFEEqLhkAriJjySS1XUQAC4dRUs1DThtAG1uACkIYUpuG24AWWAFSnoUABtUngAlCAAjFFhuAF0nFzd4Sk4UPwCySJCw-wig6Lg4gHEUaDIUQoSIShJqqQB6Gc17OAqOKDgVAGUAJltNzdCVZDRzSxiquGBhOBIIeHphYWAyEnpSvLQYCARDnhbujW5pF4fL9AhoAHRgTzJAAU3HW-wAlLN5otltA1ltbLYAJyhAAKHFQsEQPEhyW4cHwEBEVxuSxwF3gri+qB+4VBIG4QA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -230,10 +230,10 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `Get` - Get a deeply-nested property from an object using a key path, like Lodash's `.get()` function.
+- [`Get`](source/get.d.ts) - Get a deeply-nested property from an object using a key path, like Lodash's `.get()` function.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gcRTAvnAMyghDgHIlUBaAlAZxjIG4AoUSWOAKjgEM64AGwgATfgAtCxUmWFi645ixYBjCADsGcAOY44AXjgAeAEL8UAFWQoANHAAKvGJJQAPGCnUiBDKMHXacAA+cFAovCIagohwvv7aANoAugB8ABQQAEYAVigqMABccGZ0ltZ2YE7iRY7OAJRF2DCm5laodrXiKQYpLHISAHS6MBk5eTAVVXWsbOoeUAS8KmgAgmDAAEr0kJpo6CziwDB0RfuHx0UrUFC8iEb7APrAIkVxASwPdBAArlDLpyx1LwQChLtdbvcWNpgAA3TyvGB+ALJFiLEDAaIIpHaFi4XqZYCwcQAEScoNiiPiuNxvVw1NUGi0wwAcsC0IY0rx1ls6DtSpdudtGSg6j0oThOYLecK7GRznQBvKEgAGJIDT4-P4oAZAkFkaYsAD0hv03SuNzu6GhcPUWPiySYhGBGMQdoCeOCcG+XhQBH8KBEymNDiqfEEX1i3zAHGOfFC4Ui6mifHBMQgBAp2LoDM08BZbIA6kdxJ1zbcDHBJZshbsBdXpbtRabxSMufW+bY4Ak5Uc6GQbD3jv3yMrh2QNb9lmPdSgyEk+AI1LmDcbTXAy5brfDM-ako60S63doPSFvSJff7A0bDXBmRoqHF8nAQKJQSwmkY3okkrKAMzD9BH0KJ1wxQD1V26L93xwIwtjUKARE-SkAjsL8UllAgIAgACgKKRFvjA7pgzXL8gA">TS Playground</a> | <a href="source/get.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gcRTAvnAMyghDgHIlUBaAlAZxjIG4AoUSWOAKjgEM64AGwgATfgAtCxUmWFi645ixYBjCADsGcAOY44AXjgAeAEL8UAFWQoANHAAKvGJJQAPGCnUiBDKMHXacAA+cFAovCIagohwvv7aANoAugB8ABQQAEYAVigqMABccGZ0ltZ2YE7iRY7OAJRF2DCm5laodrXiKQYpLHISAHS6MBk5eTAVVXWsbOoeUAS8KmgAgmDAAEr0kJpo6CziwDB0RfuHx0UrUFC8iEb7APrAIkVxASwPdBAArlDLpyx1LwQChLtdbvcWNpgAA3TyvGB+ALJFiLEDAaIIpHaFi4XqZYCwcQAEScoNiiPiuNxvVw1NUGi0wwAcsC0IY0rx1ls6DtSpdudtGSg6j0oThOYLecK7GRznQBvKEgAGJIDT4-P4oAZAkFkaYsAD0hv03SuNzu6GhcPUWPiySYhGBGMQdoCeOCcG+XhQBH8KBEymNDiqfEEX1i3zAHGOfFC4Ui6mifHBMQgBAp2LoDM08BZbIA6kdxJ1zbcDHBJZshbsBdXpbtRabxSMufW+bY4Ak5Uc6GQbD3jv3yMrh2QNb9lmPdSgyEk+AI1LmDcbTXAy5brfDM-ako60S63doPSFvSJff7A0bDXBmRoqHF8nAQKJQSwmkY3okkrKAMzD9BH0KJ1wxQD1V26L93xwIwtjUKARE-SkAjsL8UllAgIAgACgKKRFvjA7pgzXL8gA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -273,10 +273,10 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `Includes` - Returns a boolean for whether the given array includes the given item.
+- [`Includes`](source/includes.d.ts) - Returns a boolean for whether the given array includes the given item.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gSQHYGMA2ArgCYoDOAvnAGZQQhwDkSqAtNeTIwNwBQvLNAAsAhmQBKKYgB4RUKCMRwUADxgpsxMnBHZEAbQC6APjgBeODgIlys+YoA0TKFMbHuQA">TS Playground</a> | <a href="source/includes.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gSQHYGMA2ArgCYoDOAvnAGZQQhwDkSqAtNeTIwNwBQvLNAAsAhmQBKKYgB4RUKCMRwUADxgpsxMnBHZEAbQC6APjgBeODgIlys+YoA0TKFMbHuQA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -286,10 +286,10 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `Join` - Join an array of strings and/or numbers using the given string as a delimiter.
+- [`Join`](source/join.d.ts) - Join an array of strings and/or numbers using the given string as a delimiter.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gKQsAdgXzgDMoIQ4ByJVAWiJQGcYKBuAKDYHpO4BZYAB4oAJnAAUTKHgDmDOADI4uAK4gARiigMAlHGAwUIBizhRGygDbxgDAFyUiECADoADM7UBDAF4U2AYwhcJjgwTxgAC3tsPAAeAG0KRwgKABo4V3SKL18AXSznCgA+OABeOETktIysnIpc5wArHFwxCkLtdi4eAHlcC0Q4SRk9AyMTMwZLazsHJw9PKAXfAKCQsMjoloSkp2rsxf26-MpCkvLKvdrD67ymlraOru44PoGlVQ0oUcNjU3MrHpZhQAIzOABMzgAzH5AsF4BsonAYrgEiD0uD0lCTu1imUKui4Ji4Nj7nhHhROhwXm9BmpgNI8NYxn9JtMgZQwZCYat4aFwkiUWjcBiRSTcDizvj4iCxeCxVCJWTWriqd1Xv06U4LChPLgfuN-lNATZ7FQoMoUM4iJ4LAwrTALShYWsEQKtnF4o7LekbXaUOlvShJXiLkHfbb7YGnQ1muTVc8eABhIIwTx4OQqCwWGwRA2sgEzM3JZzLUsCRArOHrd3I7aXFLpZS4YQoIh4ES3apZixZCt5Aqhiq7RtwZut9u4TuUOrpHt9yv1ZUUtUvAAKixgwFtCGUYB1QwinlQcjEkzdUE85AsniYnSN7NNcAABmAzO2BM4ACToYa4aT4M+vI1psdaehQb5toI1Sls4f7SPEuQhucw6QR+S5xiqTzUjwG6wNuFi7vuaAMEeJ7iOe-KXuQ7ZaDA95siaszPj+8H4HByhEB+QHVm6oFCvEsHwYhWRTFx0HIdKFBiehsYPAmOFwAAKnuOpyPovxwAA7voeY9rmY64MAawTIWHK4nAAA+lARCg2YuBQVmnFp0AWMIjnWRQtn2c4LlQG5Lp8oiHqook3kWCkTnjlBU7CFkfkBU5PaSRcXl2RF+wJe5cnxk8QA">TS Playground</a> | <a href="source/join.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gKQsAdgXzgDMoIQ4ByJVAWiJQGcYKBuAKDYHpO4BZYAB4oAJnAAUTKHgDmDOADI4uAK4gARiigMAlHGAwUIBizhRGygDbxgDAFyUiECADoADM7UBDAF4U2AYwhcJjgwTxgAC3tsPAAeAG0KRwgKABo4V3SKL18AXSznCgA+OABeOETktIysnIpc5wArHFwxCkLtdi4eAHlcC0Q4SRk9AyMTMwZLazsHJw9PKAXfAKCQsMjoloSkp2rsxf26-MpCkvLKvdrD67ymlraOru44PoGlVQ0oUcNjU3MrHpZhQAIzOABMzgAzH5AsF4BsonAYrgEiD0uD0lCTu1imUKui4Ji4Nj7nhHhROhwXm9BmpgNI8NYxn9JtMgZQwZCYat4aFwkiUWjcBiRSTcDizvj4iCxeCxVCJWTWriqd1Xv06U4LChPLgfuN-lNATZ7FQoMoUM4iJ4LAwrTALShYWsEQKtnF4o7LekbXaUOlvShJXiLkHfbb7YGnQ1muTVc8eABhIIwTx4OQqCwWGwRA2sgEzM3JZzLUsCRArOHrd3I7aXFLpZS4YQoIh4ES3apZixZCt5Aqhiq7RtwZut9u4TuUOrpHt9yv1ZUUtUvAAKixgwFtCGUYB1QwinlQcjEkzdUE85AsniYnSN7NNcAABmAzO2BM4ACToYa4aT4M+vI1psdaehQb5toI1Sls4f7SPEuQhucw6QR+S5xiqTzUjwG6wNuFi7vuaAMEeJ7iOe-KXuQ7ZaDA95siaszPj+8H4HByhEB+QHVm6oFCvEsHwYhWRTFx0HIdKFBiehsYPAmOFwAAKnuOpyPovxwAA7voeY9rmY64MAawTIWHK4nAAA+lARCg2YuBQVmnFp0AWMIjnWRQtn2c4LlQG5Lp8oiHqook3kWCkTnjlBU7CFkfkBU5PaSRcXl2RF+wJe5cnxk8QA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -324,10 +324,10 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `LastArrayElement` - Extracts the type of the last element of an array.
+- [`LastArrayElement`](source/last-array-element.d.ts) - Extracts the type of the last element of an array.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gGQIYGcYCCUU2iAogDYogoB2MAvnAGZQQhwDkSqAtMynycA3AChRAExQBjCtihpmAV1rSYwCLThz8AeWYAeAGpwUADxh0JuOAuwTNFRHGy1EAbQC6APgAU8kkQALjgjAEoQnHwiQMpqOhhjbzFRaU18F2JSOABeOHdOZggITgAaOAAmTxSeFAhmbTwYfX8sxDCxAHpOnO84WiUQACMUKCA">TS Playground</a> | <a href="source/last-array-element.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gGQIYGcYCCUU2iAogDYogoB2MAvnAGZQQhwDkSqAtMynycA3AChRAExQBjCtihpmAV1rSYwCLThz8AeWYAeAGpwUADxh0JuOAuwTNFRHGy1EAbQC6APgAU8kkQALjgjAEoQnHwiQMpqOhhjbzFRaU18F2JSOABeOHdOZggITgAaOAAmTxSeFAhmbTwYfX8sxDCxAHpOnO84WiUQACMUKCA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -342,10 +342,10 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `MergeDeep` - Merge two objects or two arrays/tuples recursively into a new type.
+- [`MergeDeep`](source/merge-deep.d.ts) - Merge two objects or two arrays/tuples recursively into a new type.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gWRVA5igERRTAF84AzKCEOAciVQFoKUBnGOgbgCgfG0AMQgQ4AXgw8ANsFYAuOADsAriABGOXsBgoQbBRyjBFuANoBdXgEMF6NQZhGTXOAGMFakVJRXFLgCYKKuo4FqS84XzGOlAUVq5oAEJWUJKKViAoDk64Wjp6QaoaUBbWtvZKRZpwgXCeEN6+YRF8AnDCEMmpEth4hMRgADwdADRwXQB8vAD005KzcACQMvKVIVAzc4vpmdnGuTwLi9q6+mvFpYdbNhgVwcUu7nVePn41Hi9N5pELpK3IQhEXXEcF6+CIJGGIjGXTG6BSUCsiDBKEwEH8WXobDAUB8-jopCmV3mWxWmPummJ2wymMM+02SxOBTgAAo6SY4AAfc44ACUlyONzshXWjw+DVeAQULIpqW59Uain53wZpCAA">TS Playground</a> | <a href="source/merge-deep.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gWRVA5igERRTAF84AzKCEOAciVQFoKUBnGOgbgCgfG0AMQgQ4AXgw8ANsFYAuOADsAriABGOXsBgoQbBRyjBFuANoBdXgEMF6NQZhGTXOAGMFakVJRXFLgCYKKuo4FqS84XzGOlAUVq5oAEJWUJKKViAoDk64Wjp6QaoaUBbWtvZKRZpwgXCeEN6+YRF8AnDCEMmpEth4hMRgADwdADRwXQB8vAD005KzcACQMvKVIVAzc4vpmdnGuTwLi9q6+mvFpYdbNhgVwcUu7nVePn41Hi9N5pELpK3IQhEXXEcF6+CIJGGIjGXTG6BSUCsiDBKEwEH8WXobDAUB8-jopCmV3mWxWmPummJ2wymMM+02SxOBTgAAo6SY4AAfc44ACUlyONzshXWjw+DVeAQULIpqW59Uain53wZpCAA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -381,10 +381,10 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `MultidimensionalArray` - Creates a type that represents a multidimensional array of the given type and dimension.
+- [`MultidimensionalArray`](source/multidimensional-array.d.ts) - Creates a type that represents a multidimensional array of the given type and dimension.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gWQK4BsbAAmoKAdgM7ASkCGuAglFDYgL5wBmUEIcA5ElQBaDinIw+AbgBQ0jtlIBjAtTgpwSTDRhRgADwA8AFTV6YZQuTilsIAEYooAPgAUxEGUrVyALjhGASj8cfCISCipaBiYWAwUAa1IIAHdSABp-JwxpRW94EG1dPT8EpNSAbQBdOABeOCqZaVwUeHJsOy0dfVq4Aq69GQ5oOBdm+HdPSJ6ARkk4CYjVA3nwrwo5gGoNhbWA7NyKCGaAOlwIAHMXAAMASVJgAjpgAC9gUnOVj0XSOABiABJ0DtIqwrgFGm0OoV9OUAAzVOoNaSQzpFHoo6F6OHVGhWUopUhI1iyKAtbBQH59NG4uAhAjA6h0RjMRBxUiJAkZIxOGTEnJ5XqYnrqMCaTEuADM4NkVJh8Ox2J6ABYAEySIA">TS Playground</a> | <a href="source/multidimensional-array.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gWQK4BsbAAmoKAdgM7ASkCGuAglFDYgL5wBmUEIcA5ElQBaDinIw+AbgBQ0jtlIBjAtTgpwSTDRhRgADwA8AFTV6YZQuTilsIAEYooAPgAUxEGUrVyALjhGASj8cfCISCipaBiYWAwUAa1IIAHdSABp-JwxpRW94EG1dPT8EpNSAbQBdOABeOCqZaVwUeHJsOy0dfVq4Aq69GQ5oOBdm+HdPSJ6ARkk4CYjVA3nwrwo5gGoNhbWA7NyKCGaAOlwIAHMXAAMASVJgAjpgAC9gUnOVj0XSOABiABJ0DtIqwrgFGm0OoV9OUAAzVOoNaSQzpFHoo6F6OHVGhWUopUhI1iyKAtbBQH59NG4uAhAjA6h0RjMRBxUiJAkZIxOGTEnJ5XqYnrqMCaTEuADM4NkVJh8Ox2J6ABYAEySIA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -410,10 +410,10 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `MultidimensionalReadonlyArray` - Creates a type that represents a multidimensional readonly array that of the given type and dimension.
+- [`MultidimensionalReadonlyArray`](source/multidimensional-readonly-array.d.ts) - Creates a type that represents a multidimensional readonly array that of the given type and dimension.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gWQK4BsbAAmoKAdgM7ASkCGuASijYdbogIJRQ2IC+cAMygQQcAORJUAWgEpyMMQG4AUMoHZSAYwLU4KcEkw0YUYAA8APABU9ZmGULk4pbCABGKKAD4AFMRBklNTkAFxwVgCUYTj4RCQUVLQMTCykbJzciBYaANakEADupAA04V4YyprB8CDGpmZhuflFANoAunAAvHDtKsq4KPDk2G5GJuZdcLXjZioC0HA+A-D+gYmTAIyKcKsJuhY78UEU2wDUp7vHERVVFBADAHS4EADmPgAGAJKkwAR0wAAvYCkF6HAJ7UhwADEABJ0JdErx3hE+sNRnVzC0AAwdbq9ZTAASLBH7MFrYJwKRwDbXdDKNFjeqTBkYszYjo0JxNQqkfH8FC4choOksmbsyYAFgATCpeMo5cooINsFBIdMmZy4DECCSkoxmKwOFweNlSHkeaUrF5ZapbvIpqzJvowIZWT4AMwo23VOA0CgFTyTdWYnHs9nbAD0Ebg0qAA">TS Playground</a> | <a href="source/multidimensional-readonly-array.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gWQK4BsbAAmoKAdgM7ASkCGuASijYdbogIJRQ2IC+cAMygQQcAORJUAWgEpyMMQG4AUMoHZSAYwLU4KcEkw0YUYAA8APABU9ZmGULk4pbCABGKKAD4AFMRBklNTkAFxwVgCUYTj4RCQUVLQMTCykbJzciBYaANakEADupAA04V4YyprB8CDGpmZhuflFANoAunAAvHDtKsq4KPDk2G5GJuZdcLXjZioC0HA+A-D+gYmTAIyKcKsJuhY78UEU2wDUp7vHERVVFBADAHS4EADmPgAGAJKkwAR0wAAvYCkF6HAJ7UhwADEABJ0JdErx3hE+sNRnVzC0AAwdbq9ZTAASLBH7MFrYJwKRwDbXdDKNFjeqTBkYszYjo0JxNQqkfH8FC4choOksmbsyYAFgATCpeMo5cooINsFBIdMmZy4DECCSkoxmKwOFweNlSHkeaUrF5ZapbvIpqzJvowIZWT4AMwo23VOA0CgFTyTdWYnHs9nbAD0Ebg0qAA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -443,10 +443,10 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `PartialDeep` - Create a type from another type with all keys and nested keys set to optional.
+- [`PartialDeep`](source/partial-deep.d.ts) - Create a type from another type with all keys and nested keys set to optional.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gBQIa2NgGwBEUUwBfOAMyghDgHIlUBaKlAZxgYG4AoPgGMIAOy5wOKGDGAiA5hwBccAMpSZ8jnAC8GPjBQAPGAFEAJsBjRl6PlVEwVwAF4plARgAs-eyJgBhCAJrRgBiAAZIqN47BwB1FGA5AAsYZU9I-nI+bABXK2FwAik3akJJfjyrDmwAN1KYKFyULP4hUXFsMDACRBU6lDM1aVkFHTgAChr6ofVRpTgcPEISMgAeYY0FAD4ASh1tvSgpXKgRDAA6K8kRzQAaOCuL6cHN+fIsgRutrV0unr6A1mtwUE3QBmM5ksIXQvhgCSSqWUAFZIuRyLseEA">TS Playground</a> | <a href="source/partial-deep.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gBQIa2NgGwBEUUwBfOAMyghDgHIlUBaKlAZxgYG4AoPgGMIAOy5wOKGDGAiA5hwBccAMpSZ8jnAC8GPjBQAPGAFEAJsBjRl6PlVEwVwAF4plARgAs-eyJgBhCAJrRgBiAAZIqN47BwB1FGA5AAsYZU9I-nI+bABXK2FwAik3akJJfjyrDmwAN1KYKFyULP4hUXFsMDACRBU6lDM1aVkFHTgAChr6ofVRpTgcPEISMgAeYY0FAD4ASh1tvSgpXKgRDAA6K8kRzQAaOCuL6cHN+fIsgRutrV0unr6A1mtwUE3QBmM5ksIXQvhgCSSqWUAFZIuRyLseEA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -470,10 +470,10 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `ReadonlyDeep` - Convert `object`s, `Map`s, `Set`s, and `Array`s and all of their keys/elements into immutable structures recursively.
+- [`ReadonlyDeep`](source/readonly-deep.d.ts) - Convert `object`s, `Map`s, `Set`s, and `Array`s and all of their keys/elements into immutable structures recursively.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/PTAEBMEMBdIOgFYGcD2A7AUAbwwIgGYoq4BcoA2rgEaQBOuAuhgL4YYigC2kAlmnNCQYenAA4pa0UNACeogKagsAJXmRw6ADYyAIvPmjmofLRSdQAclkKAtPnlJoFgNzCxEqVFgApVGlAAvKC08gCOAK48IQAUFnDAXvDI6BYAlK4YAMbojhAwkGSq6lq6+qIAPNbyKPh5Pn4AfIF1kL7oGfIAHuKSEPL4kOGanvkZHNAO0AJCIj0jsMam5nHA3HwubIlwhChwouFIABaxNLRpriABTfK0prSgACoAygBMAMxvAJxkAAqmCpIZJZ9kcLBAUA5QGgUFIujxcuhpHJFBYQsU0NpQI5aHwAObkBgWIA">TS Playground</a> | <a href="source/readonly-deep.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/PTAEBMEMBdIOgFYGcD2A7AUAbwwIgGYoq4BcoA2rgEaQBOuAuhgL4YYigC2kAlmnNCQYenAA4pa0UNACeogKagsAJXmRw6ADYyAIvPmjmofLRSdQAclkKAtPnlJoFgNzCxEqVFgApVGlAAvKC08gCOAK48IQAUFnDAXvDI6BYAlK4YAMbojhAwkGSq6lq6+qIAPNbyKPh5Pn4AfIF1kL7oGfIAHuKSEPL4kOGanvkZHNAO0AJCIj0jsMam5nHA3HwubIlwhChwouFIABaxNLRpriABTfK0prSgACoAygBMAMxvAJxkAAqmCpIZJZ9kcLBAUA5QGgUFIujxcuhpHJFBYQsU0NpQI5aHwAObkBgWIA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -498,10 +498,10 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `RequiredDeep` - Create a type from another type with all keys and nested keys set to required.
+- [`RequiredDeep`](source/required-deep.d.ts) - Create a type from another type with all keys and nested keys set to required.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gJRQRwK7BQoAmAIiimAL5wBmUEIcA5EqgLS0oDOMzA3AChBbNAGUUMGMAB2Ac25wAvBhEoAHjACixYDGgB+AFyraEGTDHAAXimNwZeEACMUUOAB84eGcRS1ZEiEzCwBhCAAbQxNeKFk5T29ff0DiYPMYAHUUYDkACxh7Rxc3RJ8-AJkgwSpBAEM8fQBjRjAIyTsTZwhIlDqZMuTK6ob9bjqAN064bt7+wYrUoSohEWQ0bHxCEgkpeMUVTYIiMgowAB5d6XluAD4hAHoHhHW4I+3iK-3lVSe4AEgYBptLp9FATOhBH9-v8QpYbCgTMVXFBHs8YXDwlFwXBYvE0QDYRlsrkCkinCiCf9atDRhAWuB2kCuj12v0qXTxlMWXMZASqEA">TS Playground</a> | <a href="source/required-deep.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gJRQRwK7BQoAmAIiimAL5wBmUEIcA5EqgLS0oDOMzA3AChBbNAGUUMGMAB2Ac25wAvBhEoAHjACixYDGgB+AFyraEGTDHAAXimNwZeEACMUUOAB84eGcRS1ZEiEzCwBhCAAbQxNeKFk5T29ff0DiYPMYAHUUYDkACxh7Rxc3RJ8-AJkgwSpBAEM8fQBjRjAIyTsTZwhIlDqZMuTK6ob9bjqAN064bt7+wYrUoSohEWQ0bHxCEgkpeMUVTYIiMgowAB5d6XluAD4hAHoHhHW4I+3iK-3lVSe4AEgYBptLp9FATOhBH9-v8QpYbCgTMVXFBHs8YXDwlFwXBYvE0QDYRlsrkCkinCiCf9atDRhAWuB2kCuj12v0qXTxlMWXMZASqEA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -530,10 +530,10 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `TupleToUnion` - Convert a tuple/array into a union type of its elements.
+- [`TupleToUnion`](source/tuple-to-union.d.ts) - Convert a tuple/array into a union type of its elements.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gFQK5gDYqYQCqAdsBKQL5wBmUEIcA5EqgLS0oDOMzA3AChBAY0q84AEx4xgpAIazxcALxwA2s3nMANCwBGuliOYBdOPO5wxpXkMFs0AERlzFFUqrg58hEuUoAHkcIWilXBSVbAD4hAHo4lWiWbTgAHwNmdONmYVpsUhEouAA3FChgWkQXXjcogAppWsiPAC44AoBrUggAd1IASnam2RbKOGArGtH3cfRBKBQYbChPEbqPbgA6ORE8bCbGiNnPSwtSRAGhKmFHOAAlFABHbBkAIQhJRC956TxgMpQIjtaYbSjXez5QrFQGVRCPF7vT6Ier6ZHtLo9fpDOBor4TKwI168D74+Y2CR-AHlIheVHIixWeQXAZbKmAohCRbLVYIZAoUK4hkqEUsCD6ABWKCKWQAZLKhfiAISi0jYPB4ODy0rlOGgsakI7-DkQK6CKhAA">TS Playground</a> | <a href="source/tuple-to-union.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gFQK5gDYqYQCqAdsBKQL5wBmUEIcA5EqgLS0oDOMzA3AChBAY0q84AEx4xgpAIazxcALxwA2s3nMANCwBGuliOYBdOPO5wxpXkMFs0AERlzFFUqrg58hEuUoAHkcIWilXBSVbAD4hAHo4lWiWbTgAHwNmdONmYVpsUhEouAA3FChgWkQXXjcogAppWsiPAC44AoBrUggAd1IASnam2RbKOGArGtH3cfRBKBQYbChPEbqPbgA6ORE8bCbGiNnPSwtSRAGhKmFHOAAlFABHbBkAIQhJRC956TxgMpQIjtaYbSjXez5QrFQGVRCPF7vT6Ier6ZHtLo9fpDOBor4TKwI168D74+Y2CR-AHlIheVHIixWeQXAZbKmAohCRbLVYIZAoUK4hkqEUsCD6ABWKCKWQAZLKhfiAISi0jYPB4ODy0rlOGgsakI7-DkQK6CKhAA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -559,20 +559,20 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `TypedArray` - Matches any [typed array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray), like `Uint8Array` or `Float64Array`.
+- [`TypedArray`](source/typed-array.d.ts) - Matches any [typed array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray), like `Uint8Array` or `Float64Array`.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/Q">TS Playground</a> | <a href="source/typed-array.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/Q">TS Playground</a>
 	</summary>
 
 	```ts
 	```
 	</details>
 
-- `WritableDeep` - Create a deeply mutable version of an `object`/`ReadonlyMap`/`ReadonlySet`/`ReadonlyArray` type. The inverse of `ReadonlyDeep<T>`. Use `Writable<T>` if you only need one level deep.
+- [`WritableDeep`](source/writable-deep.d.ts) - Create a deeply mutable version of an `object`/`ReadonlyMap`/`ReadonlySet`/`ReadonlyArray` type. The inverse of `ReadonlyDeep<T>`. Use `Writable<T>` if you only need one level deep.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gdSsGBDAIwBsUARFFMAXzgDMoIQ4ByJVAWlpQGcZmBuAFCC2aAGIQIcALwZBUFHgAmEAHZFEcPAC44qgK4gCKKEIXK1GuAV3mV6zbxyqA5gG0AuvzgB6H3AAVKW4ACwgAdwQQvHgQfXwCYCJcTWBuOCUKMCs8Wi4AYxgUJQA6eUV7K3zdAkkSPFUhKiFBfLVeOHCcBJJySgkIXWxcQl6sgB4BgD4ZDB04AEYAGmtdN2YAJmYPFeqEKH0UZsEukeIyLIGSvFmAZiFTnov+yRKCNwAGD1nmVRRIgBueCIhwEJ26o2eYCuBFm624jBQMBCwFc234QA">TS Playground</a> | <a href="source/writable-deep.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gdSsGBDAIwBsUARFFMAXzgDMoIQ4ByJVAWlpQGcZmBuAFCC2aAGIQIcALwZBUFHgAmEAHZFEcPAC44qgK4gCKKEIXK1GuAV3mV6zbxyqA5gG0AuvzgB6H3AAVKW4ACwgAdwQQvHgQfXwCYCJcTWBuOCUKMCs8Wi4AYxgUJQA6eUV7K3zdAkkSPFUhKiFBfLVeOHCcBJJySgkIXWxcQl6sgB4BgD4ZDB04AEYAGmtdN2YAJmYPFeqEKH0UZsEukeIyLIGSvFmAZiFTnov+yRKCNwAGD1nmVRRIgBueCIhwEJ26o2eYCuBFm624jBQMBCwFc234QA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -593,10 +593,10 @@ Click the type source for complete docs.
 
 ### Async
 
-- `AsyncReturnType` - Unwrap the return type of a function that returns a `Promise`.
+- [`AsyncReturnType`](source/async-return-type.d.ts) - Unwrap the return type of a function that returns a `Promise`.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gQQM6IHYDGASijAK5R4AqyKAvnAGZQQhwDkSqAtIytjHYBuAFChIsDAENchAGJlCMYBDwNmrDlLDBhIkQHoDcKgAtg2BLThR+EADYA3fgggJTaRQHco21ABMbUgo8K1Q4CEY4AAMZfAIFJRU8aIA6ES40ADUpezI0AF44HHiSckoaVAAeTMi4OPlFAmVVAD5REQaCJiaW0P8IAGVWUnM8AHMACkdc-IAuOBy8lABKDDp9LsTm5MmV1JgPPGnZwta4AeGQUeAJk+WVlaEgA">TS Playground</a> | <a href="source/async-return-type.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gQQM6IHYDGASijAK5R4AqyKAvnAGZQQhwDkSqAtIytjHYBuAFChIsDAENchAGJlCMYBDwNmrDlLDBhIkQHoDcKgAtg2BLThR+EADYA3fgggJTaRQHco21ABMbUgo8K1Q4CEY4AAMZfAIFJRU8aIA6ES40ADUpezI0AF44HHiSckoaVAAeTMi4OPlFAmVVAD5REQaCJiaW0P8IAGVWUnM8AHMACkdc-IAuOBy8lABKDDp9LsTm5MmV1JgPPGnZwta4AeGQUeAJk+WVlaEgA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -612,10 +612,10 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `Asyncify` - Create an async version of the given function type, by boxing the return type in `Promise` while keeping the same parameter types.
+- [`Asyncify`](source/asyncify.d.ts) - Create an async version of the given function type, by boxing the return type in `Promise` while keeping the same parameter types.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gQQM6IHYDGwAZogL5zFQQhwDkSqAtMStjHQNwBQ3A9HzgBlfAQAW1PBACu2StMIxgEPADpuxBQSUq4AcxQwAYhAgjCACmw0UmKHoBcwmwBVkKAJROTEDP0GAZATcZLyMaDiiJMAoACY+AOKGMChQcAC8cBGEJIgAPGEQxPqGPuYEAHw8AmnlCO6ZuNnE0XGmiTDJqRlWNnaOziAobqge6bUACtQgwNgouT6VvALCAIaDcCtyAAYGxqZlW3AARtLwm6ISKjLY6gQq7MV7EFkETi9RsQlJKelwPYN9UY1PzLYYoIQEKDAMDwKQAdzgAGt4XIYGIVvAttYAfZDjM4FshK53IcVqcaBjgAQVgAbGmIdTLACSZxp1iRKIQ6PgaPxmkUyjwcBAsngUEM0igQq2kxoMzmCy2jMETKKiBkcHRADc0FsAAJhbCQ6EwJhsGnAPAwPhgKbylhaHR4JjnQiHC1Wn5QaQ0tAoPArI6+mIAGjgwHgcOAdLgKB1QvFkFgXIxcAAREZHYLUdy4OKYJKhba5bM5CKHkc0K6CKo0+p-HAgmQgA">TS Playground</a> | <a href="source/asyncify.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gQQM6IHYDGwAZogL5zFQQhwDkSqAtMStjHQNwBQ3A9HzgBlfAQAW1PBACu2StMIxgEPADpuxBQSUq4AcxQwAYhAgjCACmw0UmKHoBcwmwBVkKAJROTEDP0GAZATcZLyMaDiiJMAoACY+AOKGMChQcAC8cBGEJIgAPGEQxPqGPuYEAHw8AmnlCO6ZuNnE0XGmiTDJqRlWNnaOziAobqge6bUACtQgwNgouT6VvALCAIaDcCtyAAYGxqZlW3AARtLwm6ISKjLY6gQq7MV7EFkETi9RsQlJKelwPYN9UY1PzLYYoIQEKDAMDwKQAdzgAGt4XIYGIVvAttYAfZDjM4FshK53IcVqcaBjgAQVgAbGmIdTLACSZxp1iRKIQ6PgaPxmkUyjwcBAsngUEM0igQq2kxoMzmCy2jMETKKiBkcHRADc0FsAAJhbCQ6EwJhsGnAPAwPhgKbylhaHR4JjnQiHC1Wn5QaQ0tAoPArI6+mIAGjgwHgcOAdLgKB1QvFkFgXIxcAAREZHYLUdy4OKYJKhba5bM5CKHkc0K6CKo0+p-HAgmQgA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -640,10 +640,10 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `Promisable` - Create a type that represents either the value or the value wrapped in `PromiseLike`.
+- [`Promisable`](source/promisable.d.ts) - Create a type that represents either the value or the value wrapped in `PromiseLike`.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gBShEwDOAhgEYA2KAvnAGY4hwDkSqAtNSvjAwNwBQvhfIgB2AYxoBXMTGARhcUhADmSlFAAUqmABllAUWEwoiAFxx1ASjgBeAHxxsuAiXIAeTlGDClti2cd4+CiuAG4QwAAm9ui8onKccCiGxjZwhADuhMDwWrpKBkaIlnxxwvgQ5AB0ikrqSYUWfBT8Naoaljb2DNQQEAyNvK1q6h12DnQEKJVQHBUhKOoMxIRQ-Y1AA">TS Playground</a> | <a href="source/promisable.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gBShEwDOAhgEYA2KAvnAGY4hwDkSqAtNSvjAwNwBQvhfIgB2AYxoBXMTGARhcUhADmSlFAAUqmABllAUWEwoiAFxx1ASjgBeAHxxsuAiXIAeTlGDClti2cd4+CiuAG4QwAAm9ui8onKccCiGxjZwhADuhMDwWrpKBkaIlnxxwvgQ5AB0ikrqSYUWfBT8Naoaljb2DNQQEAyNvK1q6h12DnQEKJVQHBUhKOoMxIRQ-Y1AA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -661,10 +661,10 @@ Click the type source for complete docs.
 
 ### Change case
 
-- `CamelCase` - Convert a string literal to camel-case.
+- [`CamelCase`](source/camel-case.d.ts) - Convert a string literal to camel-case.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gYQIYhQGxwGcUBfOAMyghDgHIlUBaClImOgbgChuB6PnADKoMPhS8AxhAB27OERooAatijBsAI3EAuODjyFsJADx0KECE01q6APjgBeehYgAhWz36CAggBMAN2wZSRQ-XkY0AwJiMIAFalRYYDYTABUHZ3RuAG0AaThgGTgAaxRECAo4NLhjfVwY4xQTPLsAXT00-LbuUi8imBQoCmxQuAAlbAB3AHkwGGBZIgxuOj8oRCYoAFcZOj1NS3FgnnNt-HwAfRGQYHxES5kG-YUYdRkAcx5XPRltkE0Qx4bh84z07HeX24AEUAKoALUucIAGr9-oCoKcZmkABIAUXGTAAYgBJPEAGQAIi9DhBjjIeKQpEt4H5NOM2OcYHpokYSH4EhAkgtUpNZvNFnJMit1ohxrs9G9tigADTcCjnfBE3B3RAAOQaejoNigADoAFZEOhqn5wACMACYAMxqk1G1zW7gAR22AC9odsAB56ABsaogMAAFkMiSl8H49CN8CRepwgA">TS Playground</a> | <a href="source/camel-case.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gYQIYhQGxwGcUBfOAMyghDgHIlUBaClImOgbgChuB6PnADKoMPhS8AxhAB27OERooAatijBsAI3EAuODjyFsJADx0KECE01q6APjgBeehYgAhWz36CAggBMAN2wZSRQ-XkY0AwJiMIAFalRYYDYTABUHZ3RuAG0AaThgGTgAaxRECAo4NLhjfVwY4xQTPLsAXT00-LbuUi8imBQoCmxQuAAlbAB3AHkwGGBZIgxuOj8oRCYoAFcZOj1NS3FgnnNt-HwAfRGQYHxES5kG-YUYdRkAcx5XPRltkE0Qx4bh84z07HeX24AEUAKoALUucIAGr9-oCoKcZmkABIAUXGTAAYgBJPEAGQAIi9DhBjjIeKQpEt4H5NOM2OcYHpokYSH4EhAkgtUpNZvNFnJMit1ohxrs9G9tigADTcCjnfBE3B3RAAOQaejoNigADoAFZEOhqn5wACMACYAMxqk1G1zW7gAR22AC9odsAB56ABsaogMAAFkMiSl8H49CN8CRepwgA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -700,10 +700,10 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `CamelCasedPropertiesDeep` - Convert object properties to camel case recursively.
+- [`CamelCasedPropertiesDeep`](source/camel-cased-properties-deep.d.ts) - Convert object properties to camel case recursively.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gYQIYhQGxwGcUATABSglVmBSIBEUUwBfOAMypDgHIlUAWg70YvANwAoScAB2MFFA7YAxmgCqJKBkmbFASVIAuOLICuIAEaKpeqADlcKE0RhQ5AcymtpchUtUNLQB1YBgACwAxdxRZUiIdO31ZDggTO1staLo4onStAG0AXW9pFQhZVzgoejN8GBMcPEJsEgoqGhg6RmYwAB47UIjs2PiAPjgAXh0zLWTUk3RJWYNjOABGABplrUc8E14AFQgQXm3WbZWoEdyTAsklq8MTACZL3acDgClFKEQzyQXB47VYmADM70Ue2cfAAymBgABrFAAoFFc7iIA">TS Playground</a> | <a href="source/camel-cased-properties-deep.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gYQIYhQGxwGcUATABSglVmBSIBEUUwBfOAMypDgHIlUAWg70YvANwAoScAB2MFFA7YAxmgCqJKBkmbFASVIAuOLICuIAEaKpeqADlcKE0RhQ5AcymtpchUtUNLQB1YBgACwAxdxRZUiIdO31ZDggTO1staLo4onStAG0AXW9pFQhZVzgoejN8GBMcPEJsEgoqGhg6RmYwAB47UIjs2PiAPjgAXh0zLWTUk3RJWYNjOABGABplrUc8E14AFQgQXm3WbZWoEdyTAsklq8MTACZL3acDgClFKEQzyQXB47VYmADM70Ue2cfAAymBgABrFAAoFFc7iIA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -738,10 +738,10 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `CamelCasedProperties` - Convert object properties to camel case but not recursively.
+- [`CamelCasedProperties`](source/camel-cased-properties.d.ts) - Convert object properties to camel case but not recursively.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gYQIYhQGxwGcUATABSglVmBSIF84AzKkOAciVQFpn6YHANwAoEcAB2MFFGbYAxmgCqJKBhEqZASVIAuOBICuIAEYzRmqADlcKfURhRJAc1EMx8iBIdwo9Q-gw+jh4hNgkFFQ0MHREADyWAHxwALzqhqo6+gCMADQiGTI2ePocACoQIBz5DEJAA">TS Playground</a> | <a href="source/camel-cased-properties.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gYQIYhQGxwGcUATABSglVmBSIF84AzKkOAciVQFpn6YHANwAoEcAB2MFFGbYAxmgCqJKBhEqZASVIAuOBICuIAEYzRmqADlcKfURhRJAc1EMx8iBIdwo9Q-gw+jh4hNgkFFQ0MHREADyWAHxwALzqhqo6+gCMADQiGTI2ePocACoQIBz5DEJAA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -759,10 +759,10 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `DelimiterCase` - Convert a string literal to a custom string delimiter casing.
+- [`DelimiterCase`](source/delimiter-case.d.ts) - Convert a string literal to a custom string delimiter casing.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gERQG1MGFKAYQEMBnFAXzgDMoIQ4ByJVAWlpXJmYG4AUAID0wuAGVQYHCiEBjCADseccoxQA1UlGCkARjIBccbHhAEiZSgB5mtCBABC25gBoWAYmYA+OAF4WewgPPRdBETEAQQATADdSRTkUaKE2NAB5aOicRCtkgAUGVFhgbmsAFV8A9AEAbQBpOGBFOABrFEQIWjhyuAoTXHxCEgoUa3r3Zi9vAF1jcoaZgSpw5uHaUiSJdXSwGGAlcgwBaKhEACUAV0VjPQcZBMFmuRxL6JQAMWAjVRgdRQA5oIgsZFJcQHoiIIqPJDvAoKQAO7EPC7faHYyZbK5UbRQoQYr7MriHZ7A7KKrHZinRAeKDXZjGP6XFCuATMZ6vd4eWjfFCMlihKAAOgAVuQ3AIQXAAIwAJgAzMs+EA">TS Playground</a> | <a href="source/delimiter-case.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gERQG1MGFKAYQEMBnFAXzgDMoIQ4ByJVAWlpXJmYG4AUAID0wuAGVQYHCiEBjCADseccoxQA1UlGCkARjIBccbHhAEiZSgB5mtCBABC25gBoWAYmYA+OAF4WewgPPRdBETEAQQATADdSRTkUaKE2NAB5aOicRCtkgAUGVFhgbmsAFV8A9AEAbQBpOGBFOABrFEQIWjhyuAoTXHxCEgoUa3r3Zi9vAF1jcoaZgSpw5uHaUiSJdXSwGGAlcgwBaKhEACUAV0VjPQcZBMFmuRxL6JQAMWAjVRgdRQA5oIgsZFJcQHoiIIqPJDvAoKQAO7EPC7faHYyZbK5UbRQoQYr7MriHZ7A7KKrHZinRAeKDXZjGP6XFCuATMZ6vd4eWjfFCMlihKAAOgAVuQ3AIQXAAIwAJgAzMs+EA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -792,10 +792,10 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `DelimiterCasedPropertiesDeep` - Convert object properties to delimiter case recursively.
+- [`DelimiterCasedPropertiesDeep`](source/delimiter-cased-properties-deep.d.ts) - Convert object properties to delimiter case recursively.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gERQG1MGFKAYQEMBnFAEwAUoJVZgVzsUwBfOAM3pDgDkSVAFpuLGAIDcAKBnAAdoSjdSAYzQBVSlAwyArjoCSVAFxwF+kACMisw0QBypECnPkYURQHNZHOYrKqhpw2kQA6gQAFgBiXigKVOR6DlBGCtwQ5mFQ9jpxzInk2ToA2gC6fnJqEAoecFAs+jgw5th4IAREZJS09IwwzKwo7AA8OZEwsfFFADSCIgIAfHAAvHoCqSKKmQLm6DKbOttUe3AAjLOHWwouKGcCACoQIAJXHFdHRGIzSWelMgOXygJzOACZPjc7g8AFJEKCIN4yD6A67HYCncwAZkhx1urgeAGUwMAANb3d5XcrvKRAA">TS Playground</a> | <a href="source/delimiter-cased-properties-deep.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gERQG1MGFKAYQEMBnFAEwAUoJVZgVzsUwBfOAM3pDgDkSVAFpuLGAIDcAKBnAAdoSjdSAYzQBVSlAwyArjoCSVAFxwF+kACMisw0QBypECnPkYURQHNZHOYrKqhpw2kQA6gQAFgBiXigKVOR6DlBGCtwQ5mFQ9jpxzInk2ToA2gC6fnJqEAoecFAs+jgw5th4IAREZJS09IwwzKwo7AA8OZEwsfFFADSCIgIAfHAAvHoCqSKKmQLm6DKbOttUe3AAjLOHWwouKGcCACoQIAJXHFdHRGIzSWelMgOXygJzOACZPjc7g8AFJEKCIN4yD6A67HYCncwAZkhx1urgeAGUwMAANb3d5XcrvKRAA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -830,10 +830,10 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `DelimiterCasedProperties` - Convert object properties to delimiter case but not recursively.
+- [`DelimiterCasedProperties`](source/delimiter-cased-properties.d.ts) - Convert object properties to delimiter case but not recursively.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gERQG1MGFKAYQEMBnFAEwAUoJVZgVyBfOAM3pDgHIlUAWg4sYvANwAoScAB2hKB1IBjNAFVKUDJICumgJJUAXHFk6QAIyJS9RAHKkQKE+RhQ5AcymtpyiLNc4KBYdHBgTbDwQAiIySlp6RhhmcgAeDSIAGj5BXgA+OABebV5bKEFgKl4TAEZMyVLNQVlHFGq+ABUIEF561nEgA">TS Playground</a> | <a href="source/delimiter-cased-properties.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gERQG1MGFKAYQEMBnFAEwAUoJVZgVyBfOAM3pDgHIlUAWg4sYvANwAoScAB2hKB1IBjNAFVKUDJICumgJJUAXHFk6QAIyJS9RAHKkQKE+RhQ5AcymtpyiLNc4KBYdHBgTbDwQAiIySlp6RhhmcgAeDSIAGj5BXgA+OABebV5bKEFgKl4TAEZMyVLNQVlHFGq+ABUIEF561nEgA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -851,10 +851,10 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `KebabCase` - Convert a string literal to kebab-case.
+- [`KebabCase`](source/kebab-case.d.ts) - Convert a string literal to kebab-case.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gaRQIwIY4DCeAzigL5wBmUEIcA5EqgLRUokwMDcAULwHoBcAMqgwAGxT8AxhAB2nOCTooAanijACUgFxxs+IqRQAeBlQgQAQpoYA+OAF5GliC3xQe-IXACCACYAbnjyMigB-MxohgTEZAEACrSosMAcpgAqji7ovADamHDA8nAA1iiIEFRwmXCkBrhxJqaY9gC6+pmF7bzkfLwlMChQVHjhcIQSwADyYDDACiQYvAFQiABKAK7y+jhWUqF8JTISWwEoAGLAesowWvIA5nxu+vJbIDgjfOSyS-BQPAAdyms3mi0U+lixgSyQgqQWGVBcwWSxyKwYa0QLCgOwY+nuWxQABpeAwTmcLmwbih8YxPAA6ABWJAYpNecAAjAAmADMfW4QA">TS Playground</a> | <a href="source/kebab-case.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gaRQIwIY4DCeAzigL5wBmUEIcA5EqgLRUokwMDcAULwHoBcAMqgwAGxT8AxhAB2nOCTooAanijACUgFxxs+IqRQAeBlQgQAQpoYA+OAF5GliC3xQe-IXACCACYAbnjyMigB-MxohgTEZAEACrSosMAcpgAqji7ovADamHDA8nAA1iiIEFRwmXCkBrhxJqaY9gC6+pmF7bzkfLwlMChQVHjhcIQSwADyYDDACiQYvAFQiABKAK7y+jhWUqF8JTISWwEoAGLAesowWvIA5nxu+vJbIDgjfOSyS-BQPAAdyms3mi0U+lixgSyQgqQWGVBcwWSxyKwYa0QLCgOwY+nuWxQABpeAwTmcLmwbih8YxPAA6ABWJAYpNecAAjAAmADMfW4QA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -884,10 +884,10 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `KebabCasedPropertiesDeep` - Convert object properties to kebab case recursively.
+- [`KebabCasedPropertiesDeep`](source/kebab-cased-properties-deep.d.ts) - Convert object properties to kebab case recursively.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA2gaRQIwIY4DCeAzigCYAKUEqswKJAIiimALpwBmNIcA5ElQBaLoxj8A3AChpwAHYwUULngDGaAKpkocAN7SArjoCS5AFxx5hkDmUzjygHJ4QKSyRhQFAcxkBfWQUlFXUtHQB1YBgACwAxbxR5chJ9I1N5LghLbXt05QSGZJIcnXR2ANk1CHlPOChGQwAbGEtsfCJSCmpaZRgGZlYwAB5cqCjYwqSUgD44AF40-kcoYQUs-ksDZZ018k24AEYAGmkd5WF5VxQD-gAVCBB+U-9T89WeIpSD9Gltlb2BwATG8AVc3LcAFLKKCIZ7SV5-M4A4D7SwAZlBu3BN0s-AAymBgABrG4vU7sF6SIA">TS Playground</a> | <a href="source/kebab-cased-properties-deep.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA2gaRQIwIY4DCeAzigCYAKUEqswKJAIiimALpwBmNIcA5ElQBaLoxj8A3AChpwAHYwUULngDGaAKpkocAN7SArjoCS5AFxx5hkDmUzjygHJ4QKSyRhQFAcxkBfWQUlFXUtHQB1YBgACwAxbxR5chJ9I1N5LghLbXt05QSGZJIcnXR2ANk1CHlPOChGQwAbGEtsfCJSCmpaZRgGZlYwAB5cqCjYwqSUgD44AF40-kcoYQUs-ksDZZ018k24AEYAGmkd5WF5VxQD-gAVCBB+U-9T89WeIpSD9Gltlb2BwATG8AVc3LcAFLKKCIZ7SV5-M4A4D7SwAZlBu3BN0s-AAymBgABrG4vU7sF6SIA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -922,10 +922,10 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `KebabCasedProperties` - Convert object properties to kebab case but not recursively.
+- [`KebabCasedProperties`](source/kebab-cased-properties.d.ts) - Convert object properties to kebab case but not recursively.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gaRQIwIY4DCeAzigCYAKUEqswKJAvnAGY0hwDkSqAtK0YwuAbgBQY4ADsYKKKzwBjNAFUyUDGICu6gJLkAXHClaQOOeJ1yAcnhAojJGFGkBzcUwmKIUp3CiMWgA2MEbY+ESkFNS0cjAMJAA8anIAfHAAvJpcVlB8wORcRgCMADRiOep8UnYoRdwAKhAgXOVMIkA">TS Playground</a> | <a href="source/kebab-cased-properties.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gaRQIwIY4DCeAzigCYAKUEqswKJAvnAGY0hwDkSqAtK0YwuAbgBQY4ADsYKKKzwBjNAFUyUDGICu6gJLkAXHClaQOOeJ1yAcnhAojJGFGkBzcUwmKIUp3CiMWgA2MEbY+ESkFNS0cjAMJAA8anIAfHAAvJpcVlB8wORcRgCMADRiOep8UnYoRdwAKhAgXOVMIkA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -943,10 +943,10 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `PascalCase` - Converts a string literal to pascal-case.
+- [`PascalCase`](source/pascal-case.d.ts) - Converts a string literal to pascal-case.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gBQIYGcDG2ANgMJ4oC+cAZlBCHAORKoC01KuMjA3AFB8A9ILgBlUGCIoB+CADsucXPRQA1bFGDYARlIBccHAWJlcKADyNqECK20bGAPjgBeJgDEbAIQf8hIgEEAEwA3bDl8FCCBFjQjQlJyTDowXHMAFWc3dD4AbQBpOGA5OABrFEQIajh0uDxDPATTC3zHAF0DdIK2vgo-YpgUKGpsSLgAJWwAdwB5MBhgeVwMPkYgqERWKABXOUYDbRspcP4rbaIiAH0RkGAiREu5bBAUfaUYTTkAc35rCAM5NsQNohvwKDIlvAgtpxpxzjADGQXokzEFkhBULBgJxzABZCBBFBEdGpLIrAAiG3GuwMH22KAANHx3OciO5nndEAA5Z4oAyMexQAB0ACtcIwmZ5-nAAIwAJgAzL0eEA">TS Playground</a> | <a href="source/pascal-case.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gBQIYGcDG2ANgMJ4oC+cAZlBCHAORKoC01KuMjA3AFB8A9ILgBlUGCIoB+CADsucXPRQA1bFGDYARlIBccHAWJlcKADyNqECK20bGAPjgBeJgDEbAIQf8hIgEEAEwA3bDl8FCCBFjQjQlJyTDowXHMAFWc3dD4AbQBpOGA5OABrFEQIajh0uDxDPATTC3zHAF0DdIK2vgo-YpgUKGpsSLgAJWwAdwB5MBhgeVwMPkYgqERWKABXOUYDbRspcP4rbaIiAH0RkGAiREu5bBAUfaUYTTkAc35rCAM5NsQNohvwKDIlvAgtpxpxzjADGQXokzEFkhBULBgJxzABZCBBFBEdGpLIrAAiG3GuwMH22KAANHx3OciO5nndEAA5Z4oAyMexQAB0ACtcIwmZ5-nAAIwAJgAzL0eEA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -976,10 +976,10 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `PascalCasedPropertiesDeep` - Convert object properties to pascal case recursively.
+- [`PascalCasedPropertiesDeep`](source/pascal-cased-properties-deep.d.ts) - Convert object properties to pascal case recursively.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gBQIYGcDG2ANgMJ4oAmmUEqswKuAIiimAL5wBmNIcA5ElQBaLoxj8A3AChpwAHYwUULtnxoAqrmUZpAV21QAkhQBcceXpAAjZTIPKActhApzuGFAUBzGe1kKSipqmoYA6sAwABYAYl4o8hS4ug7G8lwQ5lp2+oZxDIm4WYYA2gC6frL4EPIecFCMekQw5jgExGTaVDR0MAzMrGAAPNlQEdH5CUkAfHAAvLqjRumZi4Ym5gCMADTSo86u5vwAKhAg-Lvsu6OTheYl0uh762ZwAEzXhgduAgBSylBEBdpFdHs9lBs4ABmT5OFw-fgAZTAwAA1ihgaCypdJEA">TS Playground</a> | <a href="source/pascal-cased-properties-deep.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gBQIYGcDG2ANgMJ4oAmmUEqswKuAIiimAL5wBmNIcA5ElQBaLoxj8A3AChpwAHYwUULtnxoAqrmUZpAV21QAkhQBcceXpAAjZTIPKActhApzuGFAUBzGe1kKSipqmoYA6sAwABYAYl4o8hS4ug7G8lwQ5lp2+oZxDIm4WYYA2gC6frL4EPIecFCMekQw5jgExGTaVDR0MAzMrGAAPNlQEdH5CUkAfHAAvLqjRumZi4Ym5gCMADTSo86u5vwAKhAg-Lvsu6OTheYl0uh762ZwAEzXhgduAgBSylBEBdpFdHs9lBs4ABmT5OFw-fgAZTAwAA1ihgaCypdJEA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -1014,10 +1014,10 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `PascalCasedProperties` - Convert object properties to pascal case but not recursively.
+- [`PascalCasedProperties`](source/pascal-cased-properties.d.ts) - Convert object properties to pascal case but not recursively.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gBQIYGcDG2ANgMJ4oAmmUEqswKuAvnAGY0hwDkSqAtK0YwuAbgBQY4ADsYKKK2z40AVVxyMYgK5qoASQoAuOFM0gARnPHa5AOWwgUR3DCjSA5uKYT8EKc7hQjJpEMEY4BMRkalQ0dDAMuAA8qnIAfHAAvBopeoZwAIwANGI5dg5GXAAqECBcxUwiQA">TS Playground</a> | <a href="source/pascal-cased-properties.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gBQIYGcDG2ANgMJ4oAmmUEqswKuAvnAGY0hwDkSqAtK0YwuAbgBQY4ADsYKKK2z40AVVxyMYgK5qoASQoAuOFM0gARnPHa5AOWwgUR3DCjSA5uKYT8EKc7hQjJpEMEY4BMRkalQ0dDAMuAA8qnIAfHAAvBopeoZwAIwANGI5dg5GXAAqECBcxUwiQA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -1035,10 +1035,10 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `ScreamingSnakeCase` - Convert a string literal to screaming-snake-case.
+- [`ScreamingSnakeCase`](source/screaming-snake-case.d.ts) - Convert a string literal to screaming-snake-case.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gZQMZRQQxGADsBzTY-AaxQGF8BnFAXzgDMoIQ4ByJVALRsUDGDwDcAKEnYIxUXAZcUANXxRg+AEYAbFAC44OPIRLlKNekwA8PNhAgAhdTwB8cALy8AYgHlfAPqOAIIAShJAA">TS Playground</a> | <a href="source/screaming-snake-case.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gZQMZRQQxGADsBzTY-AaxQGF8BnFAXzgDMoIQ4ByJVALRsUDGDwDcAKEnYIxUXAZcUANXxRg+AEYAbFAC44OPIRLlKNekwA8PNhAgAhdTwB8cALy8AYgHlfAPqOAIIAShJAA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -1048,10 +1048,10 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `SnakeCase` - Convert a string literal to snake-case.
+- [`SnakeCase`](source/snake-case.d.ts) - Convert a string literal to snake-case.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gZQHYEMDWKAwrgM4oC+cAZlBCHAORKoC01KpMjA3AFB8A9ILiZQYADYoBAYwjYucUvRQA1XFGC4ARlIBcovIRLkAPI2oQIAIQ2MAfHAC8TSxAD62u-yEiAggAmAG642DIoAQIsaDgExGQRAAp0qLDAnKYAKo4u6HwA2gDScMDYcISIENRwmXBkhnEmKKaF9gC6BplFbXwUPqUwKFDUuOFwALIQASgSyRBgpBh8wKQAErhgYIgG2lZSofzUAK4SEgBiuCDAEogAcpcoBlya2ADmh1YG2Ecg2kP8FFk8kUAW0ACVOCcYAZYsYEgE5qkYOlSKZJtNZilSDklowVu4ABYbLaMAwwKBHFAAGj4FhOEncIyuN3ceBAKFJTBIUAkuFEVxgBMYNLcBgAjAAmADMvR4QA">TS Playground</a> | <a href="source/snake-case.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gZQHYEMDWKAwrgM4oC+cAZlBCHAORKoC01KpMjA3AFB8A9ILiZQYADYoBAYwjYucUvRQA1XFGC4ARlIBcovIRLkAPI2oQIAIQ2MAfHAC8TSxAD62u-yEiAggAmAG642DIoAQIsaDgExGQRAAp0qLDAnKYAKo4u6HwA2gDScMDYcISIENRwmXBkhnEmKKaF9gC6BplFbXwUPqUwKFDUuOFwALIQASgSyRBgpBh8wKQAErhgYIgG2lZSofzUAK4SEgBiuCDAEogAcpcoBlya2ADmh1YG2Ecg2kP8FFk8kUAW0ACVOCcYAZYsYEgE5qkYOlSKZJtNZilSDklowVu4ABYbLaMAwwKBHFAAGj4FhOEncIyuN3ceBAKFJTBIUAkuFEVxgBMYNLcBgAjAAmADMvR4QA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -1081,10 +1081,10 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `SnakeCasedPropertiesDeep` - Convert object properties to snake case recursively.
+- [`SnakeCasedPropertiesDeep`](source/snake-cased-properties-deep.d.ts) - Convert object properties to snake case recursively.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gZQHYEMDWKAwrgM4oAmAClBKrMCqQCIopgC+cAZrSHAHIkqALTcmMAQG4AUDODYYKKN1wBjNAFVyUDDICuOgJIUAXHGz6QAI2WzDygHK4QKc6RhQFAc1kc5Ckoq6lo6AOrAMAAWAGJeKNgUpHoOUEbY3BDm2nYGOnGMiaTZOgDaALp+cmoQ2B5wUEz6ADYw5jgExGSUNHTKMIwsbGAAPDlQEdEFCUkAfHAAvCk6APoKmeboecprZnAAjAA021AreK7mAgAqECACxxzHqSu8hUnmpTJbz8B7AExPVbnNyCABSyigiHuMkeXxOu3MAGZATtgZdMGBgIRobDyg8pEA">TS Playground</a> | <a href="source/snake-cased-properties-deep.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gZQHYEMDWKAwrgM4oAmAClBKrMCqQCIopgC+cAZrSHAHIkqALTcmMAQG4AUDODYYKKN1wBjNAFVyUDDICuOgJIUAXHGz6QAI2WzDygHK4QKc6RhQFAc1kc5Ckoq6lo6AOrAMAAWAGJeKNgUpHoOUEbY3BDm2nYGOnGMiaTZOgDaALp+cmoQ2B5wUEz6ADYw5jgExGSUNHTKMIwsbGAAPDlQEdEFCUkAfHAAvCk6APoKmeboecprZnAAjAA021AreK7mAgAqECACxxzHqSu8hUnmpTJbz8B7AExPVbnNyCABSyigiHuMkeXxOu3MAGZATtgZdMGBgIRobDyg8pEA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -1119,10 +1119,10 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `SnakeCasedProperties` - Convert object properties to snake case but not recursively.
+- [`SnakeCasedProperties`](source/snake-cased-properties.d.ts) - Convert object properties to snake case but not recursively.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gZQHYEMDWKAwrgM4oAmAClBKrMCqQL5wBmtIcA5EqgLRsmMbgG4AUOODYYKKG1wBjNAFVyUDOICu6gJIUAXHGxaQAIzkSdcgHK4QKI6RhRpAcwnNJiiNmdwoJi0AGxgjHAJiMkoaOjkYRlIAHjU5AD44AF5NaygAfWBDOABGABptdTy8ByNuABUIEG5y5lEgA">TS Playground</a> | <a href="source/snake-cased-properties.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gZQHYEMDWKAwrgM4oAmAClBKrMCqQL5wBmtIcA5EqgLRsmMbgG4AUOODYYKKG1wBjNAFVyUDOICu6gJIUAXHGxaQAIzkSdcgHK4QKI6RhRpAcwnNJiiNmdwoJi0AGxgjHAJiMkoaOjkYRlIAHjU5AD44AF5NaygAfWBDOABGABptdTy8ByNuABUIEG5y5lEgA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -1142,40 +1142,40 @@ Click the type source for complete docs.
 
 ### Class
 
-- `Class` - Matches a [`class`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes).
+- [`Class`](source/class.d.ts) - Matches a [`class`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes).
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/Q">TS Playground</a> | <a href="source/class.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/Q">TS Playground</a>
 	</summary>
 
 	```ts
 	```
 	</details>
 
-- `Constructor` - Matches a [`class` constructor](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes).
+- [`Constructor`](source/constructor.d.ts) - Matches a [`class` constructor](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes).
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/Q">TS Playground</a> | <a href="source/constructor.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/Q">TS Playground</a>
 	</summary>
 
 	```ts
 	```
 	</details>
 
-- `AbstractClass` - Matches an [`abstract class`](https://www.typescriptlang.org/docs/handbook/classes.html#abstract-classes).
+- [`AbstractClass`](source/abstract-class.d.ts) - Matches an [`abstract class`](https://www.typescriptlang.org/docs/handbook/classes.html#abstract-classes).
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/Q">TS Playground</a> | <a href="source/abstract-class.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/Q">TS Playground</a>
 	</summary>
 
 	```ts
 	```
 	</details>
 
-- `AbstractConstructor` - Matches an [`abstract class`](https://www.typescriptlang.org/docs/handbook/release-notes/typescript-4-2.html#abstract-construct-signatures) constructor.
+- [`AbstractConstructor`](source/abstract-constructor.d.ts) - Matches an [`abstract class`](https://www.typescriptlang.org/docs/handbook/release-notes/typescript-4-2.html#abstract-construct-signatures) constructor.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/Q">TS Playground</a> | <a href="source/abstract-constructor.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/Q">TS Playground</a>
 	</summary>
 
 	```ts
@@ -1184,20 +1184,20 @@ Click the type source for complete docs.
 
 ### File
 
-- `PackageJson` - Type for [npm's `package.json` file](https://docs.npmjs.com/creating-a-package-json-file). Also includes types for fields used by other popular projects, like TypeScript and Yarn.
+- [`PackageJson`](source/package-json.d.ts) - Type for [npm's `package.json` file](https://docs.npmjs.com/creating-a-package-json-file). Also includes types for fields used by other popular projects, like TypeScript and Yarn.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/Q">TS Playground</a> | <a href="source/package-json.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/Q">TS Playground</a>
 	</summary>
 
 	```ts
 	```
 	</details>
 
-- `TsConfigJson` - Type for [TypeScript's `tsconfig.json` file](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html) (TypeScript 3.7).
+- [`TsConfigJson`](source/ts-config-json.d.ts) - Type for [TypeScript's `tsconfig.json` file](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html) (TypeScript 3.7).
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/Q">TS Playground</a> | <a href="source/ts-config-json.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/Q">TS Playground</a>
 	</summary>
 
 	```ts
@@ -1206,10 +1206,10 @@ Click the type source for complete docs.
 
 ### Function
 
-- `SetReturnType` - Create a function type with a return type of your choice and the same parameters as the given function type.
+- [`SetReturnType`](source/set-return-type.d.ts) - Create a function type with a return type of your choice and the same parameters as the given function type.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gZRTASjgVygDsAVZFAXzgDMoIQ4ByJVAWhpQGcYmBuAFADWaALKIAYgWIBjGMAhkAFgEMYAYRXL6AdzgBeOAAoaECAC44mBinKoANHABGKqJekBrYhB3EAlAYAfFY2APIwSihQdiiCwhRw4gDqUCpgqAAmUrLyigZWOPgwRGQUADzi2XIKymqa2j6O1iAo4ZHRCQA+cNIZKDTAxCgZgYIA9GP6wSKJiClpmVW5xPkmZpbNthSOLm49xF4+-kEhLW1RMXDdvf2Dw3xAA">TS Playground</a> | <a href="source/set-return-type.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gZRTASjgVygDsAVZFAXzgDMoIQ4ByJVAWhpQGcYmBuAFADWaALKIAYgWIBjGMAhkAFgEMYAYRXL6AdzgBeOAAoaECAC44mBinKoANHABGKqJekBrYhB3EAlAYAfFY2APIwSihQdiiCwhRw4gDqUCpgqAAmUrLyigZWOPgwRGQUADzi2XIKymqa2j6O1iAo4ZHRCQA+cNIZKDTAxCgZgYIA9GP6wSKJiClpmVW5xPkmZpbNthSOLm49xF4+-kEhLW1RMXDdvf2Dw3xAA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -1224,10 +1224,10 @@ Click the type source for complete docs.
 
 ### Iterable
 
-- `IterableElement` - Get the element type of an `Iterable`/`AsyncIterable`. For example, an array or a generator.
+- [`IterableElement`](source/iterable-element.d.ts) - Get the element type of an `Iterable`/`AsyncIterable`. For example, an array or a generator.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gSRiqBDAIwBsUBREkFAOxgF84AzKCEOAciVQFoGUBnGGwDcAKBEMArlQDGMYBCpwAVHGABBEAHFquPDGgAKAJQYRiYCiIATOAEZR5yzYBMo2mM5oAsigByEkAJcOABeOGxdYjIKahgAHgAlFBgJKCoAFWQUOM8IBlUNbSpdfSgAPjKgA">TS Playground</a> | <a href="source/iterable-element.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gSRiqBDAIwBsUBREkFAOxgF84AzKCEOAciVQFoGUBnGGwDcAKBEMArlQDGMYBCpwAVHGABBEAHFquPDGgAKAJQYRiYCiIATOAEZR5yzYBMo2mM5oAsigByEkAJcOABeOGxdYjIKahgAHgAlFBgJKCoAFWQUOM8IBlUNbSpdfSgAPjKgA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -1244,50 +1244,50 @@ Click the type source for complete docs.
 
 ### JSON
 
-- `JsonObject` - Matches a JSON object.
+- [`JsonObject`](source/json-object.d.ts) - Matches a JSON object.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/Q">TS Playground</a> | <a href="source/json-object.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/Q">TS Playground</a>
 	</summary>
 
 	```ts
 	```
 	</details>
 
-- `JsonArray` - Matches a JSON array.
+- [`JsonArray`](source/json-array.d.ts) - Matches a JSON array.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/Q">TS Playground</a> | <a href="source/json-array.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/Q">TS Playground</a>
 	</summary>
 
 	```ts
 	```
 	</details>
 
-- `JsonPrimitive` - Matches any valid JSON primitive value.
+- [`JsonPrimitive`](source/json-primitive.d.ts) - Matches any valid JSON primitive value.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/Q">TS Playground</a> | <a href="source/json-primitive.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/Q">TS Playground</a>
 	</summary>
 
 	```ts
 	```
 	</details>
 
-- `JsonValue` - Matches any valid JSON value.
+- [`JsonValue`](source/json-value.d.ts) - Matches any valid JSON value.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/Q">TS Playground</a> | <a href="source/json-value.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/Q">TS Playground</a>
 	</summary>
 
 	```ts
 	```
 	</details>
 
-- `Jsonifiable` - Matches a value that can be losslessly converted to JSON.
+- [`Jsonifiable`](source/jsonifiable.d.ts) - Matches a value that can be losslessly converted to JSON.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gKQM4QHbABmwAhgEYA2KAvnIVBCHAORKoC0hK2MzA3ACgBAemFA">TS Playground</a> | <a href="source/jsonifiable.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gKQM4QHbABmwAhgEYA2KAvnIVBCHAORKoC0hK2MzA3ACgBAemFA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -1297,10 +1297,10 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `Jsonify` - Transform a type to one that is assignable to the `JsonValue` type.
+- [`Jsonify`](source/jsonify.d.ts) - Transform a type to one that is assignable to the `JsonValue` type.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gKQM4QHbABmiANHDvgGoCGANgK4oC+chUEIcA5EqgLSEU2GFwDcAKHHA8MFFELUAxmgDiKDihhREGcbxQAubgAUI0kXAA+JiLUQBzfGPGKI0ACbTqs7EYDaePQgAEZyZIEhcgC6EkySrnjCcJDmRmoaWjoAvLr6Rlym5lwkLm5QnnjeQv4AjGQ1UeJMEqWJ8GDswbQoIABieHA5ABTu3tRGFHg0DCgAlIMAfLoA9MtwACIQQnC4IJoAFtL2cADuwDD7cKMw1E0tHRBdPf1DKTKzonCrcACiUOxQIz6ODpPaZODAbBwPAQeDUbDYYD2SpPBAQZLUKDUMFyOAQQgIZBoSbTRhwUKKaj0bBoc4QqHUAbmOQKZTxfBJQjAAAeKHc-UGcAAPAAVBYjMYTXAEYiihbzLJLdDib6bba7A5HU7nS7XW7NSRc3n8vCvMzvT7fFRudxGN7wSFweGI5HUJ4AOnI0qIiDlCCxiUI0BAUNBmm0EJk6IAbnQyc6kSjumivVQ4yhxEa+S88CgThsqkNZh8vms-gCjABBKEobmoRSydxkdZVenQ2FOhGJt3dT2TH1+yl4GHwLSM7BBqAhguySMwGPpzsupNoeepqbpoA">TS Playground</a> | <a href="source/jsonify.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gKQM4QHbABmiANHDvgGoCGANgK4oC+chUEIcA5EqgLSEU2GFwDcAKHHA8MFFELUAxmgDiKDihhREGcbxQAubgAUI0kXAA+JiLUQBzfGPGKI0ACbTqs7EYDaePQgAEZyZIEhcgC6EkySrnjCcJDmRmoaWjoAvLr6Rlym5lwkLm5QnnjeQv4AjGQ1UeJMEqWJ8GDswbQoIABieHA5ABTu3tRGFHg0DCgAlIMAfLoA9MtwACIQQnC4IJoAFtL2cADuwDD7cKMw1E0tHRBdPf1DKTKzonCrcACiUOxQIz6ODpPaZODAbBwPAQeDUbDYYD2SpPBAQZLUKDUMFyOAQQgIZBoSbTRhwUKKaj0bBoc4QqHUAbmOQKZTxfBJQjAAAeKHc-UGcAAPAAVBYjMYTXAEYiihbzLJLdDib6bba7A5HU7nS7XW7NSRc3n8vCvMzvT7fFRudxGN7wSFweGI5HUJ4AOnI0qIiDlCCxiUI0BAUNBmm0EJk6IAbnQyc6kSjumivVQ4yhxEa+S88CgThsqkNZh8vms-gCjABBKEobmoRSydxkdZVenQ2FOhGJt3dT2TH1+yl4GHwLSM7BBqAhguySMwGPpzsupNoeepqbpoA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -1333,10 +1333,10 @@ Click the type source for complete docs.
 
 ### Map
 
-- `Entries` - Many collections have an `entries` method which returns an array of a given object's own enumerable string-keyed property [key, value] pairs. The `Entries` type will return the type of that collection's entries.
+- [`Entries`](source/entries.d.ts) - Many collections have an `entries` method which returns an array of a given object's own enumerable string-keyed property [key, value] pairs. The `Entries` type will return the type of that collection's entries.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gUQHYysFAZwF84AzKCEOAciVQFoyiYaBuAKA+FxSjICGAYzSYAHgPAAbNOg6EqKANIpEALjjYAriABGfTsS5CI2QvBADswMFqkCYRHHgKE4AXjgAKFBOlENZ3wiAB5xSTAZAD4ASg8ouF8ImUIAOkswHz9ItHcEgG0OAHoiuAARCCI4BRA0AShdYDx6xDgwShFCQh4AczhTBAALNABrVW8AdybBhGQ0HjJoSxhgAYEANwFge10ZGI4k-3yABgBdVJgIAFUwVCgAYQFCFC8YgBouEvLKtxq6hqaUBabQ6RG62D6AxgwzgmykWjQXim0NmqDgCyWDlW2DgGy2Oz2B2yMnyAEZzpcAGLAMQoAAmrw4pxinA4JjM8EOOUCxNyGD+KnUcFJxE47PMiVwwTcngA8roAFYoIQwVIoKWuLLJFBxJ5wIKuMK8qJi0wSiBaGC2eCeSzWWz2RyEA1EHwaogsz6leVKlWENlm+AQRXKmDhfweDACDQi00c-ohlUuwiBd2EEL0FAQMgJ31h42R-L5GgCGhvYWnU6sr4AQSgQMQ-vF8HqDfDOULJbLFbjEtbAkQydTLlCmezuPrA-b0ULJ3LXdO5bJ5fJVa9cAAsgIwE3A3AMtO+dgUBNN9uvEWuyvK57m-vt0P9WmM3NxxkEp5L6Xr2viqUAMooDAu7xs8+bapGx6noBMAXleFa3nuYGPsmL6oOOyEFp+xbfrQpaLnAy4VlWQA">TS Playground</a> | <a href="source/entries.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gUQHYysFAZwF84AzKCEOAciVQFoyiYaBuAKA+FxSjICGAYzSYAHgPAAbNOg6EqKANIpEALjjYAriABGfTsS5CI2QvBADswMFqkCYRHHgKE4AXjgAKFBOlENZ3wiAB5xSTAZAD4ASg8ouF8ImUIAOkswHz9ItHcEgG0OAHoiuAARCCI4BRA0AShdYDx6xDgwShFCQh4AczhTBAALNABrVW8AdybBhGQ0HjJoSxhgAYEANwFge10ZGI4k-3yABgBdVJgIAFUwVCgAYQFCFC8YgBouEvLKtxq6hqaUBabQ6RG62D6AxgwzgmykWjQXim0NmqDgCyWDlW2DgGy2Oz2B2yMnyAEZzpcAGLAMQoAAmrw4pxinA4JjM8EOOUCxNyGD+KnUcFJxE47PMiVwwTcngA8roAFYoIQwVIoKWuLLJFBxJ5wIKuMK8qJi0wSiBaGC2eCeSzWWz2RyEA1EHwaogsz6leVKlWENlm+AQRXKmDhfweDACDQi00c-ohlUuwiBd2EEL0FAQMgJ31h42R-L5GgCGhvYWnU6sr4AQSgQMQ-vF8HqDfDOULJbLFbjEtbAkQydTLlCmezuPrA-b0ULJ3LXdO5bJ5fJVa9cAAsgIwE3A3AMtO+dgUBNN9uvEWuyvK57m-vt0P9WmM3NxxkEp5L6Xr2viqUAMooDAu7xs8+bapGx6noBMAXleFa3nuYGPsmL6oOOyEFp+xbfrQpaLnAy4VlWQA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -1376,10 +1376,10 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `Entry` - Many collections have an `entries` method which returns an array of a given object's own enumerable string-keyed property [key, value] pairs. The `Entry` type will return the type of that collection's entry.
+- [`Entry`](source/entry.d.ts) - Many collections have an `entries` method which returns an array of a given object's own enumerable string-keyed property [key, value] pairs. The `Entry` type will return the type of that collection's entry.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gUQHYyogXzgDMoIQ4ByJVAWmJQGcZKBuAKHeFxSmIEMAxmkwAPfuAA2adO0bkUAaRSIAXHGwBXEACNeHAp0ERszOCH7ZgYTZP4wmOPIjgBeOAAoU4qSnVP8AB4xCTBpAD4ASjdwuABtdgB6RLgAEQgmOHkQNH4oHWA8PJcwMmFGRm4AczgTBAALNABrFU8Ad0L6hGQ0bmJoCxhgOv4AN35gOx1pSPZvUOk4gAYAXQA6GAgAVTBUKABhfkYUD0iAGk5ktIzGLIU4PIKi-DhSiHLK7Bq6mEa4cckmjQHg6v26qDgfQG9mG2Ae40m-GmKFm818cQAjOtNgAxYCiFAAE1OFxWHHYxlM8DRYT8cBCvjcGGyShU6gxBA4lLMKFwL3cAHkdAArFCCGBrXl4YBMLw+WmRZYrB63AKIYLyiJckxmCCaGA2eDuCxWGx2ByMNVePmISLkq5C0XixgUnXwCAisUwBm0pnofjszmuqm1T3itX+G2BGgoCDEUNO72alCxdxxSj8ShnOBY+0pACCUCg-EQLu58DyxcQPukTPTmezueDZkrJbVAGVpV9I85oz04w8i23k6n4ktsxnKGTmxWh9WbQA5bR6KA9oIxget6sjusYxvTpIpACy-DAZbd5lPNbQ7mwKDacBPYA8cXrWZzKxWdpnl7AEfpUYbvGFh-juaaTvueZwO2KAwOeIbHEmCw3ho97QbBL4QR+37llksEdl2VRruqQF4Uhvijm+E6ZtOuGIWqS66LwxF9qgA70WB8R7h+rBAA">TS Playground</a> | <a href="source/entry.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gUQHYyogXzgDMoIQ4ByJVAWmJQGcZKBuAKHeFxSmIEMAxmkwAPfuAA2adO0bkUAaRSIAXHGwBXEACNeHAp0ERszOCH7ZgYTZP4wmOPIjgBeOAAoU4qSnVP8AB4xCTBpAD4ASjdwuABtdgB6RLgAEQgmOHkQNH4oHWA8PJcwMmFGRm4AczgTBAALNABrFU8Ad0L6hGQ0bmJoCxhgOv4AN35gOx1pSPZvUOk4gAYAXQA6GAgAVTBUKABhfkYUD0iAGk5ktIzGLIU4PIKi-DhSiHLK7Bq6mEa4cckmjQHg6v26qDgfQG9mG2Ae40m-GmKFm818cQAjOtNgAxYCiFAAE1OFxWHHYxlM8DRYT8cBCvjcGGyShU6gxBA4lLMKFwL3cAHkdAArFCCGBrXl4YBMLw+WmRZYrB63AKIYLyiJckxmCCaGA2eDuCxWGx2ByMNVePmISLkq5C0XixgUnXwCAisUwBm0pnofjszmuqm1T3itX+G2BGgoCDEUNO72alCxdxxSj8ShnOBY+0pACCUCg-EQLu58DyxcQPukTPTmezueDZkrJbVAGVpV9I85oz04w8i23k6n4ktsxnKGTmxWh9WbQA5bR6KA9oIxget6sjusYxvTpIpACy-DAZbd5lPNbQ7mwKDacBPYA8cXrWZzKxWdpnl7AEfpUYbvGFh-juaaTvueZwO2KAwOeIbHEmCw3ho97QbBL4QR+37llksEdl2VRruqQF4Uhvijm+E6ZtOuGIWqS66LwxF9qgA70WB8R7h+rBAA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -1421,10 +1421,10 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `PartialDeep` - Create a type from another type with all keys and nested keys set to optional.
+- [`PartialDeep`](source/partial-deep.d.ts) - Create a type from another type with all keys and nested keys set to optional.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gBQIa2NgGwBEUUwBfOAMyghDgHIlUBaKlAZxgYG4AoPgGMIAOy5wOKGDGAiA5hwBccAMpSZ8jnAC8GPjBQAPGAFEAJsBjRl6PlVEwVwAF4plARgAs-eyJgBhCAJrRgBiAAZIqN47BwB1FGA5AAsYZU9I-nI+bABXK2FwAik3akJJfjyrDmwAN1KYKFyULP4hUXFsMDACRBU6lDM1aVkFHTgAChr6ofVRpTgcPEISMgAeYY0FAD4ASh1tvSgpXKgRDAA6K8kRzQAaOCuL6cHN+fIsgRutrV0unr6A1mtwUE3QBmM5ksIXQvhgCSSqWUAFZIuRyLseEA">TS Playground</a> | <a href="source/partial-deep.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gBQIa2NgGwBEUUwBfOAMyghDgHIlUBaKlAZxgYG4AoPgGMIAOy5wOKGDGAiA5hwBccAMpSZ8jnAC8GPjBQAPGAFEAJsBjRl6PlVEwVwAF4plARgAs-eyJgBhCAJrRgBiAAZIqN47BwB1FGA5AAsYZU9I-nI+bABXK2FwAik3akJJfjyrDmwAN1KYKFyULP4hUXFsMDACRBU6lDM1aVkFHTgAChr6ofVRpTgcPEISMgAeYY0FAD4ASh1tvSgpXKgRDAA6K8kRzQAaOCuL6cHN+fIsgRutrV0unr6A1mtwUE3QBmM5ksIXQvhgCSSqWUAFZIuRyLseEA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -1448,10 +1448,10 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `ReadonlyDeep` - Convert `object`s, `Map`s, `Set`s, and `Array`s and all of their keys/elements into immutable structures recursively.
+- [`ReadonlyDeep`](source/readonly-deep.d.ts) - Convert `object`s, `Map`s, `Set`s, and `Array`s and all of their keys/elements into immutable structures recursively.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/PTAEBMEMBdIOgFYGcD2A7AUAbwwIgGYoq4BcoA2rgEaQBOuAuhgL4YYigC2kAlmnNCQYenAA4pa0UNACeogKagsAJXmRw6ADYyAIvPmjmofLRSdQAclkKAtPnlJoFgNzCxEqVFgApVGlAAvKC08gCOAK48IQAUFnDAXvDI6BYAlK4YAMbojhAwkGSq6lq6+qIAPNbyKPh5Pn4AfIF1kL7oGfIAHuKSEPL4kOGanvkZHNAO0AJCIj0jsMam5nHA3HwubIlwhChwouFIABaxNLRpriABTfK0prSgACoAygBMAMxvAJxkAAqmCpIZJZ9kcLBAUA5QGgUFIujxcuhpHJFBYQsU0NpQI5aHwAObkBgWIA">TS Playground</a> | <a href="source/readonly-deep.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/PTAEBMEMBdIOgFYGcD2A7AUAbwwIgGYoq4BcoA2rgEaQBOuAuhgL4YYigC2kAlmnNCQYenAA4pa0UNACeogKagsAJXmRw6ADYyAIvPmjmofLRSdQAclkKAtPnlJoFgNzCxEqVFgApVGlAAvKC08gCOAK48IQAUFnDAXvDI6BYAlK4YAMbojhAwkGSq6lq6+qIAPNbyKPh5Pn4AfIF1kL7oGfIAHuKSEPL4kOGanvkZHNAO0AJCIj0jsMam5nHA3HwubIlwhChwouFIABaxNLRpriABTfK0prSgACoAygBMAMxvAJxkAAqmCpIZJZ9kcLBAUA5QGgUFIujxcuhpHJFBYQsU0NpQI5aHwAObkBgWIA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -1476,10 +1476,10 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `RequiredDeep` - Create a type from another type with all keys and nested keys set to required.
+- [`RequiredDeep`](source/required-deep.d.ts) - Create a type from another type with all keys and nested keys set to required.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gJRQRwK7BQoAmAIiimAL5wBmUEIcA5EqgLS0oDOMzA3AChBbNAGUUMGMAB2Ac25wAvBhEoAHjACixYDGgB+AFyraEGTDHAAXimNwZeEACMUUOAB84eGcRS1ZEiEzCwBhCAAbQxNeKFk5T29ff0DiYPMYAHUUYDkACxh7Rxc3RJ8-AJkgwSpBAEM8fQBjRjAIyTsTZwhIlDqZMuTK6ob9bjqAN064bt7+wYrUoSohEWQ0bHxCEgkpeMUVTYIiMgowAB5d6XluAD4hAHoHhHW4I+3iK-3lVSe4AEgYBptLp9FATOhBH9-v8QpYbCgTMVXFBHs8YXDwlFwXBYvE0QDYRlsrkCkinCiCf9atDRhAWuB2kCuj12v0qXTxlMWXMZASqEA">TS Playground</a> | <a href="source/required-deep.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gJRQRwK7BQoAmAIiimAL5wBmUEIcA5EqgLS0oDOMzA3AChBbNAGUUMGMAB2Ac25wAvBhEoAHjACixYDGgB+AFyraEGTDHAAXimNwZeEACMUUOAB84eGcRS1ZEiEzCwBhCAAbQxNeKFk5T29ff0DiYPMYAHUUYDkACxh7Rxc3RJ8-AJkgwSpBAEM8fQBjRjAIyTsTZwhIlDqZMuTK6ob9bjqAN064bt7+wYrUoSohEWQ0bHxCEgkpeMUVTYIiMgowAB5d6XluAD4hAHoHhHW4I+3iK-3lVSe4AEgYBptLp9FATOhBH9-v8QpYbCgTMVXFBHs8YXDwlFwXBYvE0QDYRlsrkCkinCiCf9atDRhAWuB2kCuj12v0qXTxlMWXMZASqEA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -1508,10 +1508,10 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `WritableDeep` - Create a deeply mutable version of an `object`/`ReadonlyMap`/`ReadonlySet`/`ReadonlyArray` type. The inverse of `ReadonlyDeep<T>`. Use `Writable<T>` if you only need one level deep.
+- [`WritableDeep`](source/writable-deep.d.ts) - Create a deeply mutable version of an `object`/`ReadonlyMap`/`ReadonlySet`/`ReadonlyArray` type. The inverse of `ReadonlyDeep<T>`. Use `Writable<T>` if you only need one level deep.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gdSsGBDAIwBsUARFFMAXzgDMoIQ4ByJVAWlpQGcZmBuAFCC2aAGIQIcALwZBUFHgAmEAHZFEcPAC44qgK4gCKKEIXK1GuAV3mV6zbxyqA5gG0AuvzgB6H3AAVKW4ACwgAdwQQvHgQfXwCYCJcTWBuOCUKMCs8Wi4AYxgUJQA6eUV7K3zdAkkSPFUhKiFBfLVeOHCcBJJySgkIXWxcQl6sgB4BgD4ZDB04AEYAGmtdN2YAJmYPFeqEKH0UZsEukeIyLIGSvFmAZiFTnov+yRKCNwAGD1nmVRRIgBueCIhwEJ26o2eYCuBFm624jBQMBCwFc234QA">TS Playground</a> | <a href="source/writable-deep.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gdSsGBDAIwBsUARFFMAXzgDMoIQ4ByJVAWlpQGcZmBuAFCC2aAGIQIcALwZBUFHgAmEAHZFEcPAC44qgK4gCKKEIXK1GuAV3mV6zbxyqA5gG0AuvzgB6H3AAVKW4ACwgAdwQQvHgQfXwCYCJcTWBuOCUKMCs8Wi4AYxgUJQA6eUV7K3zdAkkSPFUhKiFBfLVeOHCcBJJySgkIXWxcQl6sgB4BgD4ZDB04AEYAGmtdN2YAJmYPFeqEKH0UZsEukeIyLIGSvFmAZiFTnov+yRKCNwAGD1nmVRRIgBueCIhwEJ26o2eYCuBFm624jBQMBCwFc234QA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -1532,30 +1532,30 @@ Click the type source for complete docs.
 
 ### Numeric
 
-- `PositiveInfinity` - Matches the hidden `Infinity` type.
+- [`PositiveInfinity`](source/positive-infinity.d.ts) - Matches the hidden `Infinity` type.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/Q">TS Playground</a> | <a href="source/positive-infinity.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/Q">TS Playground</a>
 	</summary>
 
 	```ts
 	```
 	</details>
 
-- `NegativeInfinity` - Matches the hidden `-Infinity` type.
+- [`NegativeInfinity`](source/negative-infinity.d.ts) - Matches the hidden `-Infinity` type.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/Q">TS Playground</a> | <a href="source/negative-infinity.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/Q">TS Playground</a>
 	</summary>
 
 	```ts
 	```
 	</details>
 
-- `Finite` - A finite `number`.
+- [`Finite`](source/finite.d.ts) - A finite `number`.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gMWAO2DFAXzgDMoIQ4ByJVAWhJQGcYqBuAKA4BMUBjADYBDKGhIBXHHxjAIOOExQwAyn2goAPABU4KAB4Ec3JnBziQAIxRQAfAAoBKHAHMYACwBccbHgLabAJReAG4QwNxsQA">TS Playground</a> | <a href="source/finite.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gMWAO2DFAXzgDMoIQ4ByJVAWhJQGcYqBuAKA4BMUBjADYBDKGhIBXHHxjAIOOExQwAyn2goAPABU4KAB4Ec3JnBziQAIxRQAfAAoBKHAHMYACwBccbHgLabAJReAG4QwNxsQA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -1565,10 +1565,10 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `Integer` - A `number` that is an integer.
+- [`Integer`](source/integer.d.ts) - A `number` that is an integer.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gSQHYxQcxSgF84AzKCEOAciVQFoyUBnGGgbgCguATFAMYAbAIZQ0ZAK7YBMYBGxwWKGAE0UYgDwAVOCgAeebLxZxskkACMiAPgAUQlNnwwAFgC44OPISg6bAJSeAG4QwLwcQA">TS Playground</a> | <a href="source/integer.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gSQHYxQcxSgF84AzKCEOAciVQFoyUBnGGgbgCguATFAMYAbAIZQ0ZAK7YBMYBGxwWKGAE0UYgDwAVOCgAeebLxZxskkACMiAPgAUQlNnwwAFgC44OPISg6bAJSeAG4QwLwcQA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -1578,10 +1578,10 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `Float` - A `number` that is not an integer.
+- [`Float`](source/float.d.ts) - A `number` that is not an integer.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gMQDYQIYwC+cAZlBCHAORKoC0JKAzjFQNwBQHAJigMbY8UNCQCuAOz4xgEcXCYoYABRRQ+KcTDwBzFAB4AKnBQAPGBu5M440SABGqgHwAKbBu0wAFgC44OfDCGjgCUvgBuEMDcbEA">TS Playground</a> | <a href="source/float.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gMQDYQIYwC+cAZlBCHAORKoC0JKAzjFQNwBQHAJigMbY8UNCQCuAOz4xgEcXCYoYABRRQ+KcTDwBzFAB4AKnBQAPGBu5M440SABGqgHwAKbBu0wAFgC44OfDCGjgCUvgBuEMDcbEA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -1591,40 +1591,40 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `NegativeFloat` - A negative (`-∞ < x < 0`) `number` that is not an integer.
+- [`NegativeFloat`](source/negative-float.d.ts) - A negative (`-∞ < x < 0`) `number` that is not an integer.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/Q">TS Playground</a> | <a href="source/negative-float.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/Q">TS Playground</a>
 	</summary>
 
 	```ts
 	```
 	</details>
 
-- `Negative` - A negative `number`/`bigint` (`-∞ < x < 0`)
+- [`Negative`](source/negative.d.ts) - A negative `number`/`bigint` (`-∞ < x < 0`)
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/Q">TS Playground</a> | <a href="source/negative.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/Q">TS Playground</a>
 	</summary>
 
 	```ts
 	```
 	</details>
 
-- `NegativeInteger` - A negative (`-∞ < x < 0`) `number` that is an integer.
+- [`NegativeInteger`](source/negative-integer.d.ts) - A negative (`-∞ < x < 0`) `number` that is an integer.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/Q">TS Playground</a> | <a href="source/negative-integer.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/Q">TS Playground</a>
 	</summary>
 
 	```ts
 	```
 	</details>
 
-- `NonNegative` - A non-negative `number`/`bigint` (`0 <= x < ∞`).
+- [`NonNegative`](source/non-negative.d.ts) - A non-negative `number`/`bigint` (`0 <= x < ∞`).
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gOQgO0ygcwEMZgA3FAXzgDMoIQ4ByJVAWhpQGcYmBuAFACAJigDGAGyJQ0NAK44xpXHC4oYAGRQ4CMABYAeACpwUADxjbhXODjkgARiigA+ABQTtuvQC442PEISchRjFwBKPzIIYGE+IA">TS Playground</a> | <a href="source/non-negative.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gOQgO0ygcwEMZgA3FAXzgDMoIQ4ByJVAWhpQGcYmBuAFACAJigDGAGyJQ0NAK44xpXHC4oYAGRQ4CMABYAeACpwUADxjbhXODjkgARiigA+ABQTtuvQC442PEISchRjFwBKPzIIYGE+IA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -1634,10 +1634,10 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `NonNegativeInteger` - A non-negative (`0 <= x < ∞`) `number` that is an integer.
+- [`NonNegativeInteger`](source/non-negative-integer.d.ts) - A non-negative (`0 <= x < ∞`) `number` that is an integer.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gOQgO0ygcwEMZgA3FASRxkJSgF84AzKCEOAciVQFpmUAZxicA3AChxAExQBjADZEoaZgFccs0rjiCUMADIocBGAAsAPABU4KAB60cUwXByqQAI3oA+ABTyjJqYAXHDYeIQk5FQ0dFBWXgCUIWQQwFKiQA">TS Playground</a> | <a href="source/non-negative-integer.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gOQgO0ygcwEMZgA3FASRxkJSgF84AzKCEOAciVQFpmUAZxicA3AChxAExQBjADZEoaZgFccs0rjiCUMADIocBGAAsAPABU4KAB60cUwXByqQAI3oA+ABTyjJqYAXHDYeIQk5FQ0dFBWXgCUIWQQwFKiQA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -1649,10 +1649,10 @@ Click the type source for complete docs.
 
 ### Object
 
-- `CamelCasedPropertiesDeep` - Convert object properties to camel case recursively.
+- [`CamelCasedPropertiesDeep`](source/camel-cased-properties-deep.d.ts) - Convert object properties to camel case recursively.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gYQIYhQGxwGcUATABSglVmBSIBEUUwBfOAMypDgHIlUAWg70YvANwAoScAB2MFFA7YAxmgCqJKBkmbFASVIAuOLICuIAEaKpeqADlcKE0RhQ5AcymtpchUtUNLQB1YBgACwAxdxRZUiIdO31ZDggTO1staLo4onStAG0AXW9pFQhZVzgoejN8GBMcPEJsEgoqGhg6RmYwAB47UIjs2PiAPjgAXh0zLWTUk3RJWYNjOABGABplrUc8E14AFQgQXm3WbZWoEdyTAsklq8MTACZL3acDgClFKEQzyQXB47VYmADM70Ue2cfAAymBgABrFAAoFFc7iIA">TS Playground</a> | <a href="source/camel-cased-properties-deep.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gYQIYhQGxwGcUATABSglVmBSIBEUUwBfOAMypDgHIlUAWg70YvANwAoScAB2MFFA7YAxmgCqJKBkmbFASVIAuOLICuIAEaKpeqADlcKE0RhQ5AcymtpchUtUNLQB1YBgACwAxdxRZUiIdO31ZDggTO1staLo4onStAG0AXW9pFQhZVzgoejN8GBMcPEJsEgoqGhg6RmYwAB47UIjs2PiAPjgAXh0zLWTUk3RJWYNjOABGABplrUc8E14AFQgQXm3WbZWoEdyTAsklq8MTACZL3acDgClFKEQzyQXB47VYmADM70Ue2cfAAymBgABrFAAoFFc7iIA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -1687,10 +1687,10 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `CamelCasedProperties` - Convert object properties to camel case but not recursively.
+- [`CamelCasedProperties`](source/camel-cased-properties.d.ts) - Convert object properties to camel case but not recursively.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gYQIYhQGxwGcUATABSglVmBSIF84AzKkOAciVQFpn6YHANwAoEcAB2MFFGbYAxmgCqJKBhEqZASVIAuOBICuIAEYzRmqADlcKfURhRJAc1EMx8iBIdwo9Q-gw+jh4hNgkFFQ0MHREADyWAHxwALzqhqo6+gCMADQiGTI2ePocACoQIBz5DEJAA">TS Playground</a> | <a href="source/camel-cased-properties.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gYQIYhQGxwGcUATABSglVmBSIF84AzKkOAciVQFpn6YHANwAoEcAB2MFFGbYAxmgCqJKBhEqZASVIAuOBICuIAEYzRmqADlcKfURhRJAc1EMx8iBIdwo9Q-gw+jh4hNgkFFQ0MHREADyWAHxwALzqhqo6+gCMADQiGTI2ePocACoQIBz5DEJAA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -1708,10 +1708,10 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `ConditionalExcept` - Exclude keys from a shape that matches the given `Condition`.
+- [`ConditionalExcept`](source/conditional-except.d.ts) - Exclude keys from a shape that matches the given `Condition`.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gBSqYNgBuKANHAMIQB2AJnsFQIYA2AogB4DGKYMAvnADMoEEHADkSVAFoBKAM4wxAbgBQKjkwZy5cAIIB3eSLToVlBiBQAuOApyUA5qrkBXDl23yblFyABGKFCqAgzATC5QXnB+wA7AlDCqKlAulAAUAJQYvCo5KpJo7Fw82Lj4RHIAYsIgBkaWcAC85FS0+IysnNwwADx1csakpSB0RAB8qgD0k41jGCmUNplNcwQQwNS8QA">TS Playground</a> | <a href="source/conditional-except.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gBSqYNgBuKANHAMIQB2AJnsFQIYA2AogB4DGKYMAvnADMoEEHADkSVAFoBKAM4wxAbgBQKjkwZy5cAIIB3eSLToVlBiBQAuOApyUA5qrkBXDl23yblFyABGKFCqAgzATC5QXnB+wA7AlDCqKlAulAAUAJQYvCo5KpJo7Fw82Lj4RHIAYsIgBkaWcAC85FS0+IysnNwwADx1csakpSB0RAB8qgD0k41jGCmUNplNcwQQwNS8QA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -1730,10 +1730,10 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `ConditionalKeys` - Extract the keys from a type where the value type of the key extends the given `Condition`.
+- [`ConditionalKeys`](source/conditional-keys.d.ts) - Extract the keys from a type where the value type of the key extends the given `Condition`.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gYQgOwCbAzC4CGANgNIqIDOAvnAGZQQhwDkSqAtIyjTHYBuAFAjgOGCiiMSAYzQBRAB4lwZNOhEkAXHAFQJAc1EAjPQeNwAPnBwBXEKemi5AfgsxDOEyLx70OlE6MS40AGUvYypaAHkcMkQ4AF44bHxCYhxyGJoAHhU1MA0AGn0onwA+UQB6GuTKjhJ2IA">TS Playground</a> | <a href="source/conditional-keys.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gYQgOwCbAzC4CGANgNIqIDOAvnAGZQQhwDkSqAtIyjTHYBuAFAjgOGCiiMSAYzQBRAB4lwZNOhEkAXHAFQJAc1EAjPQeNwAPnBwBXEKemi5AfgsxDOEyLx70OlE6MS40AGUvYypaAHkcMkQ4AF44bHxCYhxyGJoAHhU1MA0AGn0onwA+UQB6GuTKjhJ2IA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -1751,10 +1751,10 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `ConditionalPickDeep` - Pick keys recursively from the shape that matches the given condition.
+- [`ConditionalPickDeep`](source/conditional-pick-deep.d.ts) - Pick keys recursively from the shape that matches the given condition.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gYQgOwCbAzC4CGANgArADGA1gCIopgC+cAZlBCHAORKoAtOxQBnGLwDcAKGnAcMFFHYlqaAKIAPEuDJp00kgC444qPIDmMgEYmzluAB841iBD0kcM6iYN47MOY4VtIovtLsAPwBQSEW0S5uHl7SABYxDs6u7iieMsAm2clOLsAW8jAyLDIAVoVJuSnV0iyyAmgAyoGWVHRwALxw2PiExDjkvQxMYAA8WjpgegA0pt3BAHwyAPRb-esYxquxknA+GP5Hliyt0u1wXbGTAPJgRKRkA0O4BG-jlDRTZhzbS6FArezBEoAV3wKHY8hQeE20h2ewOGWCJzO6AuEKscDCGCiGIs1xudwePQBL1+5CeODIiE+wx+YwmAMYQPmoPBaws0Nh8JwiJW6Go31GuBMvBQAEcoeRCIheCxkaj9mLfIT0MTLsEyW1kGgAEINTyTZkS2n-Oic2bcxZgxI5TwCvBwhFI7a7DXY7XxeounDVOB1Z3Ja6G1BwAByUJA1iUFsGLMlf0mduBC2WcBw8cTUDVPow5KN9z5TygpqDya+I2tGemWZ5ev5WTNOCLaIMOzgAEhDnjvf3bK2SkVGsO+9iUVt+33cXyp33tbP5330mP20G132+81e3uwxO8ruD3PS9HKcFK9Xks8GUyU1a2TbAfaQY7ebFxx3ReL6zGaU5QVMglRVLsNVHPFfyDLEtV8TcYO3CNriAA">TS Playground</a> | <a href="source/conditional-pick-deep.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gYQgOwCbAzC4CGANgArADGA1gCIopgC+cAZlBCHAORKoAtOxQBnGLwDcAKGnAcMFFHYlqaAKIAPEuDJp00kgC444qPIDmMgEYmzluAB841iBD0kcM6iYN47MOY4VtIovtLsAPwBQSEW0S5uHl7SABYxDs6u7iieMsAm2clOLsAW8jAyLDIAVoVJuSnV0iyyAmgAyoGWVHRwALxw2PiExDjkvQxMYAA8WjpgegA0pt3BAHwyAPRb-esYxquxknA+GP5Hliyt0u1wXbGTAPJgRKRkA0O4BG-jlDRTZhzbS6FArezBEoAV3wKHY8hQeE20h2ewOGWCJzO6AuEKscDCGCiGIs1xudwePQBL1+5CeODIiE+wx+YwmAMYQPmoPBaws0Nh8JwiJW6Go31GuBMvBQAEcoeRCIheCxkaj9mLfIT0MTLsEyW1kGgAEINTyTZkS2n-Oic2bcxZgxI5TwCvBwhFI7a7DXY7XxeounDVOB1Z3Ja6G1BwAByUJA1iUFsGLMlf0mduBC2WcBw8cTUDVPow5KN9z5TygpqDya+I2tGemWZ5ev5WTNOCLaIMOzgAEhDnjvf3bK2SkVGsO+9iUVt+33cXyp33tbP5330mP20G132+81e3uwxO8ruD3PS9HKcFK9Xks8GUyU1a2TbAfaQY7ebFxx3ReL6zGaU5QVMglRVLsNVHPFfyDLEtV8TcYO3CNriAA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -1808,10 +1808,10 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `ConditionalPick` - Pick keys from the shape that matches the given `Condition`.
+- [`ConditionalPick`](source/conditional-pick.d.ts) - Pick keys from the shape that matches the given `Condition`.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gBSqYNgBuKANHAMIQB2AJnsFQIYA2mwAxgNYC+cAZlBBBwA5ElQBaXigDOMYQG4AUIrZMG06XACCAdxmC06RZQYgUALjiyclAOZLpAVzZsZ0mZcqOQAIxRQlXgZgJkcoDzgfYFtgShglRShHSgAKAEoMLkUsxTE0Vk5sXHwiaQAxARBdfTM4AF5yKlp8RhZ2DgAeaukDUiKQOiIAPiUAelG6oYwTM0trWPsrZ1cNCK9ff3k+YNDw6UsomLiuIA">TS Playground</a> | <a href="source/conditional-pick.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gBSqYNgBuKANHAMIQB2AJnsFQIYA2mwAxgNYC+cAZlBBBwA5ElQBaXigDOMYQG4AUIrZMG06XACCAdxmC06RZQYgUALjiyclAOZLpAVzZsZ0mZcqOQAIxRQlXgZgJkcoDzgfYFtgShglRShHSgAKAEoMLkUsxTE0Vk5sXHwiaQAxARBdfTM4AF5yKlp8RhZ2DgAeaukDUiKQOiIAPiUAelG6oYwTM0trWPsrZ1cNCK9ff3k+YNDw6UsomLiuIA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -1830,10 +1830,10 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `DelimiterCasedPropertiesDeep` - Convert object properties to delimiter case recursively.
+- [`DelimiterCasedPropertiesDeep`](source/delimiter-cased-properties-deep.d.ts) - Convert object properties to delimiter case recursively.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gERQG1MGFKAYQEMBnFAEwAUoJVZgVzsUwBfOAM3pDgDkSVAFpuLGAIDcAKBnAAdoSjdSAYzQBVSlAwyArjoCSVAFxwF+kACMisw0QBypECnPkYURQHNZHOYrKqhpw2kQA6gQAFgBiXigKVOR6DlBGCtwQ5mFQ9jpxzInk2ToA2gC6fnJqEAoecFAs+jgw5th4IAREZJS09IwwzKwo7AA8OZEwsfFFADSCIgIAfHAAvHoCqSKKmQLm6DKbOttUe3AAjLOHWwouKGcCACoQIAJXHFdHRGIzSWelMgOXygJzOACZPjc7g8AFJEKCIN4yD6A67HYCncwAZkhx1urgeAGUwMAANb3d5XcrvKRAA">TS Playground</a> | <a href="source/delimiter-cased-properties-deep.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gERQG1MGFKAYQEMBnFAEwAUoJVZgVzsUwBfOAM3pDgDkSVAFpuLGAIDcAKBnAAdoSjdSAYzQBVSlAwyArjoCSVAFxwF+kACMisw0QBypECnPkYURQHNZHOYrKqhpw2kQA6gQAFgBiXigKVOR6DlBGCtwQ5mFQ9jpxzInk2ToA2gC6fnJqEAoecFAs+jgw5th4IAREZJS09IwwzKwo7AA8OZEwsfFFADSCIgIAfHAAvHoCqSKKmQLm6DKbOttUe3AAjLOHWwouKGcCACoQIAJXHFdHRGIzSWelMgOXygJzOACZPjc7g8AFJEKCIN4yD6A67HYCncwAZkhx1urgeAGUwMAANb3d5XcrvKRAA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -1868,10 +1868,10 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `DelimiterCasedProperties` - Convert object properties to delimiter case but not recursively.
+- [`DelimiterCasedProperties`](source/delimiter-cased-properties.d.ts) - Convert object properties to delimiter case but not recursively.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gERQG1MGFKAYQEMBnFAEwAUoJVZgVyBfOAM3pDgHIlUAWg4sYvANwAoScAB2hKB1IBjNAFVKUDJICumgJJUAXHFk6QAIyJS9RAHKkQKE+RhQ5AcymtpyiLNc4KBYdHBgTbDwQAiIySlp6RhhmcgAeDSIAGj5BXgA+OABebV5bKEFgKl4TAEZMyVLNQVlHFGq+ABUIEF561nEgA">TS Playground</a> | <a href="source/delimiter-cased-properties.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gERQG1MGFKAYQEMBnFAEwAUoJVZgVyBfOAM3pDgHIlUAWg4sYvANwAoScAB2hKB1IBjNAFVKUDJICumgJJUAXHFk6QAIyJS9RAHKkQKE+RhQ5AcymtpyiLNc4KBYdHBgTbDwQAiIySlp6RhhmcgAeDSIAGj5BXgA+OABebV5bKEFgKl4TAEZMyVLNQVlHFGq+ABUIEF561nEgA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -1889,10 +1889,10 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `EmptyObject` - Represents a strictly empty plain object, the `{}` value.
+- [`EmptyObject`](source/empty-object.d.ts) - Represents a strictly empty plain object, the `{}` value.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gUXEg8gIwCsUBjGAXzgDMoIQ4ByJVAWipQGcYGBuAKD4B6QXAAqACzRUIAGxkQA7sAB2AczjA5AVy5QAhjE4JJcMLXwyU9JTHFwABunL2AdHxIRlXahAgBGAC4MSgBeYJ44YTgABT0ODndPb2kIACYgpzgwgG0AXQio2PjEr3gUgGYM0LgAFlSCkSKEj1KfCBqqrIw9IL9yBpi4hKERAHVgWwdsMDwiUhh7OE8ZRGMpYChvEji0YA44ADc9GWAAEzcW73w9KEC4adniMi6nAaaSq5v0+5xEAif4GE6gMAGJ6TQfeDXKCVH4zP5zZ45fKRERgiGXKE3Dpwx7zF49OB9UHgmRAA">TS Playground</a> | <a href="source/empty-object.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gUXEg8gIwCsUBjGAXzgDMoIQ4ByJVAWipQGcYGBuAKD4B6QXAAqACzRUIAGxkQA7sAB2AczjA5AVy5QAhjE4JJcMLXwyU9JTHFwABunL2AdHxIRlXahAgBGAC4MSgBeYJ44YTgABT0ODndPb2kIACYgpzgwgG0AXQio2PjEr3gUgGYM0LgAFlSCkSKEj1KfCBqqrIw9IL9yBpi4hKERAHVgWwdsMDwiUhh7OE8ZRGMpYChvEji0YA44ADc9GWAAEzcW73w9KEC4adniMi6nAaaSq5v0+5xEAif4GE6gMAGJ6TQfeDXKCVH4zP5zZ45fKRERgiGXKE3Dpwx7zF49OB9UHgmRAA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -1912,10 +1912,10 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `IsEmptyObject` - Returns a `boolean` for whether the type is strictly equal to an empty plain object, the `{}` value.
+- [`IsEmptyObject`](source/is-empty-object.d.ts) - Returns a `boolean` for whether the type is strictly equal to an empty plain object, the `{}` value.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gSQM4FFxIDyARgFYoDGMAvnAGZQQhwDkSqAtHStjCwNwAoQezQAFAIbZscALxwc+METKUYAHnTUAfPzgB6fbO0IoAVxQjkaAGITgAGzkK8BRCXJV1AbQC6ugyMTOgkHbEtRODtHZ0U3DzV1ADszBwcAw2N6UPCgA">TS Playground</a> | <a href="source/is-empty-object.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gSQM4FFxIDyARgFYoDGMAvnAGZQQhwDkSqAtHStjCwNwAoQezQAFAIbZscALxwc+METKUYAHnTUAfPzgB6fbO0IoAVxQjkaAGITgAGzkK8BRCXJV1AbQC6ugyMTOgkHbEtRODtHZ0U3DzV1ADszBwcAw2N6UPCgA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -1927,10 +1927,10 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `Entries` - Many collections have an `entries` method which returns an array of a given object's own enumerable string-keyed property [key, value] pairs. The `Entries` type will return the type of that collection's entries.
+- [`Entries`](source/entries.d.ts) - Many collections have an `entries` method which returns an array of a given object's own enumerable string-keyed property [key, value] pairs. The `Entries` type will return the type of that collection's entries.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gUQHYysFAZwF84AzKCEOAciVQFoyiYaBuAKA+FxSjICGAYzSYAHgPAAbNOg6EqKANIpEALjjYAriABGfTsS5CI2QvBADswMFqkCYRHHgKE4AXjgAKFBOlENZ3wiAB5xSTAZAD4ASg8ouF8ImUIAOkswHz9ItHcEgG0OAHoiuAARCCI4BRA0AShdYDx6xDgwShFCQh4AczhTBAALNABrVW8AdybBhGQ0HjJoSxhgAYEANwFge10ZGI4k-3yABgBdVJgIAFUwVCgAYQFCFC8YgBouEvLKtxq6hqaUBabQ6RG62D6AxgwzgmykWjQXim0NmqDgCyWDlW2DgGy2Oz2B2yMnyAEZzpcAGLAMQoAAmrw4pxinA4JjM8EOOUCxNyGD+KnUcFJxE47PMiVwwTcngA8roAFYoIQwVIoKWuLLJFBxJ5wIKuMK8qJi0wSiBaGC2eCeSzWWz2RyEA1EHwaogsz6leVKlWENlm+AQRXKmDhfweDACDQi00c-ohlUuwiBd2EEL0FAQMgJ31h42R-L5GgCGhvYWnU6sr4AQSgQMQ-vF8HqDfDOULJbLFbjEtbAkQydTLlCmezuPrA-b0ULJ3LXdO5bJ5fJVa9cAAsgIwE3A3AMtO+dgUBNN9uvEWuyvK57m-vt0P9WmM3NxxkEp5L6Xr2viqUAMooDAu7xs8+bapGx6noBMAXleFa3nuYGPsmL6oOOyEFp+xbfrQpaLnAy4VlWQA">TS Playground</a> | <a href="source/entries.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gUQHYysFAZwF84AzKCEOAciVQFoyiYaBuAKA+FxSjICGAYzSYAHgPAAbNOg6EqKANIpEALjjYAriABGfTsS5CI2QvBADswMFqkCYRHHgKE4AXjgAKFBOlENZ3wiAB5xSTAZAD4ASg8ouF8ImUIAOkswHz9ItHcEgG0OAHoiuAARCCI4BRA0AShdYDx6xDgwShFCQh4AczhTBAALNABrVW8AdybBhGQ0HjJoSxhgAYEANwFge10ZGI4k-3yABgBdVJgIAFUwVCgAYQFCFC8YgBouEvLKtxq6hqaUBabQ6RG62D6AxgwzgmykWjQXim0NmqDgCyWDlW2DgGy2Oz2B2yMnyAEZzpcAGLAMQoAAmrw4pxinA4JjM8EOOUCxNyGD+KnUcFJxE47PMiVwwTcngA8roAFYoIQwVIoKWuLLJFBxJ5wIKuMK8qJi0wSiBaGC2eCeSzWWz2RyEA1EHwaogsz6leVKlWENlm+AQRXKmDhfweDACDQi00c-ohlUuwiBd2EEL0FAQMgJ31h42R-L5GgCGhvYWnU6sr4AQSgQMQ-vF8HqDfDOULJbLFbjEtbAkQydTLlCmezuPrA-b0ULJ3LXdO5bJ5fJVa9cAAsgIwE3A3AMtO+dgUBNN9uvEWuyvK57m-vt0P9WmM3NxxkEp5L6Xr2viqUAMooDAu7xs8+bapGx6noBMAXleFa3nuYGPsmL6oOOyEFp+xbfrQpaLnAy4VlWQA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -1970,10 +1970,10 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `Entry` - Many collections have an `entries` method which returns an array of a given object's own enumerable string-keyed property [key, value] pairs. The `Entry` type will return the type of that collection's entry.
+- [`Entry`](source/entry.d.ts) - Many collections have an `entries` method which returns an array of a given object's own enumerable string-keyed property [key, value] pairs. The `Entry` type will return the type of that collection's entry.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gUQHYyogXzgDMoIQ4ByJVAWmJQGcZKBuAKHeFxSmIEMAxmkwAPfuAA2adO0bkUAaRSIAXHGwBXEACNeHAp0ERszOCH7ZgYTZP4wmOPIjgBeOAAoU4qSnVP8AB4xCTBpAD4ASjdwuABtdgB6RLgAEQgmOHkQNH4oHWA8PJcwMmFGRm4AczgTBAALNABrFU8Ad0L6hGQ0bmJoCxhgOv4AN35gOx1pSPZvUOk4gAYAXQA6GAgAVTBUKABhfkYUD0iAGk5ktIzGLIU4PIKi-DhSiHLK7Bq6mEa4cckmjQHg6v26qDgfQG9mG2Ae40m-GmKFm818cQAjOtNgAxYCiFAAE1OFxWHHYxlM8DRYT8cBCvjcGGyShU6gxBA4lLMKFwL3cAHkdAArFCCGBrXl4YBMLw+WmRZYrB63AKIYLyiJckxmCCaGA2eDuCxWGx2ByMNVePmISLkq5C0XixgUnXwCAisUwBm0pnofjszmuqm1T3itX+G2BGgoCDEUNO72alCxdxxSj8ShnOBY+0pACCUCg-EQLu58DyxcQPukTPTmezueDZkrJbVAGVpV9I85oz04w8i23k6n4ktsxnKGTmxWh9WbQA5bR6KA9oIxget6sjusYxvTpIpACy-DAZbd5lPNbQ7mwKDacBPYA8cXrWZzKxWdpnl7AEfpUYbvGFh-juaaTvueZwO2KAwOeIbHEmCw3ho97QbBL4QR+37llksEdl2VRruqQF4Uhvijm+E6ZtOuGIWqS66LwxF9qgA70WB8R7h+rBAA">TS Playground</a> | <a href="source/entry.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gUQHYyogXzgDMoIQ4ByJVAWmJQGcZKBuAKHeFxSmIEMAxmkwAPfuAA2adO0bkUAaRSIAXHGwBXEACNeHAp0ERszOCH7ZgYTZP4wmOPIjgBeOAAoU4qSnVP8AB4xCTBpAD4ASjdwuABtdgB6RLgAEQgmOHkQNH4oHWA8PJcwMmFGRm4AczgTBAALNABrFU8Ad0L6hGQ0bmJoCxhgOv4AN35gOx1pSPZvUOk4gAYAXQA6GAgAVTBUKABhfkYUD0iAGk5ktIzGLIU4PIKi-DhSiHLK7Bq6mEa4cckmjQHg6v26qDgfQG9mG2Ae40m-GmKFm818cQAjOtNgAxYCiFAAE1OFxWHHYxlM8DRYT8cBCvjcGGyShU6gxBA4lLMKFwL3cAHkdAArFCCGBrXl4YBMLw+WmRZYrB63AKIYLyiJckxmCCaGA2eDuCxWGx2ByMNVePmISLkq5C0XixgUnXwCAisUwBm0pnofjszmuqm1T3itX+G2BGgoCDEUNO72alCxdxxSj8ShnOBY+0pACCUCg-EQLu58DyxcQPukTPTmezueDZkrJbVAGVpV9I85oz04w8i23k6n4ktsxnKGTmxWh9WbQA5bR6KA9oIxget6sjusYxvTpIpACy-DAZbd5lPNbQ7mwKDacBPYA8cXrWZzKxWdpnl7AEfpUYbvGFh-juaaTvueZwO2KAwOeIbHEmCw3ho97QbBL4QR+37llksEdl2VRruqQF4Uhvijm+E6ZtOuGIWqS66LwxF9qgA70WB8R7h+rBAA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -2015,10 +2015,10 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `Except` - Create a type from an object type without certain keys.
+- [`Except`](source/except.d.ts) - Create a type from an object type without certain keys.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gUQB4GMVgwC+cAZlBCHAORKoC0pKAzjNQNwBQndaAYhAhwAvBk4BDAFxwAdgFcQAIxRQui6ayjAZAcy5EuPZP0EB1YDAAWEOTACCIuDnyEAPAIgAaGuOoA+LgB6QOE-DHU4TW0dIm5cCBlWMjMLa1s7aQ9zKxt7R3QpOABGbwjqACZqA05g0LgVCihmaWpfOAATCBZZCHgUbGAk7QRjGnQ4CKjddjgiam5eOCzU3IAhR2cCGHdBb2pFam90KBQARzlgE5xxXBgABQowZoQoORQiAJqQsILpeSUVCQAGRwO7iWDAcQAG1cACUUPEoO1XAAiRQo7wyFAANxUfj8cQSSVIKRytlWmVJaRg61Ev2KpRalWqtTCDWgzDg4ng+2o0gAKqNqFMdNQ4IMevBxMxmMAdDJxIooWgYEJFtQ5DJ2ihSNoUO1qAA6IA">TS Playground</a> | <a href="source/except.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gUQB4GMVgwC+cAZlBCHAORKoC0pKAzjNQNwBQndaAYhAhwAvBk4BDAFxwAdgFcQAIxRQui6ayjAZAcy5EuPZP0EB1YDAAWEOTACCIuDnyEAPAIgAaGuOoA+LgB6QOE-DHU4TW0dIm5cCBlWMjMLa1s7aQ9zKxt7R3QpOABGbwjqACZqA05g0LgVCihmaWpfOAATCBZZCHgUbGAk7QRjGnQ4CKjddjgiam5eOCzU3IAhR2cCGHdBb2pFam90KBQARzlgE5xxXBgABQowZoQoORQiAJqQsILpeSUVCQAGRwO7iWDAcQAG1cACUUPEoO1XAAiRQo7wyFAANxUfj8cQSSVIKRytlWmVJaRg61Ev2KpRalWqtTCDWgzDg4ng+2o0gAKqNqFMdNQ4IMevBxMxmMAdDJxIooWgYEJFtQ5DJ2ihSNoUO1qAA6IA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -2043,10 +2043,10 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `Get` - Get a deeply-nested property from an object using a key path, like Lodash's `.get()` function.
+- [`Get`](source/get.d.ts) - Get a deeply-nested property from an object using a key path, like Lodash's `.get()` function.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gcRTAvnAMyghDgHIlUBaAlAZxjIG4AoUSWOAKjgEM64AGwgATfgAtCxUmWFi645ixYBjCADsGcAOY44AXjgAeAEL8UAFWQoANHAAKvGJJQAPGCnUiBDKMHXacAA+cFAovCIagohwvv7aANoAugB8ABQQAEYAVigqMABccGZ0ltZ2YE7iRY7OAJRF2DCm5laodrXiKQYpLHISAHS6MBk5eTAVVXWsbOoeUAS8KmgAgmDAAEr0kJpo6CziwDB0RfuHx0UrUFC8iEb7APrAIkVxASwPdBAArlDLpyx1LwQChLtdbvcWNpgAA3TyvGB+ALJFiLEDAaIIpHaFi4XqZYCwcQAEScoNiiPiuNxvVw1NUGi0wwAcsC0IY0rx1ls6DtSpdudtGSg6j0oThOYLecK7GRznQBvKEgAGJIDT4-P4oAZAkFkaYsAD0hv03SuNzu6GhcPUWPiySYhGBGMQdoCeOCcG+XhQBH8KBEymNDiqfEEX1i3zAHGOfFC4Ui6mifHBMQgBAp2LoDM08BZbIA6kdxJ1zbcDHBJZshbsBdXpbtRabxSMufW+bY4Ak5Uc6GQbD3jv3yMrh2QNb9lmPdSgyEk+AI1LmDcbTXAy5brfDM-ako60S63doPSFvSJff7A0bDXBmRoqHF8nAQKJQSwmkY3okkrKAMzD9BH0KJ1wxQD1V26L93xwIwtjUKARE-SkAjsL8UllAgIAgACgKKRFvjA7pgzXL8gA">TS Playground</a> | <a href="source/get.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gcRTAvnAMyghDgHIlUBaAlAZxjIG4AoUSWOAKjgEM64AGwgATfgAtCxUmWFi645ixYBjCADsGcAOY44AXjgAeAEL8UAFWQoANHAAKvGJJQAPGCnUiBDKMHXacAA+cFAovCIagohwvv7aANoAugB8ABQQAEYAVigqMABccGZ0ltZ2YE7iRY7OAJRF2DCm5laodrXiKQYpLHISAHS6MBk5eTAVVXWsbOoeUAS8KmgAgmDAAEr0kJpo6CziwDB0RfuHx0UrUFC8iEb7APrAIkVxASwPdBAArlDLpyx1LwQChLtdbvcWNpgAA3TyvGB+ALJFiLEDAaIIpHaFi4XqZYCwcQAEScoNiiPiuNxvVw1NUGi0wwAcsC0IY0rx1ls6DtSpdudtGSg6j0oThOYLecK7GRznQBvKEgAGJIDT4-P4oAZAkFkaYsAD0hv03SuNzu6GhcPUWPiySYhGBGMQdoCeOCcG+XhQBH8KBEymNDiqfEEX1i3zAHGOfFC4Ui6mifHBMQgBAp2LoDM08BZbIA6kdxJ1zbcDHBJZshbsBdXpbtRabxSMufW+bY4Ak5Uc6GQbD3jv3yMrh2QNb9lmPdSgyEk+AI1LmDcbTXAy5brfDM-ako60S63doPSFvSJff7A0bDXBmRoqHF8nAQKJQSwmkY3okkrKAMzD9BH0KJ1wxQD1V26L93xwIwtjUKARE-SkAjsL8UllAgIAgACgKKRFvjA7pgzXL8gA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -2086,10 +2086,10 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `KebabCasedPropertiesDeep` - Convert object properties to kebab case recursively.
+- [`KebabCasedPropertiesDeep`](source/kebab-cased-properties-deep.d.ts) - Convert object properties to kebab case recursively.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA2gaRQIwIY4DCeAzigCYAKUEqswKJAIiimALpwBmNIcA5ElQBaLoxj8A3AChpwAHYwUULngDGaAKpkocAN7SArjoCS5AFxx5hkDmUzjygHJ4QKSyRhQFAcxkBfWQUlFXUtHQB1YBgACwAxbxR5chJ9I1N5LghLbXt05QSGZJIcnXR2ANk1CHlPOChGQwAbGEtsfCJSCmpaZRgGZlYwAB5cqCjYwqSUgD44AF40-kcoYQUs-ksDZZ018k24AEYAGmkd5WF5VxQD-gAVCBB+U-9T89WeIpSD9Gltlb2BwATG8AVc3LcAFLKKCIZ7SV5-M4A4D7SwAZlBu3BN0s-AAymBgABrG4vU7sF6SIA">TS Playground</a> | <a href="source/kebab-cased-properties-deep.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA2gaRQIwIY4DCeAzigCYAKUEqswKJAIiimALpwBmNIcA5ElQBaLoxj8A3AChpwAHYwUULngDGaAKpkocAN7SArjoCS5AFxx5hkDmUzjygHJ4QKSyRhQFAcxkBfWQUlFXUtHQB1YBgACwAxbxR5chJ9I1N5LghLbXt05QSGZJIcnXR2ANk1CHlPOChGQwAbGEtsfCJSCmpaZRgGZlYwAB5cqCjYwqSUgD44AF40-kcoYQUs-ksDZZ018k24AEYAGmkd5WF5VxQD-gAVCBB+U-9T89WeIpSD9Gltlb2BwATG8AVc3LcAFLKKCIZ7SV5-M4A4D7SwAZlBu3BN0s-AAymBgABrG4vU7sF6SIA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -2124,10 +2124,10 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `KebabCasedProperties` - Convert object properties to kebab case but not recursively.
+- [`KebabCasedProperties`](source/kebab-cased-properties.d.ts) - Convert object properties to kebab case but not recursively.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gaRQIwIY4DCeAzigCYAKUEqswKJAvnAGY0hwDkSqAtK0YwuAbgBQY4ADsYKKKzwBjNAFUyUDGICu6gJLkAXHClaQOOeJ1yAcnhAojJGFGkBzcUwmKIUp3CiMWgA2MEbY+ESkFNS0cjAMJAA8anIAfHAAvJpcVlB8wORcRgCMADRiOep8UnYoRdwAKhAgXOVMIkA">TS Playground</a> | <a href="source/kebab-cased-properties.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gaRQIwIY4DCeAzigCYAKUEqswKJAvnAGY0hwDkSqAtK0YwuAbgBQY4ADsYKKKzwBjNAFUyUDGICu6gJLkAXHClaQOOeJ1yAcnhAojJGFGkBzcUwmKIUp3CiMWgA2MEbY+ESkFNS0cjAMJAA8anIAfHAAvJpcVlB8wORcRgCMADRiOep8UnYoRdwAKhAgXOVMIkA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -2145,10 +2145,10 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `LiteralToPrimitiveDeep` - Like `LiteralToPrimitive` except it converts literal types inside an object or array deeply.
+- [`LiteralToPrimitiveDeep`](source/literal-to-primitive-deep.d.ts) - Like `LiteralToPrimitive` except it converts literal types inside an object or array deeply.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gGWDFUCGANgCoQAKUoOwAbigCIopgA0cxAzgMIQB2AZsADmAKQ58AvnH5QIIOAHIkqALT8UHGAoDcAKFCRYCDgGM+godNnyFYfDAAWAehgQXp88IB0AK3G8dXV1+AFdeExhgPjgAEwgAZTkUR2BeIQB1HAdieJ4BYQAKM3yhAC44bFwCEnJKEGo6RmYAHk48izE+AD4ASgw4L0G4CSCnJzgAOQg4E3xNVMtgDjheJhiUGIRpuw5lxzRlNBMHFBMAa104xJBkhwXMxxz2wpgPEp69XTG4AEl+CpweCIpAoVEijSYYDgSxWEHgIQ4GzYiAgIRWay2Mzm8H20PA0Fwmxi9nwcEIwDOBzuHFKlwSSRSaQe2VyniEBVexQscDm7G4bM6vA+QA">TS Playground</a> | <a href="source/literal-to-primitive-deep.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gGWDFUCGANgCoQAKUoOwAbigCIopgA0cxAzgMIQB2AZsADmAKQ58AvnH5QIIOAHIkqALT8UHGAoDcAKFCRYCDgGM+godNnyFYfDAAWAehgQXp88IB0AK3G8dXV1+AFdeExhgPjgAEwgAZTkUR2BeIQB1HAdieJ4BYQAKM3yhAC44bFwCEnJKEGo6RmYAHk48izE+AD4ASgw4L0G4CSCnJzgAOQg4E3xNVMtgDjheJhiUGIRpuw5lxzRlNBMHFBMAa104xJBkhwXMxxz2wpgPEp69XTG4AEl+CpweCIpAoVEijSYYDgSxWEHgIQ4GzYiAgIRWay2Mzm8H20PA0Fwmxi9nwcEIwDOBzuHFKlwSSRSaQe2VyniEBVexQscDm7G4bM6vA+QA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -2165,10 +2165,10 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `MergeDeep` - Merge two objects or two arrays/tuples recursively into a new type.
+- [`MergeDeep`](source/merge-deep.d.ts) - Merge two objects or two arrays/tuples recursively into a new type.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gWRVA5igERRTAF84AzKCEOAciVQFoKUBnGOgbgCgfG0AMQgQ4AXgw8ANsFYAuOADsAriABGOXsBgoQbBRyjBFuANoBdXgEMF6NQZhGTXOAGMFakVJRXFLgCYKKuo4FqS84XzGOlAUVq5oAEJWUJKKViAoDk64Wjp6QaoaUBbWtvZKRZpwgXCeEN6+YRF8AnDCEMmpEth4hMRgADwdADRwXQB8vAD005KzcACQMvKVIVAzc4vpmdnGuTwLi9q6+mvFpYdbNhgVwcUu7nVePn41Hi9N5pELpK3IQhEXXEcF6+CIJGGIjGXTG6BSUCsiDBKEwEH8WXobDAUB8-jopCmV3mWxWmPummJ2wymMM+02SxOBTgAAo6SY4AAfc44ACUlyONzshXWjw+DVeAQULIpqW59Uain53wZpCAA">TS Playground</a> | <a href="source/merge-deep.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gWRVA5igERRTAF84AzKCEOAciVQFoKUBnGOgbgCgfG0AMQgQ4AXgw8ANsFYAuOADsAriABGOXsBgoQbBRyjBFuANoBdXgEMF6NQZhGTXOAGMFakVJRXFLgCYKKuo4FqS84XzGOlAUVq5oAEJWUJKKViAoDk64Wjp6QaoaUBbWtvZKRZpwgXCeEN6+YRF8AnDCEMmpEth4hMRgADwdADRwXQB8vAD005KzcACQMvKVIVAzc4vpmdnGuTwLi9q6+mvFpYdbNhgVwcUu7nVePn41Hi9N5pELpK3IQhEXXEcF6+CIJGGIjGXTG6BSUCsiDBKEwEH8WXobDAUB8-jopCmV3mWxWmPummJ2wymMM+02SxOBTgAAo6SY4AAfc44ACUlyONzshXWjw+DVeAQULIpqW59Uain53wZpCAA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -2204,10 +2204,10 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `MergeExclusive` - Create a type that has mutually exclusive keys.
+- [`MergeExclusive`](source/merge-exclusive.d.ts) - Create a type that has mutually exclusive keys.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gWRVA5igUQA8BjAGwFcBnYANxQF84AzKCEOAciVQFpmUVGJwDcAKDHAAdjBzMAhiTTFy1OigBq8qMHkxgEKQEYMYlKUo16RgFxwARhAhkU8qeIYTpsqAqVwVS3UtHT0DKQAmU3NVKxQIuyEdKVwPCR5lCzV6AHkwfUMqOABeOGw8Qiy4gB5A7M1tXQLjABoAquDGsMMIgD5xMRd4GKDc-PCqOzq4vOaqAZH62YmSjEW42wQoCkZxAHo94t64AHVoAGsqMw6xudX0dfUErgALYE4GfcPjs6hL69i6mWhXuj2sdhg2xQbTB8TsnDeHy+RwCUDYUCAA">TS Playground</a> | <a href="source/merge-exclusive.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gWRVA5igUQA8BjAGwFcBnYANxQF84AzKCEOAciVQFpmUVGJwDcAKDHAAdjBzMAhiTTFy1OigBq8qMHkxgEKQEYMYlKUo16RgFxwARhAhkU8qeIYTpsqAqVwVS3UtHT0DKQAmU3NVKxQIuyEdKVwPCR5lCzV6AHkwfUMqOABeOGw8Qiy4gB5A7M1tXQLjABoAquDGsMMIgD5xMRd4GKDc-PCqOzq4vOaqAZH62YmSjEW42wQoCkZxAHo94t64AHVoAGsqMw6xudX0dfUErgALYE4GfcPjs6hL69i6mWhXuj2sdhg2xQbTB8TsnDeHy+RwCUDYUCAA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -2234,10 +2234,10 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `Merge` - Merge two types into a new type. Keys of the second type overrides keys of the first type.
+- [`Merge`](source/merge.d.ts) - Merge two types into a new type. Keys of the second type overrides keys of the first type.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gWRVA5igXzgDMoIQ4ByJVAWmJQGcZKBuAKHeADsYdiAhgGM0AMQgQM7ANoAPAFxxmUHrgC6igK7cA1twgB3bhzmLumkACMcGuNr2Hj7YhMXLVHSwKhvEViAA2HAScNGgAQt5wALxSpnDmVjZmFtZQJgpKfpaBtvb6Rp7eigAiAnxFAF6KOYEoAk4EHOwospCwCMhiEpFQMXDYeCgAPOIQADRwvQB8HAD0czHTUgtwAJDx7tzqWroFTqsbmYlptic484tHvv4BeXuOl+suEG4wKttPa14+cGUV7EOXmqcFqAXqB0WBCAA">TS Playground</a> | <a href="source/merge.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gWRVA5igXzgDMoIQ4ByJVAWmJQGcZKBuAKHeADsYdiAhgGM0AMQgQM7ANoAPAFxxmUHrgC6igK7cA1twgB3bhzmLumkACMcGuNr2Hj7YhMXLVHSwKhvEViAA2HAScNGgAQt5wALxSpnDmVjZmFtZQJgpKfpaBtvb6Rp7eigAiAnxFAF6KOYEoAk4EHOwospCwCMhiEpFQMXDYeCgAPOIQADRwvQB8HAD0czHTUgtwAJDx7tzqWroFTqsbmYlptic484tHvv4BeXuOl+suEG4wKttPa14+cGUV7EOXmqcFqAXqB0WBCAA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -2269,10 +2269,10 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `OmitIndexSignature` - Omit any index signatures from the given object type, leaving only explicitly defined properties.
+- [`OmitIndexSignature`](source/omit-index-signature.d.ts) - Omit any index signatures from the given object type, leaving only explicitly defined properties.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3geRMGBJAOwBMUAPAZWAHMCBDGAVyhQF84AzKCEOAciVQBadigDOMXgG4AUNOAEYKKO1oBjNAFFStcABs06aQHojcACoALMWnklScUdTqNmouAHdgu3XABGaZhAIADcUIgA6aQBtUgAuBxgoeSoAXXjaAkRouLgCBhB-KDS4DKyY+NFEAohdYtLs+IADK1oiQQASdHEkgioWRuLu5Ia4Rs6h3pZBGFovAYrE4fLRlrbxxcnp2d15hJ6qEbH0X2p5GH7BjYPlxpQCsJI19Dz7qAuF-dkTcytRNDIwLpgKpcLpEHASOx5GE4ABrFCINyebxwQKzAiRdgQCDxXi+WhQKTSACODFIAH5cfiAF5EliyASabR6FAAdVwFggDHwxDIlBo9CYYjgAF44NhcIQ7PznEKADxaHSAlAAPhk3xFKowHGxVIJUjgpIpetpcAAPnAGLyoQQwpI4CwgA">TS Playground</a> | <a href="source/omit-index-signature.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3geRMGBJAOwBMUAPAZWAHMCBDGAVyhQF84AzKCEOAciVQBadigDOMXgG4AUNOAEYKKO1oBjNAFFStcABs06aQHojcACoALMWnklScUdTqNmouAHdgu3XABGaZhAIADcUIgA6aQBtUgAuBxgoeSoAXXjaAkRouLgCBhB-KDS4DKyY+NFEAohdYtLs+IADK1oiQQASdHEkgioWRuLu5Ia4Rs6h3pZBGFovAYrE4fLRlrbxxcnp2d15hJ6qEbH0X2p5GH7BjYPlxpQCsJI19Dz7qAuF-dkTcytRNDIwLpgKpcLpEHASOx5GE4ABrFCINyebxwQKzAiRdgQCDxXi+WhQKTSACODFIAH5cfiAF5EliyASabR6FAAdVwFggDHwxDIlBo9CYYjgAF44NhcIQ7PznEKADxaHSAlAAPhk3xFKowHGxVIJUjgpIpetpcAAPnAGLyoQQwpI4CwgA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -2299,10 +2299,10 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `OverrideProperties` - Override existing properties of the given type. Similar to `Merge`, but enforces that the original type has the properties you want to override.
+- [`OverrideProperties`](source/override-properties.d.ts) - Override existing properties of the given type. Similar to `Merge`, but enforces that the original type has the properties you want to override.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/C4TwDgpgBAYg9nKBeKBvAUAQwFxQM7ABOAlgHYDm6ARrgSRegL7qiRQBCmhyUA8gG4RCJACYQACoTiRCwYhDwAeeHAA0aGlFIBXALZUhjAHzoA9KaRG0OfETLl1mnfsPoW4aJwBePAUNESUjJyCsoI6qgAxrjOBoTGZqZQAKLCcITqrNAA5KhQ0Vp6cQDcUIzZUCJwClpwwPiYcngAZiBQwAAW0JFwpHSYZPW5+TEQgoSl5W5ZsMRePih+wsRiktJCIUoqEU5FQqUFsYYm5ilpGe0eUMO7LhMjhXeTFVU1pHUNTa3tXfm9-YNrnlbiUHqQxvsytkgA">TS Playground</a> | <a href="source/override-properties.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/C4TwDgpgBAYg9nKBeKBvAUAQwFxQM7ABOAlgHYDm6ARrgSRegL7qiRQBCmhyUA8gG4RCJACYQACoTiRCwYhDwAeeHAA0aGlFIBXALZUhjAHzoA9KaRG0OfETLl1mnfsPoW4aJwBePAUNESUjJyCsoI6qgAxrjOBoTGZqZQAKLCcITqrNAA5KhQ0Vp6cQDcUIzZUCJwClpwwPiYcngAZiBQwAAW0JFwpHSYZPW5+TEQgoSl5W5ZsMRePih+wsRiktJCIUoqEU5FQqUFsYYm5ilpGe0eUMO7LhMjhXeTFVU1pHUNTa3tXfm9-YNrnlbiUHqQxvsytkgA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -2321,10 +2321,10 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `PartialDeep` - Create a type from another type with all keys and nested keys set to optional.
+- [`PartialDeep`](source/partial-deep.d.ts) - Create a type from another type with all keys and nested keys set to optional.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gBQIa2NgGwBEUUwBfOAMyghDgHIlUBaKlAZxgYG4AoPgGMIAOy5wOKGDGAiA5hwBccAMpSZ8jnAC8GPjBQAPGAFEAJsBjRl6PlVEwVwAF4plARgAs-eyJgBhCAJrRgBiAAZIqN47BwB1FGA5AAsYZU9I-nI+bABXK2FwAik3akJJfjyrDmwAN1KYKFyULP4hUXFsMDACRBU6lDM1aVkFHTgAChr6ofVRpTgcPEISMgAeYY0FAD4ASh1tvSgpXKgRDAA6K8kRzQAaOCuL6cHN+fIsgRutrV0unr6A1mtwUE3QBmM5ksIXQvhgCSSqWUAFZIuRyLseEA">TS Playground</a> | <a href="source/partial-deep.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gBQIa2NgGwBEUUwBfOAMyghDgHIlUBaKlAZxgYG4AoPgGMIAOy5wOKGDGAiA5hwBccAMpSZ8jnAC8GPjBQAPGAFEAJsBjRl6PlVEwVwAF4plARgAs-eyJgBhCAJrRgBiAAZIqN47BwB1FGA5AAsYZU9I-nI+bABXK2FwAik3akJJfjyrDmwAN1KYKFyULP4hUXFsMDACRBU6lDM1aVkFHTgAChr6ofVRpTgcPEISMgAeYY0FAD4ASh1tvSgpXKgRDAA6K8kRzQAaOCuL6cHN+fIsgRutrV0unr6A1mtwUE3QBmM5ksIXQvhgCSSqWUAFZIuRyLseEA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -2348,10 +2348,10 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `PartialOnUndefinedDeep` - Create a deep version of another type where all keys accepting `undefined` type are set to optional.
+- [`PartialOnUndefinedDeep`](source/partial-on-undefined-deep.d.ts) - Create a deep version of another type where all keys accepting `undefined` type are set to optional.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gBQIa2NgGwHkA7AVRIBMUAzYElSgERRTAF84aoIQ4ByJKgC0NFAGcY-ANwAoWfRgooNbAGM0AZRQwY9AObiMsiGD0QSAQQBccSVANzT5kgCFbJAK4gARsrgAPnCeVLT0jHLinj5EZsAWtuiyUTFxFjZwPhAQBCjYJJHRsS7umdm5+YHBoXQMlHLssuxysmoWkggSMNq6BuK2OHiEpBTUtYwsbAA8PXokhgB8cAC8xs7xVrb8NNn8ADSyAPSHcIC8G4CSO3DrFq5wwEYkEADuV2kkhHD5lHBqlX5XIGAukYySKb0SoNSLgyMCgnhQB2OZ0uKWKG1u9zgjxe13eBE+RieKAI+K+Pz+aF4QKUlCaB2aQA">TS Playground</a> | <a href="source/partial-on-undefined-deep.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gBQIa2NgGwHkA7AVRIBMUAzYElSgERRTAF84aoIQ4ByJKgC0NFAGcY-ANwAoWfRgooNbAGM0AZRQwY9AObiMsiGD0QSAQQBccSVANzT5kgCFbJAK4gARsrgAPnCeVLT0jHLinj5EZsAWtuiyUTFxFjZwPhAQBCjYJJHRsS7umdm5+YHBoXQMlHLssuxysmoWkggSMNq6BuK2OHiEpBTUtYwsbAA8PXokhgB8cAC8xs7xVrb8NNn8ADSyAPSHcIC8G4CSO3DrFq5wwEYkEADuV2kkhHD5lHBqlX5XIGAukYySKb0SoNSLgyMCgnhQB2OZ0uKWKG1u9zgjxe13eBE+RieKAI+K+Pz+aF4QKUlCaB2aQA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -2377,10 +2377,10 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `PascalCasedPropertiesDeep` - Convert object properties to pascal case recursively.
+- [`PascalCasedPropertiesDeep`](source/pascal-cased-properties-deep.d.ts) - Convert object properties to pascal case recursively.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gBQIYGcDG2ANgMJ4oAmmUEqswKuAIiimAL5wBmNIcA5ElQBaLoxj8A3AChpwAHYwUULtnxoAqrmUZpAV21QAkhQBcceXpAAjZTIPKActhApzuGFAUBzGe1kKSipqmoYA6sAwABYAYl4o8hS4ug7G8lwQ5lp2+oZxDIm4WYYA2gC6frL4EPIecFCMekQw5jgExGTaVDR0MAzMrGAAPNlQEdH5CUkAfHAAvLqjRumZi4Ym5gCMADTSo86u5vwAKhAg-Lvsu6OTheYl0uh762ZwAEzXhgduAgBSylBEBdpFdHs9lBs4ABmT5OFw-fgAZTAwAA1ihgaCypdJEA">TS Playground</a> | <a href="source/pascal-cased-properties-deep.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gBQIYGcDG2ANgMJ4oAmmUEqswKuAIiimAL5wBmNIcA5ElQBaLoxj8A3AChpwAHYwUULtnxoAqrmUZpAV21QAkhQBcceXpAAjZTIPKActhApzuGFAUBzGe1kKSipqmoYA6sAwABYAYl4o8hS4ug7G8lwQ5lp2+oZxDIm4WYYA2gC6frL4EPIecFCMekQw5jgExGTaVDR0MAzMrGAAPNlQEdH5CUkAfHAAvLqjRumZi4Ym5gCMADTSo86u5vwAKhAg-Lvsu6OTheYl0uh762ZwAEzXhgduAgBSylBEBdpFdHs9lBs4ABmT5OFw-fgAZTAwAA1ihgaCypdJEA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -2415,10 +2415,10 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `PascalCasedProperties` - Convert object properties to pascal case but not recursively.
+- [`PascalCasedProperties`](source/pascal-cased-properties.d.ts) - Convert object properties to pascal case but not recursively.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gBQIYGcDG2ANgMJ4oAmmUEqswKuAvnAGY0hwDkSqAtK0YwuAbgBQY4ADsYKKK2z40AVVxyMYgK5qoASQoAuOFM0gARnPHa5AOWwgUR3DCjSA5uKYT8EKc7hQjJpEMEY4BMRkalQ0dDAMuAA8qnIAfHAAvBopeoZwAIwANGI5dg5GXAAqECBcxUwiQA">TS Playground</a> | <a href="source/pascal-cased-properties.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gBQIYGcDG2ANgMJ4oAmmUEqswKuAvnAGY0hwDkSqAtK0YwuAbgBQY4ADsYKKK2z40AVVxyMYgK5qoASQoAuOFM0gARnPHa5AOWwgUR3DCjSA5uKYT8EKc7hQjJpEMEY4BMRkalQ0dDAMuAA8qnIAfHAAvBopeoZwAIwANGI5dg5GXAAqECBcxUwiQA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -2436,10 +2436,10 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `PickIndexSignature` - Pick only index signatures from the given object type, leaving out all explicitly defined properties.
+- [`PickIndexSignature`](source/pick-index-signature.d.ts) - Pick only index signatures from the given object type, leaving out all explicitly defined properties.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gBWAYwNYCSAdgCYoAeAysAOZECGMArlCgL5wBmUEIcA5ElQBaTigDOMfgG4AULLI4ANvVZwcEIpLjjEIAEYQlAaRSIAXHCZFgARyZpdBo3NlC0AUXL1wStAF4MWQB6YLgAFQALCTRgUgodWgZmVnE4AHdgJSU4VhB6OIA6WQBtcktJKDiaAF1LazwiCHSiOTLLIiYDFCg6qyJG5tbS8p09QyU+hqaWttGAA2j6EmEAEnRK6rZ5vs2iGjnLefW9mjZhGAKlHYqYKv3DuEWUZbWNu62Lq5udD4eRo7rfS0OIwba7P4HAFPFDdEhkFbrTrdKDg273KEhMJRGJwChgJS4YAwJSIOBkThxFAkOB4MxpTLZOD6NB5CAAN2pxRK-HEDDpwhw9HEKGEdMQ-AhGLaTgmpkQUuqck4EAgln4+lUMlk9nIAH51ZqAF7atiudxwLw+AkoYhkKhJRgsAJwbD4O0Uah0J2sAA8Vt8KAAfHJQkEwwBIdq-DFTAYzYaR6PIlm9erxoahsJR0ayoxxwazLFwHNHJaI94YtExpXF0tPE6Q86XLI-U5ZkvR56vRtVr6txX-JMLIEgohgtuQjv1+awlnw6lvFM9avt4tsIA">TS Playground</a> | <a href="source/pick-index-signature.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gBWAYwNYCSAdgCYoAeAysAOZECGMArlCgL5wBmUEIcA5ElQBaTigDOMfgG4AULLI4ANvVZwcEIpLjjEIAEYQlAaRSIAXHCZFgARyZpdBo3NlC0AUXL1wStAF4MWQB6YLgAFQALCTRgUgodWgZmVnE4AHdgJSU4VhB6OIA6WQBtcktJKDiaAF1LazwiCHSiOTLLIiYDFCg6qyJG5tbS8p09QyU+hqaWttGAA2j6EmEAEnRK6rZ5vs2iGjnLefW9mjZhGAKlHYqYKv3DuEWUZbWNu62Lq5udD4eRo7rfS0OIwba7P4HAFPFDdEhkFbrTrdKDg273KEhMJRGJwChgJS4YAwJSIOBkThxFAkOB4MxpTLZOD6NB5CAAN2pxRK-HEDDpwhw9HEKGEdMQ-AhGLaTgmpkQUuqck4EAgln4+lUMlk9nIAH51ZqAF7atiudxwLw+AkoYhkKhJRgsAJwbD4O0Uah0J2sAA8Vt8KAAfHJQkEwwBIdq-DFTAYzYaR6PIlm9erxoahsJR0ayoxxwazLFwHNHJaI94YtExpXF0tPE6Q86XLI-U5ZkvR56vRtVr6txX-JMLIEgohgtuQjv1+awlnw6lvFM9avt4tsIA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -2479,10 +2479,10 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `ReadonlyDeep` - Convert `object`s, `Map`s, `Set`s, and `Array`s and all of their keys/elements into immutable structures recursively.
+- [`ReadonlyDeep`](source/readonly-deep.d.ts) - Convert `object`s, `Map`s, `Set`s, and `Array`s and all of their keys/elements into immutable structures recursively.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/PTAEBMEMBdIOgFYGcD2A7AUAbwwIgGYoq4BcoA2rgEaQBOuAuhgL4YYigC2kAlmnNCQYenAA4pa0UNACeogKagsAJXmRw6ADYyAIvPmjmofLRSdQAclkKAtPnlJoFgNzCxEqVFgApVGlAAvKC08gCOAK48IQAUFnDAXvDI6BYAlK4YAMbojhAwkGSq6lq6+qIAPNbyKPh5Pn4AfIF1kL7oGfIAHuKSEPL4kOGanvkZHNAO0AJCIj0jsMam5nHA3HwubIlwhChwouFIABaxNLRpriABTfK0prSgACoAygBMAMxvAJxkAAqmCpIZJZ9kcLBAUA5QGgUFIujxcuhpHJFBYQsU0NpQI5aHwAObkBgWIA">TS Playground</a> | <a href="source/readonly-deep.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/PTAEBMEMBdIOgFYGcD2A7AUAbwwIgGYoq4BcoA2rgEaQBOuAuhgL4YYigC2kAlmnNCQYenAA4pa0UNACeogKagsAJXmRw6ADYyAIvPmjmofLRSdQAclkKAtPnlJoFgNzCxEqVFgApVGlAAvKC08gCOAK48IQAUFnDAXvDI6BYAlK4YAMbojhAwkGSq6lq6+qIAPNbyKPh5Pn4AfIF1kL7oGfIAHuKSEPL4kOGanvkZHNAO0AJCIj0jsMam5nHA3HwubIlwhChwouFIABaxNLRpriABTfK0prSgACoAygBMAMxvAJxkAAqmCpIZJZ9kcLBAUA5QGgUFIujxcuhpHJFBYQsU0NpQI5aHwAObkBgWIA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -2507,10 +2507,10 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `RequireAllOrNone` - Create a type that requires all of the given keys or none of the given keys. The remaining keys are kept as is.
+- [`RequireAllOrNone`](source/require-all-or-none.d.ts) - Create a type that requires all of the given keys or none of the given keys. The remaining keys are kept as is.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gJRQRwK7BQoCCANqQPJQByEAdigL5wBmUEIcA5EqgLQsUAZxhcA3ACgJvNNiGQ6AExRQ4AXgzSUADxgB+AFxwAFAEp1APjgiowOgHNJAKyH1DJ82qs27jiUJQAYzwiIwAjCAhSFABDOklGSQlA+hE4Inl6ZSgARiNsfEIScipaBgAeOQVsgBpuGB1ROAAfbhd6LisNdH8gkJQjGCg8FAlEqRS6NIzqlQAmfNwCIjJKGnoUSuFZqDqeRq4Wttc6TvVNBt0jM0tudAAiEGEhGPsUe6N7gAtge8YuGoSdp0a6eKxcB5PIQvN4fOD3CAAaz+AN6wVCCGGo0SQA">TS Playground</a> | <a href="source/require-all-or-none.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gJRQRwK7BQoCCANqQPJQByEAdigL5wBmUEIcA5EqgLQsUAZxhcA3ACgJvNNiGQ6AExRQ4AXgzSUADxgB+AFxwAFAEp1APjgiowOgHNJAKyH1DJ82qs27jiUJQAYzwiIwAjCAhSFABDOklGSQlA+hE4Inl6ZSgARiNsfEIScipaBgAeOQVsgBpuGB1ROAAfbhd6LisNdH8gkJQjGCg8FAlEqRS6NIzqlQAmfNwCIjJKGnoUSuFZqDqeRq4Wttc6TvVNBt0jM0tudAAiEGEhGPsUe6N7gAtge8YuGoSdp0a6eKxcB5PIQvN4fOD3CAAaz+AN6wVCCGGo0SQA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -2534,10 +2534,10 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `RequireAtLeastOne` - Create a type that requires at least one of the given keys. The remaining keys are kept as is.
+- [`RequireAtLeastOne`](source/require-at-least-one.d.ts) - Create a type that requires at least one of the given keys. The remaining keys are kept as is.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gJRQRwK7BQoCCMAMigIYDOMA8gHYoC+cAZlBCHAORKoBaNilo8A3ACgJ-NNmqQGAExRQ4AXgzSUADxgB+AFxwAFAEp1APji0owBgHNJAK2oQGhk+bVWbdxxOoUAGM8Ig8AIwgIABsqBklmSQkgt1o4Ink3ZSgjbHxCEnIqWkYUAB45BWyAGl4YHRgeOAAfXhc3HisNdAl2hiMzS150ACIQEWpKexQRoxGIAGsR5h5qgODQlCMYKDwUCUSgA">TS Playground</a> | <a href="source/require-at-least-one.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gJRQRwK7BQoCCMAMigIYDOMA8gHYoC+cAZlBCHAORKoBaNilo8A3ACgJ-NNmqQGAExRQ4AXgzSUADxgB+AFxwAFAEp1APji0owBgHNJAK2oQGhk+bVWbdxxOoUAGM8Ig8AIwgIABsqBklmSQkgt1o4Ink3ZSgjbHxCEnIqWkYUAB45BWyAGl4YHRgeOAAfXhc3HisNdAl2hiMzS150ACIQEWpKexQRoxGIAGsR5h5qgODQlCMYKDwUCUSgA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -2556,10 +2556,10 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `RequireExactlyOne` - Create a type that requires exactly one of the given keys and disallows more. The remaining keys are kept as is.
+- [`RequireExactlyOne`](source/require-exactly-one.d.ts) - Create a type that requires exactly one of the given keys and disallows more. The remaining keys are kept as is.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gJRQRwK7BQoCiAHgIYDGMANogPIB2KAvnAGZQQhwDkSqALTsUAZxi8A3AChpAtNlGRGAExRQ4AXgxyUpGAC44ACgCUWgHxxxUYIwDmMgFaiIjI2cvWYthzNEolHhERgBGEBA0KOSMMiwy0pRu4nBESm5qUEbY+IQkFNR0TCgAPIrKmQA0fDB6EnAAPnwubrxW2ujSAPRdcACCKip29nDkcAAGtfrjcADWKIhwABbqaADuEHg0KnCU5HgBo7vcYMBRcOpcUAB0si3uJuaaVrzoAEQgYqLk9ihvRm8ILM3ixeJVpAEgiEEFA8ChpPEgA">TS Playground</a> | <a href="source/require-exactly-one.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gJRQRwK7BQoCiAHgIYDGMANogPIB2KAvnAGZQQhwDkSqALTsUAZxi8A3AChpAtNlGRGAExRQ4AXgxyUpGAC44ACgCUWgHxxxUYIwDmMgFaiIjI2cvWYthzNEolHhERgBGEBA0KOSMMiwy0pRu4nBESm5qUEbY+IQkFNR0TCgAPIrKmQA0fDB6EnAAPnwubrxW2ujSAPRdcACCKip29nDkcAAGtfrjcADWKIhwABbqaADuEHg0KnCU5HgBo7vcYMBRcOpcUAB0si3uJuaaVrzoAEQgYqLk9ihvRm8ILM3ixeJVpAEgiEEFA8ChpPEgA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -2580,10 +2580,10 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `RequireOneOrNone` - Create a type that requires exactly one of the given keys and disallows more, or none of the given keys. The remaining keys are kept as is.
+- [`RequireOneOrNone`](source/require-one-or-none.d.ts) - Create a type that requires exactly one of the given keys and disallows more, or none of the given keys. The remaining keys are kept as is.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gJRQRwK7BQoDyAdiVAHITkC+cAZlBCHAORKoC0DKAzjDYBuAFAjOabH0ikAJiihwAvHGz5CJcsSo0UAHnTiUADxgAuOAAoAlMoB8cAVGCkA5qIBWfGhZv3HMM5uonwoAMZ4RBYARhAQADYoAIakorQANOwwJoJwAD7sXjRsdqIiYTQCcETSNPJQAIwWUjL1yhgioRFRCFB4KCK0ZRWkVTWtCgBMzfwTiiqG2aa+tkoObOgARCD8fEmuKJsWmwAWwJu0bOmd4ZEoFoH9g8OV8ON1CgDMM7VyCu2GIqkFb+DbbXb7Q7HCAAawuVxu3XuvSeQyAA">TS Playground</a> | <a href="source/require-one-or-none.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gJRQRwK7BQoDyAdiVAHITkC+cAZlBCHAORKoC0DKAzjDYBuAFAjOabH0ikAJiihwAvHGz5CJcsSo0UAHnTiUADxgAuOAAoAlMoB8cAVGCkA5qIBWfGhZv3HMM5uonwoAMZ4RBYARhAQADYoAIakorQANOwwJoJwAD7sXjRsdqIiYTQCcETSNPJQAIwWUjL1yhgioRFRCFB4KCK0ZRWkVTWtCgBMzfwTiiqG2aa+tkoObOgARCD8fEmuKJsWmwAWwJu0bOmd4ZEoFoH9g8OV8ON1CgDMM7VyCu2GIqkFb+DbbXb7Q7HCAAawuVxu3XuvSeQyAA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -2611,10 +2611,10 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `RequiredDeep` - Create a type from another type with all keys and nested keys set to required.
+- [`RequiredDeep`](source/required-deep.d.ts) - Create a type from another type with all keys and nested keys set to required.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gJRQRwK7BQoAmAIiimAL5wBmUEIcA5EqgLS0oDOMzA3AChBbNAGUUMGMAB2Ac25wAvBhEoAHjACixYDGgB+AFyraEGTDHAAXimNwZeEACMUUOAB84eGcRS1ZEiEzCwBhCAAbQxNeKFk5T29ff0DiYPMYAHUUYDkACxh7Rxc3RJ8-AJkgwSpBAEM8fQBjRjAIyTsTZwhIlDqZMuTK6ob9bjqAN064bt7+wYrUoSohEWQ0bHxCEgkpeMUVTYIiMgowAB5d6XluAD4hAHoHhHW4I+3iK-3lVSe4AEgYBptLp9FATOhBH9-v8QpYbCgTMVXFBHs8YXDwlFwXBYvE0QDYRlsrkCkinCiCf9atDRhAWuB2kCuj12v0qXTxlMWXMZASqEA">TS Playground</a> | <a href="source/required-deep.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gJRQRwK7BQoAmAIiimAL5wBmUEIcA5EqgLS0oDOMzA3AChBbNAGUUMGMAB2Ac25wAvBhEoAHjACixYDGgB+AFyraEGTDHAAXimNwZeEACMUUOAB84eGcRS1ZEiEzCwBhCAAbQxNeKFk5T29ff0DiYPMYAHUUYDkACxh7Rxc3RJ8-AJkgwSpBAEM8fQBjRjAIyTsTZwhIlDqZMuTK6ob9bjqAN064bt7+wYrUoSohEWQ0bHxCEgkpeMUVTYIiMgowAB5d6XluAD4hAHoHhHW4I+3iK-3lVSe4AEgYBptLp9FATOhBH9-v8QpYbCgTMVXFBHs8YXDwlFwXBYvE0QDYRlsrkCkinCiCf9atDRhAWuB2kCuj12v0qXTxlMWXMZASqEA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -2643,10 +2643,10 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `Schema` - Create a deep version of another object type where property values are recursively replaced into a given value type.
+- [`Schema`](source/schema.d.ts) - Create a deep version of another object type where property values are recursively replaced into a given value type.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gZQMYAsUgCGAvnAGZQQhwDkSqAtGSgM4w0DcAUF8AHYwUUMoWxoAqiyEZeAEwBccNlH4Bzbn0IgUi9FzLAobTdsXK13ADaFjWnUpgq+6rsW7YoKQoIVwAIt4o3KIwwABu9gBGEBCWXnzcYDYsAO7QsgASNrhmjhauPPQSUlAAsjYA1nAAvHA4+EQAPJJCADS0RCwVNHAAPrS4wLIoPf00LLgQKTQAfNxc2BB8bHAAriXlXZgoMKHOLIotZZU1MkOK45PTrVwm9noGRjB3FxNTNDfWtqYdlR+uNw8Xh8ryu-xC4Xsl3eNySLFS6SyEwug2G-2IQA">TS Playground</a> | <a href="source/schema.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gZQMYAsUgCGAvnAGZQQhwDkSqAtGSgM4w0DcAUF8AHYwUUMoWxoAqiyEZeAEwBccNlH4Bzbn0IgUi9FzLAobTdsXK13ADaFjWnUpgq+6rsW7YoKQoIVwAIt4o3KIwwABu9gBGEBCWXnzcYDYsAO7QsgASNrhmjhauPPQSUlAAsjYA1nAAvHA4+EQAPJJCADS0RCwVNHAAPrS4wLIoPf00LLgQKTQAfNxc2BB8bHAAriXlXZgoMKHOLIotZZU1MkOK45PTrVwm9noGRjB3FxNTNDfWtqYdlR+uNw8Xh8ryu-xC4Xsl3eNySLFS6SyEwug2G-2IQA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -2678,10 +2678,10 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `SetNonNullable` - Create a type that makes the given keys non-nullable, where the remaining keys are kept as is.
+- [`SetNonNullable`](source/set-non-nullable.d.ts) - Create a type that makes the given keys non-nullable, where the remaining keys are kept as is.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gZRTAchAO1wFcAbUgQwCNSUBfOAMyghDgHIlUBaRlAZxjsA3AChRXNADEIEOAF4MoigC44BYiCooocAD7qypMVTWCowAgHN9cYgQAmKRpZQOxAYwD8aqrNoUBLYa5GJ04pJwmKwo+ERG1LQKUThxJOSJKAA8MhAANBxU7LbsHuwAfGIA9FUIyGjRILGE6ZQ0aIroojVwAJCqhlo6wUbVtb2mcOaWVsJwPQDCgepypIRWw9p2js6uDgB03ePevv4ogXOLywSr65toIaQFVMTwwPxTMMDkcBBgX4QKKRDj1whJ6nAAILkNIJdrJbB4Fpw2g5WSVI51VBQmHIjLwzqY-pqDRDKCXWpLII3OBraz3QzkEHjSbTawUuBUla0u66Lb2JwuAhuZl9E5wPwQAIEDlcml0jZ8h5GZ6vODvT7fUi-f7AQHAzF0IA">TS Playground</a> | <a href="source/set-non-nullable.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gZRTAchAO1wFcAbUgQwCNSUBfOAMyghDgHIlUBaRlAZxjsA3AChRXNADEIEOAF4MoigC44BYiCooocAD7qypMVTWCowAgHN9cYgQAmKRpZQOxAYwD8aqrNoUBLYa5GJ04pJwmKwo+ERG1LQKUThxJOSJKAA8MhAANBxU7LbsHuwAfGIA9FUIyGjRILGE6ZQ0aIroojVwAJCqhlo6wUbVtb2mcOaWVsJwPQDCgepypIRWw9p2js6uDgB03ePevv4ogXOLywSr65toIaQFVMTwwPxTMMDkcBBgX4QKKRDj1whJ6nAAILkNIJdrJbB4Fpw2g5WSVI51VBQmHIjLwzqY-pqDRDKCXWpLII3OBraz3QzkEHjSbTawUuBUla0u66Lb2JwuAhuZl9E5wPwQAIEDlcml0jZ8h5GZ6vODvT7fUi-f7AQHAzF0IA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -2709,10 +2709,10 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `SetOptional` - Create a type that makes the given keys optional. The remaining keys are kept as is. The sister of the `SetRequired` type.
+- [`SetOptional`](source/set-optional.d.ts) - Create a type that makes the given keys optional. The remaining keys are kept as is. The sister of the `SetRequired` type.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gZRTA8mGYCAOwEMAbAXzgDMoIQ4ByJVAWhpQGcYmBuAFADWaAGIQIcALwYBpAFxxiAVxAAjFFEFqA-Ip5RgxAOaCAxorUTyKUsUGUhIuJgYp8hEhWkucHomTkADziEAA0zGpMcAA+zGZMAHyCAPQpCMhoriDuBAHeMugCaXAAkApKqhpaxemluvowhiZ8cCUA6qRccBRQtgAmiHAQeV7kPcT9cDzA5OPAXAB0tWVmenBWEDZ2rSUAkt3EEADuw6OByyWUQA">TS Playground</a> | <a href="source/set-optional.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gZRTA8mGYCAOwEMAbAXzgDMoIQ4ByJVAWhpQGcYmBuAFADWaAGIQIcALwYBpAFxxiAVxAAjFFEFqA-Ip5RgxAOaCAxorUTyKUsUGUhIuJgYp8hEhWkucHomTkADziEAA0zGpMcAA+zGZMAHyCAPQpCMhoriDuBAHeMugCaXAAkApKqhpaxemluvowhiZ8cCUA6qRccBRQtgAmiHAQeV7kPcT9cDzA5OPAXAB0tWVmenBWEDZ2rSUAkt3EEADuw6OByyWUQA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -2733,10 +2733,10 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `SetReadonly` - Create a type that makes the given keys readonly. The remaining keys are kept as is.
+- [`SetReadonly`](source/set-readonly.d.ts) - Create a type that makes the given keys readonly. The remaining keys are kept as is.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gZRTASigQwBMIA7AG0QF84AzKCEOAciVQFpaUBnGZgbgBQgtmgBiECHAC8GQQQBccUgFcQAIxRQhUQiQqI46pbyjBSAcyEBjJesnlCpIVWGi4mRinzEylGR44PvqUADwSEAA0LOrMcAA+LNbMAHxCAPTpCMhoniDeen6GsuiCmXAAkIrKapraZVkVur4GRiYwZpb8cOUA6gTccATkzUSGo0VDpERwvMDk5HDA3AB0DZUTrbZGDk7d5QCSg6QQAO5wm5Rr5VRAA">TS Playground</a> | <a href="source/set-readonly.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gZRTASigQwBMIA7AG0QF84AzKCEOAciVQFpaUBnGZgbgBQgtmgBiECHAC8GQQQBccUgFcQAIxRQhUQiQqI46pbyjBSAcyEBjJesnlCpIVWGi4mRinzEylGR44PvqUADwSEAA0LOrMcAA+LNbMAHxCAPTpCMhoniDeen6GsuiCmXAAkIrKapraZVkVur4GRiYwZpb8cOUA6gTccATkzUSGo0VDpERwvMDk5HDA3AB0DZUTrbZGDk7d5QCSg6QQAO5wm5Rr5VRAA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -2757,10 +2757,10 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `SetRequired` - Create a type that makes the given keys required. The remaining keys are kept as is. The sister of the `SetOptional` type.
+- [`SetRequired`](source/set-required.d.ts) - Create a type that makes the given keys required. The remaining keys are kept as is. The sister of the `SetOptional` type.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gZRTASigRwFdgoUATAXzgDMoIQ4ByJVAWhpQGcYmBuAFADWaAGIQIcALwYBAQwD8ALjgA7IiABGKKIM0qeUYKoDmggMbK4miQBsUc1YMpCRcTAxT5ipCtPc43iRk5AA84hAANMyaTHAAPszmTAB8ggD06QjIaB4gXoTBfjLoAplwAJCKKupaOhlZFfpwhsZmcOUA6nJccHK2ZHLkiHBkPiF9quQtMMC2tnDAXAB0ZY3mKjYQ9o58HVkAkr2qEADuo4W+5KvllEA">TS Playground</a> | <a href="source/set-required.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gZRTASigRwFdgoUATAXzgDMoIQ4ByJVAWhpQGcYmBuAFADWaAGIQIcALwYBAQwD8ALjgA7IiABGKKIM0qeUYKoDmggMbK4miQBsUc1YMpCRcTAxT5ipCtPc43iRk5AA84hAANMyaTHAAPszmTAB8ggD06QjIaB4gXoTBfjLoAplwAJCKKupaOhlZFfpwhsZmcOUA6nJccHK2ZHLkiHBkPiF9quQtMMC2tnDAXAB0ZY3mKjYQ9o58HVkAkr2qEADuo4W+5KvllEA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -2781,10 +2781,10 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `Simplify` - Useful to flatten the type output to improve type hints shown in editors. And also to transform an interface into a type to aide with assignability.
+- [`Simplify`](source/simplify.d.ts) - Useful to flatten the type output to improve type hints shown in editors. And also to transform an interface into a type to aide with assignability.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gZVGANsAM0QF84CoIQ4ByJVAWgJQGcZqBuAKE7rQAUIzYDGAQAdnwphmcALwYeEMAC44YgK4gARiihdcKAjFUbtursS49kabAC8UkpTPnpOAd2AATGAAsTmjp6nL4owADmvsZqgeacltwA9IlwAJJicIgQ6lBwKF7C0AA0cL4QAG66wGLhcBW6cAAGTtKNcJ64uHDMZe5wAIZkuP0wMChi+XVaAFYoAMbwnn4DnQihcGBSuiIsAHTWqHAtLnDY4PhEADwCQiLix3AAZKfADscAfOxAA">TS Playground</a> | <a href="source/simplify.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gZVGANsAM0QF84CoIQ4ByJVAWgJQGcZqBuAKE7rQAUIzYDGAQAdnwphmcALwYeEMAC44YgK4gARiihdcKAjFUbtursS49kabAC8UkpTPnpOAd2AATGAAsTmjp6nL4owADmvsZqgeacltwA9IlwAJJicIgQ6lBwKF7C0AA0cL4QAG66wGLhcBW6cAAGTtKNcJ64uHDMZe5wAIZkuP0wMChi+XVaAFYoAMbwnn4DnQihcGBSuiIsAHTWqHAtLnDY4PhEADwCQiLix3AAZKfADscAfOxAA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -2805,10 +2805,10 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `SnakeCasedPropertiesDeep` - Convert object properties to snake case recursively.
+- [`SnakeCasedPropertiesDeep`](source/snake-cased-properties-deep.d.ts) - Convert object properties to snake case recursively.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gZQHYEMDWKAwrgM4oAmAClBKrMCqQCIopgC+cAZrSHAHIkqALTcmMAQG4AUDODYYKKN1wBjNAFVyUDDICuOgJIUAXHGz6QAI2WzDygHK4QKc6RhQFAc1kc5Ckoq6lo6AOrAMAAWAGJeKNgUpHoOUEbY3BDm2nYGOnGMiaTZOgDaALp+cmoQ2B5wUEz6ADYw5jgExGSUNHTKMIwsbGAAPDlQEdEFCUkAfHAAvCk6APoKmeboecprZnAAjAA021AreK7mAgAqECACxxzHqSu8hUnmpTJbz8B7AExPVbnNyCABSyigiHuMkeXxOu3MAGZATtgZdMGBgIRobDyg8pEA">TS Playground</a> | <a href="source/snake-cased-properties-deep.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gZQHYEMDWKAwrgM4oAmAClBKrMCqQCIopgC+cAZrSHAHIkqALTcmMAQG4AUDODYYKKN1wBjNAFVyUDDICuOgJIUAXHGz6QAI2WzDygHK4QKc6RhQFAc1kc5Ckoq6lo6AOrAMAAWAGJeKNgUpHoOUEbY3BDm2nYGOnGMiaTZOgDaALp+cmoQ2B5wUEz6ADYw5jgExGSUNHTKMIwsbGAAPDlQEdEFCUkAfHAAvCk6APoKmeboecprZnAAjAA021AreK7mAgAqECACxxzHqSu8hUnmpTJbz8B7AExPVbnNyCABSyigiHuMkeXxOu3MAGZATtgZdMGBgIRobDyg8pEA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -2843,10 +2843,10 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `SnakeCasedProperties` - Convert object properties to snake case but not recursively.
+- [`SnakeCasedProperties`](source/snake-cased-properties.d.ts) - Convert object properties to snake case but not recursively.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gZQHYEMDWKAwrgM4oAmAClBKrMCqQL5wBmtIcA5EqgLRsmMbgG4AUOODYYKKG1wBjNAFVyUDOICu6gJIUAXHGxaQAIzkSdcgHK4QKI6RhRpAcwnNJiiNmdwoJi0AGxgjHAJiMkoaOjkYRlIAHjU5AD44AF5NaygAfWBDOABGABptdTy8ByNuABUIEG5y5lEgA">TS Playground</a> | <a href="source/snake-cased-properties.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gZQHYEMDWKAwrgM4oAmAClBKrMCqQL5wBmtIcA5EqgLRsmMbgG4AUOODYYKKG1wBjNAFVyUDOICu6gJIUAXHGxaQAIzkSdcgHK4QKI6RhRpAcwnNJiiNmdwoJi0AGxgjHAJiMkoaOjkYRlIAHjU5AD44AF5NaygAfWBDOABGABptdTy8ByNuABUIEG5y5lEgA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -2864,10 +2864,10 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `Spread` - Mimic the type inferred by TypeScript when merging two objects or two arrays/tuples using the spread syntax.
+- [`Spread`](source/spread.d.ts) - Mimic the type inferred by TypeScript when merging two objects or two arrays/tuples using the spread syntax.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gZTFFBDAEwF84AzKCEOAciVQFpSUBnGagbgChO60AxCBDgBeDJzwAuOADsAriABGKKFwUB+KayjBpAcy5EuPZGgBCeKCLHqpcxcq4BjKQsEAbfNINHHEaazJBK3RJOABGABo4BSlqACZqQ05ff3gFC2DnMjw3ZhQklIDSQXNLUXQAOiriiCiqivSoJONUOAEIUqtsXEIAHnao0oA+LgB6UYQTNpKM8s5xuABIULslFXmJxZs4LR1dOAAfGXk1w7hZaQIUUh0UAjHNrNcIDzwvDbgibkK0vAAvKwACgsunkKGkMCk7VKAEoREMxAsACJCZiUFAwAAWe04X046T+gJqsPYQA">TS Playground</a> | <a href="source/spread.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gZTFFBDAEwF84AzKCEOAciVQFpSUBnGagbgChO60AxCBDgBeDJzwAuOADsAriABGKKFwUB+KayjBpAcy5EuPZGgBCeKCLHqpcxcq4BjKQsEAbfNINHHEaazJBK3RJOABGABo4BSlqACZqQ05ff3gFC2DnMjw3ZhQklIDSQXNLUXQAOiriiCiqivSoJONUOAEIUqtsXEIAHnao0oA+LgB6UYQTNpKM8s5xuABIULslFXmJxZs4LR1dOAAfGXk1w7hZaQIUUh0UAjHNrNcIDzwvDbgibkK0vAAvKwACgsunkKGkMCk7VKAEoREMxAsACJCZiUFAwAAWe04X046T+gJqsPYQA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -2902,10 +2902,10 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `StringKeyOf` - Get keys of the given type as strings.
+- [`StringKeyOf`](source/string-key-of.d.ts) - Get keys of the given type as strings.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gZRlYA7AcwGkVEB5AMwF84KoIQ4ByJVAWgpQGcYmBuAFADWaAGIQIcALwYBARgBccPAFcQAIxRQANAJ65CJREv34CuqoOHI02A8VJdK4yTLtmjlADwuAfIIB6AKlfZjkmOAAfZlNDUiYgA">TS Playground</a> | <a href="source/string-key-of.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gZRlYA7AcwGkVEB5AMwF84KoIQ4ByJVAWgpQGcYmBuAFADWaAGIQIcALwYBARgBccPAFcQAIxRQANAJ65CJREv34CuqoOHI02A8VJdK4yTLtmjlADwuAfIIB6AKlfZjkmOAAfZlNDUiYgA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -2921,10 +2921,10 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `Stringified` - Create a type with the keys of the given type changed to `string` type.
+- [`Stringified`](source/stringified.d.ts) - Create a type with the keys of the given type changed to `string` type.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gZRlYA7Ac2ADNgUATAXzmKghDgHIlUBaYlAZxkYG4AofizQBhAIZQ4AXgz8QEcigA2ALjjdchAZ1QU1eAK4gARiigDKggMYQ83OFYkAxaCDXZNRUhQA84qAB80rLyiqpMLhCMADT8Oih6TACMAAxJjPyUvEA">TS Playground</a> | <a href="source/stringified.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gZRlYA7Ac2ADNgUATAXzmKghDgHIlUBaYlAZxkYG4AofizQBhAIZQ4AXgz8QEcigA2ALjjdchAZ1QU1eAK4gARiigDKggMYQ83OFYkAxaCDXZNRUhQA84qAB80rLyiqpMLhCMADT8Oih6TACMAAxJjPyUvEA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -2942,10 +2942,10 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `UnknownRecord` - Represents an object with `unknown` value. You probably want this instead of `{}`.
+- [`UnknownRecord`](source/unknown-record.d.ts) - Represents an object with `unknown` value. You probably want this instead of `{}`.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gVQHYGtsQDu2ASigMbQAmAvnAGZQQhwDkSqAtPSgM4ysA3AChh9AK7ZyMYBGwIIAKV5yAFBABGAKwowAXHBz4ipCtQCUGYVBQxxUeYoDKAeQByAOn5Rg2AObA9Ijq2rrmIjSiMEoq2KroABYoADbJEAashNDJVKw04cIA9IUAvAB8bOgAREmpEFV6VVlQOVU0rKISUjJycMC8LqHSqgBuAIbJ4igGksbE5gbjk2j9hngExGSUUFRWNnYOCMgoEPRwS1NwJddsmjrSrHAAZE-nE5cAhDfY4qkRov1BvcYPFamkMs0cnkCsVyggoFMAQMhiDWGCIKwYaUKvQJrwUEA">TS Playground</a> | <a href="source/unknown-record.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gVQHYGtsQDu2ASigMbQAmAvnAGZQQhwDkSqAtPSgM4ysA3AChh9AK7ZyMYBGwIIAKV5yAFBABGAKwowAXHBz4ipCtQCUGYVBQxxUeYoDKAeQByAOn5Rg2AObA9Ijq2rrmIjSiMEoq2KroABYoADbJEAashNDJVKw04cIA9IUAvAB8bOgAREmpEFV6VVlQOVU0rKISUjJycMC8LqHSqgBuAIbJ4igGksbE5gbjk2j9hngExGSUUFRWNnYOCMgoEPRwS1NwJddsmjrSrHAAZE-nE5cAhDfY4qkRov1BvcYPFamkMs0cnkCsVyggoFMAQMhiDWGCIKwYaUKvQJrwUEA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -2970,10 +2970,10 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `ValueOf` - Create a union of the given object's values, and optionally specify which keys to get the values from.
+- [`ValueOf`](source/value-of.d.ts) - Create a union of the given object's values, and optionally specify which keys to get the values from.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/PTAEBMEMBdIOgFYGcD2A7AUAbwwcgGYoq4BcoAjADR4BGkATqaAEzW40CWAXkwMwYBfDBhCgAtpA5o40JBg5iADinrRQ0AJ6KApqCwA1SABsArtoDy+AaHz0UY0Lk06AtPm1JouANzylKtShYUABeUHptAEcTDgiAClw4YCD4ZHRcAEpfDG0AD2VVGxM0AGNoDnRQAHNtaAARGEg4tEgxbTJPeikqjLJDUwt8AB5nbRR8CEaAPj0MCOgTejRJ2ABtFraAXV8hHPyAotLyyvQjDQAhBmbW9tBO7t7QfrNLEa0xiZTKRzpGGZx5otlil1jdtoJhKJ8BwjNoZHIFAU1FgavVGt9ThcGNZbPZHEkJFIfMJUQ1YAlCMQsiJgCEZuRhJjLvQKURMr4QHTQAAVd4AUXodnooDgosZaDOzISv3ZNK5zCAA">TS Playground</a> | <a href="source/value-of.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/PTAEBMEMBdIOgFYGcD2A7AUAbwwcgGYoq4BcoAjADR4BGkATqaAEzW40CWAXkwMwYBfDBhCgAtpA5o40JBg5iADinrRQ0AJ6KApqCwA1SABsArtoDy+AaHz0UY0Lk06AtPm1JouANzylKtShYUABeUHptAEcTDgiAClw4YCD4ZHRcAEpfDG0AD2VVGxM0AGNoDnRQAHNtaAARGEg4tEgxbTJPeikqjLJDUwt8AB5nbRR8CEaAPj0MCOgTejRJ2ABtFraAXV8hHPyAotLyyvQjDQAhBmbW9tBO7t7QfrNLEa0xiZTKRzpGGZx5otlil1jdtoJhKJ8BwjNoZHIFAU1FgavVGt9ThcGNZbPZHEkJFIfMJUQ1YAlCMQsiJgCEZuRhJjLvQKURMr4QHTQAAVd4AUXodnooDgosZaDOzISv3ZNK5zCAA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -3010,10 +3010,10 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `WritableDeep` - Create a deeply mutable version of an `object`/`ReadonlyMap`/`ReadonlySet`/`ReadonlyArray` type. The inverse of `ReadonlyDeep<T>`. Use `Writable<T>` if you only need one level deep.
+- [`WritableDeep`](source/writable-deep.d.ts) - Create a deeply mutable version of an `object`/`ReadonlyMap`/`ReadonlySet`/`ReadonlyArray` type. The inverse of `ReadonlyDeep<T>`. Use `Writable<T>` if you only need one level deep.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gdSsGBDAIwBsUARFFMAXzgDMoIQ4ByJVAWlpQGcZmBuAFCC2aAGIQIcALwZBUFHgAmEAHZFEcPAC44qgK4gCKKEIXK1GuAV3mV6zbxyqA5gG0AuvzgB6H3AAVKW4ACwgAdwQQvHgQfXwCYCJcTWBuOCUKMCs8Wi4AYxgUJQA6eUV7K3zdAkkSPFUhKiFBfLVeOHCcBJJySgkIXWxcQl6sgB4BgD4ZDB04AEYAGmtdN2YAJmYPFeqEKH0UZsEukeIyLIGSvFmAZiFTnov+yRKCNwAGD1nmVRRIgBueCIhwEJ26o2eYCuBFm624jBQMBCwFc234QA">TS Playground</a> | <a href="source/writable-deep.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gdSsGBDAIwBsUARFFMAXzgDMoIQ4ByJVAWlpQGcZmBuAFCC2aAGIQIcALwZBUFHgAmEAHZFEcPAC44qgK4gCKKEIXK1GuAV3mV6zbxyqA5gG0AuvzgB6H3AAVKW4ACwgAdwQQvHgQfXwCYCJcTWBuOCUKMCs8Wi4AYxgUJQA6eUV7K3zdAkkSPFUhKiFBfLVeOHCcBJJySgkIXWxcQl6sgB4BgD4ZDB04AEYAGmtdN2YAJmYPFeqEKH0UZsEukeIyLIGSvFmAZiFTnov+yRKCNwAGD1nmVRRIgBueCIhwEJ26o2eYCuBFm624jBQMBCwFc234QA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -3032,10 +3032,10 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `Writable` - Create a type that strips `readonly` from all or some of an object's keys. Inverse of `Readonly<T>`.
+- [`Writable`](source/writable.d.ts) - Create a type that strips `readonly` from all or some of an object's keys. Inverse of `Readonly<T>`.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gdSsGBDAIwBsUBfOAMyghDgHIlUBaClAZxjoG4AoHxtADEIEOAF4MPKCjwATCADsiiOHgBccBQFcQBFFF7S5i5XAIaj8pSo44FAcwDaAXS5wA9O7gAVUWwAWEADuCP548CYqMP5oIFr4BMBEuDb4MFpscBAUoWhg1KiwwOwANJoQ8NEowFBwAG54RFqlqtKqFKwAxjAosgB0UjJWpp0aBCIkeAq8pLw8nYoccEE4CSTCEBrYuIQkADwbAHziGOpwAIxl5nCOdABMdM5lowhQzbM8KzvEKBt9eCcAMy8L5rX4iPoERwABmcJzoChQIQaTRQ3A8XkwSSIcA42MoeCSqkyVXqjWaWRy+QghSQcAARAR6XBgJk8UQcQDLJEEMgUANQbtwRBISdbmwaChosAHI83J44FiOctoABrYm5BlMuDU2kqXBsFBEHKs8pwIiKez6ODc6wDfh8uAAZUl2zBJzdQoOIjKdAIdDgAB96J06IdeAqBM7XashSd0DwFQBIW2mM7aXT6CNeJPXVOpOxOVwYuAASU4mQUwWWsZ+fR8MV5qEpmt1+jp0hAhIUmS0CjwHRQ3V6A2TL3GEEm0xL5bolergrria8pCAA">TS Playground</a> | <a href="source/writable.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gdSsGBDAIwBsUBfOAMyghDgHIlUBaClAZxjoG4AoHxtADEIEOAF4MPKCjwATCADsiiOHgBccBQFcQBFFF7S5i5XAIaj8pSo44FAcwDaAXS5wA9O7gAVUWwAWEADuCP548CYqMP5oIFr4BMBEuDb4MFpscBAUoWhg1KiwwOwANJoQ8NEowFBwAG54RFqlqtKqFKwAxjAosgB0UjJWpp0aBCIkeAq8pLw8nYoccEE4CSTCEBrYuIQkADwbAHziGOpwAIxl5nCOdABMdM5lowhQzbM8KzvEKBt9eCcAMy8L5rX4iPoERwABmcJzoChQIQaTRQ3A8XkwSSIcA42MoeCSqkyVXqjWaWRy+QghSQcAARAR6XBgJk8UQcQDLJEEMgUANQbtwRBISdbmwaChosAHI83J44FiOctoABrYm5BlMuDU2kqXBsFBEHKs8pwIiKez6ODc6wDfh8uAAZUl2zBJzdQoOIjKdAIdDgAB96J06IdeAqBM7XashSd0DwFQBIW2mM7aXT6CNeJPXVOpOxOVwYuAASU4mQUwWWsZ+fR8MV5qEpmt1+jp0hAhIUmS0CjwHRQ3V6A2TL3GEEm0xL5bolergrria8pCAA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -3063,60 +3063,60 @@ Click the type source for complete docs.
 
 ### Observable
 
-- `Unsubscribable` - 
+- [`Unsubscribable`](source/unsubscribable.d.ts) - 
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/Q">TS Playground</a> | <a href="source/unsubscribable.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/Q">TS Playground</a>
 	</summary>
 
 	```ts
 	```
 	</details>
 
-- `OnNext` - 
+- [`OnNext`](source/on-next.d.ts) - 
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/Q">TS Playground</a> | <a href="source/on-next.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/Q">TS Playground</a>
 	</summary>
 
 	```ts
 	```
 	</details>
 
-- `OnError` - 
+- [`OnError`](source/on-error.d.ts) - 
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/Q">TS Playground</a> | <a href="source/on-error.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/Q">TS Playground</a>
 	</summary>
 
 	```ts
 	```
 	</details>
 
-- `OnComplete` - 
+- [`OnComplete`](source/on-complete.d.ts) - 
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/Q">TS Playground</a> | <a href="source/on-complete.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/Q">TS Playground</a>
 	</summary>
 
 	```ts
 	```
 	</details>
 
-- `Observer` - 
+- [`Observer`](source/observer.d.ts) - 
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/Q">TS Playground</a> | <a href="source/observer.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/Q">TS Playground</a>
 	</summary>
 
 	```ts
 	```
 	</details>
 
-- `ObservableLike` - Matches a value that is like an [Observable](https://github.com/tc39/proposal-observable).
+- [`ObservableLike`](source/observable-like.d.ts) - Matches a value that is like an [Observable](https://github.com/tc39/proposal-observable).
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/Q">TS Playground</a> | <a href="source/observable-like.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/Q">TS Playground</a>
 	</summary>
 
 	```ts
@@ -3125,10 +3125,10 @@ Click the type source for complete docs.
 
 ### Set
 
-- `Entries` - Many collections have an `entries` method which returns an array of a given object's own enumerable string-keyed property [key, value] pairs. The `Entries` type will return the type of that collection's entries.
+- [`Entries`](source/entries.d.ts) - Many collections have an `entries` method which returns an array of a given object's own enumerable string-keyed property [key, value] pairs. The `Entries` type will return the type of that collection's entries.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gUQHYysFAZwF84AzKCEOAciVQFoyiYaBuAKA+FxSjICGAYzSYAHgPAAbNOg6EqKANIpEALjjYAriABGfTsS5CI2QvBADswMFqkCYRHHgKE4AXjgAKFBOlENZ3wiAB5xSTAZAD4ASg8ouF8ImUIAOkswHz9ItHcEgG0OAHoiuAARCCI4BRA0AShdYDx6xDgwShFCQh4AczhTBAALNABrVW8AdybBhGQ0HjJoSxhgAYEANwFge10ZGI4k-3yABgBdVJgIAFUwVCgAYQFCFC8YgBouEvLKtxq6hqaUBabQ6RG62D6AxgwzgmykWjQXim0NmqDgCyWDlW2DgGy2Oz2B2yMnyAEZzpcAGLAMQoAAmrw4pxinA4JjM8EOOUCxNyGD+KnUcFJxE47PMiVwwTcngA8roAFYoIQwVIoKWuLLJFBxJ5wIKuMK8qJi0wSiBaGC2eCeSzWWz2RyEA1EHwaogsz6leVKlWENlm+AQRXKmDhfweDACDQi00c-ohlUuwiBd2EEL0FAQMgJ31h42R-L5GgCGhvYWnU6sr4AQSgQMQ-vF8HqDfDOULJbLFbjEtbAkQydTLlCmezuPrA-b0ULJ3LXdO5bJ5fJVa9cAAsgIwE3A3AMtO+dgUBNN9uvEWuyvK57m-vt0P9WmM3NxxkEp5L6Xr2viqUAMooDAu7xs8+bapGx6noBMAXleFa3nuYGPsmL6oOOyEFp+xbfrQpaLnAy4VlWQA">TS Playground</a> | <a href="source/entries.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gUQHYysFAZwF84AzKCEOAciVQFoyiYaBuAKA+FxSjICGAYzSYAHgPAAbNOg6EqKANIpEALjjYAriABGfTsS5CI2QvBADswMFqkCYRHHgKE4AXjgAKFBOlENZ3wiAB5xSTAZAD4ASg8ouF8ImUIAOkswHz9ItHcEgG0OAHoiuAARCCI4BRA0AShdYDx6xDgwShFCQh4AczhTBAALNABrVW8AdybBhGQ0HjJoSxhgAYEANwFge10ZGI4k-3yABgBdVJgIAFUwVCgAYQFCFC8YgBouEvLKtxq6hqaUBabQ6RG62D6AxgwzgmykWjQXim0NmqDgCyWDlW2DgGy2Oz2B2yMnyAEZzpcAGLAMQoAAmrw4pxinA4JjM8EOOUCxNyGD+KnUcFJxE47PMiVwwTcngA8roAFYoIQwVIoKWuLLJFBxJ5wIKuMK8qJi0wSiBaGC2eCeSzWWz2RyEA1EHwaogsz6leVKlWENlm+AQRXKmDhfweDACDQi00c-ohlUuwiBd2EEL0FAQMgJ31h42R-L5GgCGhvYWnU6sr4AQSgQMQ-vF8HqDfDOULJbLFbjEtbAkQydTLlCmezuPrA-b0ULJ3LXdO5bJ5fJVa9cAAsgIwE3A3AMtO+dgUBNN9uvEWuyvK57m-vt0P9WmM3NxxkEp5L6Xr2viqUAMooDAu7xs8+bapGx6noBMAXleFa3nuYGPsmL6oOOyEFp+xbfrQpaLnAy4VlWQA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -3168,10 +3168,10 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `Entry` - Many collections have an `entries` method which returns an array of a given object's own enumerable string-keyed property [key, value] pairs. The `Entry` type will return the type of that collection's entry.
+- [`Entry`](source/entry.d.ts) - Many collections have an `entries` method which returns an array of a given object's own enumerable string-keyed property [key, value] pairs. The `Entry` type will return the type of that collection's entry.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gUQHYyogXzgDMoIQ4ByJVAWmJQGcZKBuAKHeFxSmIEMAxmkwAPfuAA2adO0bkUAaRSIAXHGwBXEACNeHAp0ERszOCH7ZgYTZP4wmOPIjgBeOAAoU4qSnVP8AB4xCTBpAD4ASjdwuABtdgB6RLgAEQgmOHkQNH4oHWA8PJcwMmFGRm4AczgTBAALNABrFU8Ad0L6hGQ0bmJoCxhgOv4AN35gOx1pSPZvUOk4gAYAXQA6GAgAVTBUKABhfkYUD0iAGk5ktIzGLIU4PIKi-DhSiHLK7Bq6mEa4cckmjQHg6v26qDgfQG9mG2Ae40m-GmKFm818cQAjOtNgAxYCiFAAE1OFxWHHYxlM8DRYT8cBCvjcGGyShU6gxBA4lLMKFwL3cAHkdAArFCCGBrXl4YBMLw+WmRZYrB63AKIYLyiJckxmCCaGA2eDuCxWGx2ByMNVePmISLkq5C0XixgUnXwCAisUwBm0pnofjszmuqm1T3itX+G2BGgoCDEUNO72alCxdxxSj8ShnOBY+0pACCUCg-EQLu58DyxcQPukTPTmezueDZkrJbVAGVpV9I85oz04w8i23k6n4ktsxnKGTmxWh9WbQA5bR6KA9oIxget6sjusYxvTpIpACy-DAZbd5lPNbQ7mwKDacBPYA8cXrWZzKxWdpnl7AEfpUYbvGFh-juaaTvueZwO2KAwOeIbHEmCw3ho97QbBL4QR+37llksEdl2VRruqQF4Uhvijm+E6ZtOuGIWqS66LwxF9qgA70WB8R7h+rBAA">TS Playground</a> | <a href="source/entry.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gUQHYyogXzgDMoIQ4ByJVAWmJQGcZKBuAKHeFxSmIEMAxmkwAPfuAA2adO0bkUAaRSIAXHGwBXEACNeHAp0ERszOCH7ZgYTZP4wmOPIjgBeOAAoU4qSnVP8AB4xCTBpAD4ASjdwuABtdgB6RLgAEQgmOHkQNH4oHWA8PJcwMmFGRm4AczgTBAALNABrFU8Ad0L6hGQ0bmJoCxhgOv4AN35gOx1pSPZvUOk4gAYAXQA6GAgAVTBUKABhfkYUD0iAGk5ktIzGLIU4PIKi-DhSiHLK7Bq6mEa4cckmjQHg6v26qDgfQG9mG2Ae40m-GmKFm818cQAjOtNgAxYCiFAAE1OFxWHHYxlM8DRYT8cBCvjcGGyShU6gxBA4lLMKFwL3cAHkdAArFCCGBrXl4YBMLw+WmRZYrB63AKIYLyiJckxmCCaGA2eDuCxWGx2ByMNVePmISLkq5C0XixgUnXwCAisUwBm0pnofjszmuqm1T3itX+G2BGgoCDEUNO72alCxdxxSj8ShnOBY+0pACCUCg-EQLu58DyxcQPukTPTmezueDZkrJbVAGVpV9I85oz04w8i23k6n4ktsxnKGTmxWh9WbQA5bR6KA9oIxget6sjusYxvTpIpACy-DAZbd5lPNbQ7mwKDacBPYA8cXrWZzKxWdpnl7AEfpUYbvGFh-juaaTvueZwO2KAwOeIbHEmCw3ho97QbBL4QR+37llksEdl2VRruqQF4Uhvijm+E6ZtOuGIWqS66LwxF9qgA70WB8R7h+rBAA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -3213,10 +3213,10 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `PartialDeep` - Create a type from another type with all keys and nested keys set to optional.
+- [`PartialDeep`](source/partial-deep.d.ts) - Create a type from another type with all keys and nested keys set to optional.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gBQIa2NgGwBEUUwBfOAMyghDgHIlUBaKlAZxgYG4AoPgGMIAOy5wOKGDGAiA5hwBccAMpSZ8jnAC8GPjBQAPGAFEAJsBjRl6PlVEwVwAF4plARgAs-eyJgBhCAJrRgBiAAZIqN47BwB1FGA5AAsYZU9I-nI+bABXK2FwAik3akJJfjyrDmwAN1KYKFyULP4hUXFsMDACRBU6lDM1aVkFHTgAChr6ofVRpTgcPEISMgAeYY0FAD4ASh1tvSgpXKgRDAA6K8kRzQAaOCuL6cHN+fIsgRutrV0unr6A1mtwUE3QBmM5ksIXQvhgCSSqWUAFZIuRyLseEA">TS Playground</a> | <a href="source/partial-deep.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gBQIa2NgGwBEUUwBfOAMyghDgHIlUBaKlAZxgYG4AoPgGMIAOy5wOKGDGAiA5hwBccAMpSZ8jnAC8GPjBQAPGAFEAJsBjRl6PlVEwVwAF4plARgAs-eyJgBhCAJrRgBiAAZIqN47BwB1FGA5AAsYZU9I-nI+bABXK2FwAik3akJJfjyrDmwAN1KYKFyULP4hUXFsMDACRBU6lDM1aVkFHTgAChr6ofVRpTgcPEISMgAeYY0FAD4ASh1tvSgpXKgRDAA6K8kRzQAaOCuL6cHN+fIsgRutrV0unr6A1mtwUE3QBmM5ksIXQvhgCSSqWUAFZIuRyLseEA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -3240,10 +3240,10 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `ReadonlyDeep` - Convert `object`s, `Map`s, `Set`s, and `Array`s and all of their keys/elements into immutable structures recursively.
+- [`ReadonlyDeep`](source/readonly-deep.d.ts) - Convert `object`s, `Map`s, `Set`s, and `Array`s and all of their keys/elements into immutable structures recursively.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/PTAEBMEMBdIOgFYGcD2A7AUAbwwIgGYoq4BcoA2rgEaQBOuAuhgL4YYigC2kAlmnNCQYenAA4pa0UNACeogKagsAJXmRw6ADYyAIvPmjmofLRSdQAclkKAtPnlJoFgNzCxEqVFgApVGlAAvKC08gCOAK48IQAUFnDAXvDI6BYAlK4YAMbojhAwkGSq6lq6+qIAPNbyKPh5Pn4AfIF1kL7oGfIAHuKSEPL4kOGanvkZHNAO0AJCIj0jsMam5nHA3HwubIlwhChwouFIABaxNLRpriABTfK0prSgACoAygBMAMxvAJxkAAqmCpIZJZ9kcLBAUA5QGgUFIujxcuhpHJFBYQsU0NpQI5aHwAObkBgWIA">TS Playground</a> | <a href="source/readonly-deep.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/PTAEBMEMBdIOgFYGcD2A7AUAbwwIgGYoq4BcoA2rgEaQBOuAuhgL4YYigC2kAlmnNCQYenAA4pa0UNACeogKagsAJXmRw6ADYyAIvPmjmofLRSdQAclkKAtPnlJoFgNzCxEqVFgApVGlAAvKC08gCOAK48IQAUFnDAXvDI6BYAlK4YAMbojhAwkGSq6lq6+qIAPNbyKPh5Pn4AfIF1kL7oGfIAHuKSEPL4kOGanvkZHNAO0AJCIj0jsMam5nHA3HwubIlwhChwouFIABaxNLRpriABTfK0prSgACoAygBMAMxvAJxkAAqmCpIZJZ9kcLBAUA5QGgUFIujxcuhpHJFBYQsU0NpQI5aHwAObkBgWIA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -3268,10 +3268,10 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `RequiredDeep` - Create a type from another type with all keys and nested keys set to required.
+- [`RequiredDeep`](source/required-deep.d.ts) - Create a type from another type with all keys and nested keys set to required.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gJRQRwK7BQoAmAIiimAL5wBmUEIcA5EqgLS0oDOMzA3AChBbNAGUUMGMAB2Ac25wAvBhEoAHjACixYDGgB+AFyraEGTDHAAXimNwZeEACMUUOAB84eGcRS1ZEiEzCwBhCAAbQxNeKFk5T29ff0DiYPMYAHUUYDkACxh7Rxc3RJ8-AJkgwSpBAEM8fQBjRjAIyTsTZwhIlDqZMuTK6ob9bjqAN064bt7+wYrUoSohEWQ0bHxCEgkpeMUVTYIiMgowAB5d6XluAD4hAHoHhHW4I+3iK-3lVSe4AEgYBptLp9FATOhBH9-v8QpYbCgTMVXFBHs8YXDwlFwXBYvE0QDYRlsrkCkinCiCf9atDRhAWuB2kCuj12v0qXTxlMWXMZASqEA">TS Playground</a> | <a href="source/required-deep.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gJRQRwK7BQoAmAIiimAL5wBmUEIcA5EqgLS0oDOMzA3AChBbNAGUUMGMAB2Ac25wAvBhEoAHjACixYDGgB+AFyraEGTDHAAXimNwZeEACMUUOAB84eGcRS1ZEiEzCwBhCAAbQxNeKFk5T29ff0DiYPMYAHUUYDkACxh7Rxc3RJ8-AJkgwSpBAEM8fQBjRjAIyTsTZwhIlDqZMuTK6ob9bjqAN064bt7+wYrUoSohEWQ0bHxCEgkpeMUVTYIiMgowAB5d6XluAD4hAHoHhHW4I+3iK-3lVSe4AEgYBptLp9FATOhBH9-v8QpYbCgTMVXFBHs8YXDwlFwXBYvE0QDYRlsrkCkinCiCf9atDRhAWuB2kCuj12v0qXTxlMWXMZASqEA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -3300,10 +3300,10 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `WritableDeep` - Create a deeply mutable version of an `object`/`ReadonlyMap`/`ReadonlySet`/`ReadonlyArray` type. The inverse of `ReadonlyDeep<T>`. Use `Writable<T>` if you only need one level deep.
+- [`WritableDeep`](source/writable-deep.d.ts) - Create a deeply mutable version of an `object`/`ReadonlyMap`/`ReadonlySet`/`ReadonlyArray` type. The inverse of `ReadonlyDeep<T>`. Use `Writable<T>` if you only need one level deep.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gdSsGBDAIwBsUARFFMAXzgDMoIQ4ByJVAWlpQGcZmBuAFCC2aAGIQIcALwZBUFHgAmEAHZFEcPAC44qgK4gCKKEIXK1GuAV3mV6zbxyqA5gG0AuvzgB6H3AAVKW4ACwgAdwQQvHgQfXwCYCJcTWBuOCUKMCs8Wi4AYxgUJQA6eUV7K3zdAkkSPFUhKiFBfLVeOHCcBJJySgkIXWxcQl6sgB4BgD4ZDB04AEYAGmtdN2YAJmYPFeqEKH0UZsEukeIyLIGSvFmAZiFTnov+yRKCNwAGD1nmVRRIgBueCIhwEJ26o2eYCuBFm624jBQMBCwFc234QA">TS Playground</a> | <a href="source/writable-deep.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gdSsGBDAIwBsUARFFMAXzgDMoIQ4ByJVAWlpQGcZmBuAFCC2aAGIQIcALwZBUFHgAmEAHZFEcPAC44qgK4gCKKEIXK1GuAV3mV6zbxyqA5gG0AuvzgB6H3AAVKW4ACwgAdwQQvHgQfXwCYCJcTWBuOCUKMCs8Wi4AYxgUJQA6eUV7K3zdAkkSPFUhKiFBfLVeOHCcBJJySgkIXWxcQl6sgB4BgD4ZDB04AEYAGmtdN2YAJmYPFeqEKH0UZsEukeIyLIGSvFmAZiFTnov+yRKCNwAGD1nmVRRIgBueCIhwEJ26o2eYCuBFm624jBQMBCwFc234QA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -3324,10 +3324,10 @@ Click the type source for complete docs.
 
 ### String
 
-- `Replace` - Represents a string with some or all matches replaced by a replacement.
+- [`Replace`](source/replace.d.ts) - Represents a string with some or all matches replaced by a replacement.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBAbwEoFMwBsCGBjFBfOAMyghDgHIYBPMFAWkJQGcZyBuAKA4BMVssoKIgFcAdthjAIouIIw4UAHg4BJUWGHwUADxgpR3JnBZRgogOYAaDgGUUmKNgAWcHXoNGTZqx1TzcIPpauvqGxjCmFhwAfAAUHGYaMABccGpJ1kz2jk6pdg7O1nJYAUGpfiUogaIwHACU5WiViumalnD5Oe0VCtUw0Zw8fAJChGISUjLFCgCC6OjKrcHuYV4W1p3OriEe4ZE+PaU12yueEd4x8YmaqUuZ2c55D05FTb1lcIdVQfWN-kp3DrPbpvI4wdoITDzVIRYT4AZcAD0iLgABUnEJBDBhFAZNRaHBgEYYBjtjh4GtzHB0MA9FAoe1RBB4AArYQsOAAA0pnIAdFxprhYuQMfMIHAAPzkdrkKUywB8G4AQ3fIdU4yIAvNEKKL0OKleQBaCUMKdeKJXKKBbyIBlchVasRmu1KDFcGtUsN-zm6GFAEYAAzJAAsACZkn6-dKKMlI+Q6HaOBqteR-XQQ3RwwaOIKUF7hQB9PPslBQABymECBZjlZl8cTFCLpfLKEz2dz5AAslQ4ABhCAQdBo2noZsyig11UJh1Jzu9-uoofNoA">TS Playground</a> | <a href="source/replace.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBAbwEoFMwBsCGBjFBfOAMyghDgHIYBPMFAWkJQGcZyBuAKA4BMVssoKIgFcAdthjAIouIIw4UAHg4BJUWGHwUADxgpR3JnBZRgogOYAaDgGUUmKNgAWcHXoNGTZqx1TzcIPpauvqGxjCmFhwAfAAUHGYaMABccGpJ1kz2jk6pdg7O1nJYAUGpfiUogaIwHACU5WiViumalnD5Oe0VCtUw0Zw8fAJChGISUjLFCgCC6OjKrcHuYV4W1p3OriEe4ZE+PaU12yueEd4x8YmaqUuZ2c55D05FTb1lcIdVQfWN-kp3DrPbpvI4wdoITDzVIRYT4AZcAD0iLgABUnEJBDBhFAZNRaHBgEYYBjtjh4GtzHB0MA9FAoe1RBB4AArYQsOAAA0pnIAdFxprhYuQMfMIHAAPzkdrkKUywB8G4AQ3fIdU4yIAvNEKKL0OKleQBaCUMKdeKJXKKBbyIBlchVasRmu1KDFcGtUsN-zm6GFAEYAAzJAAsACZkn6-dKKMlI+Q6HaOBqteR-XQQ3RwwaOIKUF7hQB9PPslBQABymECBZjlZl8cTFCLpfLKEz2dz5AAslQ4ABhCAQdBo2noZsyig11UJh1Jzu9-uoofNoA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -3372,10 +3372,10 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `Split` - Represents an array of strings split using a given character or character set.
+- [`Split`](source/split.d.ts) - Represents an array of strings split using a given character or character set.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gZTAG2DAXzgDMoIQ4ByJVAWmJQGcZKBuAKHYBMUBjHAIZQ0xAK4A7XjGARxcRrnwAeTHBQAPGCnFdG8mFGDiA5gBo4AETWbtu-YZMA+ABTMHxgFxxM5xijBCAjDQXhYAlF7YeDAq5haOHOw0aACSWhQAvFTEEBCUcAA+VABGQvlFlKUAXuVUAO4COFx5HLyyzHD4KCB6WZQ5EKalUEMCVaYNTS3sOCjwQlACiF5p3QDaALqJC0twWQrRzl095pSmlGGsQA">TS Playground</a> | <a href="source/split.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gZTAG2DAXzgDMoIQ4ByJVAWmJQGcZKBuAKHYBMUBjHAIZQ0xAK4A7XjGARxcRrnwAeTHBQAPGCnFdG8mFGDiA5gBo4AETWbtu-YZMA+ABTMHxgFxxM5xijBCAjDQXhYAlF7YeDAq5haOHOw0aACSWhQAvFTEEBCUcAA+VABGQvlFlKUAXuVUAO4COFx5HLyyzHD4KCB6WZQ5EKalUEMCVaYNTS3sOCjwQlACiF5p3QDaALqJC0twWQrRzl095pSmlGGsQA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -3391,10 +3391,10 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `Trim` - Remove leading and trailing spaces from a string.
+- [`Trim`](source/trim.d.ts) - Remove leading and trailing spaces from a string.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gFSqAvnAMyghDgHIlUBaAlAZxjIG4AoF7UAHjMIgnIB8LAPTCAvAPIE+ZIA">TS Playground</a> | <a href="source/trim.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gFSqAvnAMyghDgHIlUBaAlAZxjIG4AoF7UAHjMIgnIB8LAPTCAvAPIE+ZIA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -3407,10 +3407,10 @@ Click the type source for complete docs.
 
 ### Template literal
 
-- `CamelCase` - Convert a string literal to camel-case.
+- [`CamelCase`](source/camel-case.d.ts) - Convert a string literal to camel-case.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gYQIYhQGxwGcUBfOAMyghDgHIlUBaClImOgbgChuB6PnADKoMPhS8AxhAB27OERooAatijBsAI3EAuODjyFsJADx0KECE01q6APjgBeehYgAhWz36CAggBMAN2wZSRQ-XkY0AwJiMIAFalRYYDYTABUHZ3RuAG0AaThgGTgAaxRECAo4NLhjfVwY4xQTPLsAXT00-LbuUi8imBQoCmxQuAAlbAB3AHkwGGBZIgxuOj8oRCYoAFcZOj1NS3FgnnNt-HwAfRGQYHxES5kG-YUYdRkAcx5XPRltkE0Qx4bh84z07HeX24AEUAKoALUucIAGr9-oCoKcZmkABIAUXGTAAYgBJPEAGQAIi9DhBjjIeKQpEt4H5NOM2OcYHpokYSH4EhAkgtUpNZvNFnJMit1ohxrs9G9tigADTcCjnfBE3B3RAAOQaejoNigADoAFZEOhqn5wACMACYAMxqk1G1zW7gAR22AC9odsAB56ABsaogMAAFkMiSl8H49CN8CRepwgA">TS Playground</a> | <a href="source/camel-case.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gYQIYhQGxwGcUBfOAMyghDgHIlUBaClImOgbgChuB6PnADKoMPhS8AxhAB27OERooAatijBsAI3EAuODjyFsJADx0KECE01q6APjgBeehYgAhWz36CAggBMAN2wZSRQ-XkY0AwJiMIAFalRYYDYTABUHZ3RuAG0AaThgGTgAaxRECAo4NLhjfVwY4xQTPLsAXT00-LbuUi8imBQoCmxQuAAlbAB3AHkwGGBZIgxuOj8oRCYoAFcZOj1NS3FgnnNt-HwAfRGQYHxES5kG-YUYdRkAcx5XPRltkE0Qx4bh84z07HeX24AEUAKoALUucIAGr9-oCoKcZmkABIAUXGTAAYgBJPEAGQAIi9DhBjjIeKQpEt4H5NOM2OcYHpokYSH4EhAkgtUpNZvNFnJMit1ohxrs9G9tigADTcCjnfBE3B3RAAOQaejoNigADoAFZEOhqn5wACMACYAMxqk1G1zW7gAR22AC9odsAB56ABsaogMAAFkMiSl8H49CN8CRepwgA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -3446,10 +3446,10 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `CamelCasedPropertiesDeep` - Convert object properties to camel case recursively.
+- [`CamelCasedPropertiesDeep`](source/camel-cased-properties-deep.d.ts) - Convert object properties to camel case recursively.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gYQIYhQGxwGcUATABSglVmBSIBEUUwBfOAMypDgHIlUAWg70YvANwAoScAB2MFFA7YAxmgCqJKBkmbFASVIAuOLICuIAEaKpeqADlcKE0RhQ5AcymtpchUtUNLQB1YBgACwAxdxRZUiIdO31ZDggTO1staLo4onStAG0AXW9pFQhZVzgoejN8GBMcPEJsEgoqGhg6RmYwAB47UIjs2PiAPjgAXh0zLWTUk3RJWYNjOABGABplrUc8E14AFQgQXm3WbZWoEdyTAsklq8MTACZL3acDgClFKEQzyQXB47VYmADM70Ue2cfAAymBgABrFAAoFFc7iIA">TS Playground</a> | <a href="source/camel-cased-properties-deep.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gYQIYhQGxwGcUATABSglVmBSIBEUUwBfOAMypDgHIlUAWg70YvANwAoScAB2MFFA7YAxmgCqJKBkmbFASVIAuOLICuIAEaKpeqADlcKE0RhQ5AcymtpchUtUNLQB1YBgACwAxdxRZUiIdO31ZDggTO1staLo4onStAG0AXW9pFQhZVzgoejN8GBMcPEJsEgoqGhg6RmYwAB47UIjs2PiAPjgAXh0zLWTUk3RJWYNjOABGABplrUc8E14AFQgQXm3WbZWoEdyTAsklq8MTACZL3acDgClFKEQzyQXB47VYmADM70Ue2cfAAymBgABrFAAoFFc7iIA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -3484,10 +3484,10 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `CamelCasedProperties` - Convert object properties to camel case but not recursively.
+- [`CamelCasedProperties`](source/camel-cased-properties.d.ts) - Convert object properties to camel case but not recursively.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gYQIYhQGxwGcUATABSglVmBSIF84AzKkOAciVQFpn6YHANwAoEcAB2MFFGbYAxmgCqJKBhEqZASVIAuOBICuIAEYzRmqADlcKfURhRJAc1EMx8iBIdwo9Q-gw+jh4hNgkFFQ0MHREADyWAHxwALzqhqo6+gCMADQiGTI2ePocACoQIBz5DEJAA">TS Playground</a> | <a href="source/camel-cased-properties.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gYQIYhQGxwGcUATABSglVmBSIF84AzKkOAciVQFpn6YHANwAoEcAB2MFFGbYAxmgCqJKBhEqZASVIAuOBICuIAEYzRmqADlcKfURhRJAc1EMx8iBIdwo9Q-gw+jh4hNgkFFQ0MHREADyWAHxwALzqhqo6+gCMADQiGTI2ePocACoQIBz5DEJAA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -3505,10 +3505,10 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `DelimiterCase` - Convert a string literal to a custom string delimiter casing.
+- [`DelimiterCase`](source/delimiter-case.d.ts) - Convert a string literal to a custom string delimiter casing.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gERQG1MGFKAYQEMBnFAXzgDMoIQ4ByJVAWlpXJmYG4AUAID0wuAGVQYHCiEBjCADseccoxQA1UlGCkARjIBccbHhAEiZSgB5mtCBABC25gBoWAYmYA+OAF4WewgPPRdBETEAQQATADdSRTkUaKE2NAB5aOicRCtkgAUGVFhgbmsAFV8A9AEAbQBpOGBFOABrFEQIWjhyuAoTXHxCEgoUa3r3Zi9vAF1jcoaZgSpw5uHaUiSJdXSwGGAlcgwBaKhEACUAV0VjPQcZBMFmuRxL6JQAMWAjVRgdRQA5oIgsZFJcQHoiIIqPJDvAoKQAO7EPC7faHYyZbK5UbRQoQYr7MriHZ7A7KKrHZinRAeKDXZjGP6XFCuATMZ6vd4eWjfFCMlihKAAOgAVuQ3AIQXAAIwAJgAzMs+EA">TS Playground</a> | <a href="source/delimiter-case.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gERQG1MGFKAYQEMBnFAXzgDMoIQ4ByJVAWlpXJmYG4AUAID0wuAGVQYHCiEBjCADseccoxQA1UlGCkARjIBccbHhAEiZSgB5mtCBABC25gBoWAYmYA+OAF4WewgPPRdBETEAQQATADdSRTkUaKE2NAB5aOicRCtkgAUGVFhgbmsAFV8A9AEAbQBpOGBFOABrFEQIWjhyuAoTXHxCEgoUa3r3Zi9vAF1jcoaZgSpw5uHaUiSJdXSwGGAlcgwBaKhEACUAV0VjPQcZBMFmuRxL6JQAMWAjVRgdRQA5oIgsZFJcQHoiIIqPJDvAoKQAO7EPC7faHYyZbK5UbRQoQYr7MriHZ7A7KKrHZinRAeKDXZjGP6XFCuATMZ6vd4eWjfFCMlihKAAOgAVuQ3AIQXAAIwAJgAzMs+EA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -3538,10 +3538,10 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `DelimiterCasedPropertiesDeep` - Convert object properties to delimiter case recursively.
+- [`DelimiterCasedPropertiesDeep`](source/delimiter-cased-properties-deep.d.ts) - Convert object properties to delimiter case recursively.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gERQG1MGFKAYQEMBnFAEwAUoJVZgVzsUwBfOAM3pDgDkSVAFpuLGAIDcAKBnAAdoSjdSAYzQBVSlAwyArjoCSVAFxwF+kACMisw0QBypECnPkYURQHNZHOYrKqhpw2kQA6gQAFgBiXigKVOR6DlBGCtwQ5mFQ9jpxzInk2ToA2gC6fnJqEAoecFAs+jgw5th4IAREZJS09IwwzKwo7AA8OZEwsfFFADSCIgIAfHAAvHoCqSKKmQLm6DKbOttUe3AAjLOHWwouKGcCACoQIAJXHFdHRGIzSWelMgOXygJzOACZPjc7g8AFJEKCIN4yD6A67HYCncwAZkhx1urgeAGUwMAANb3d5XcrvKRAA">TS Playground</a> | <a href="source/delimiter-cased-properties-deep.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gERQG1MGFKAYQEMBnFAEwAUoJVZgVzsUwBfOAM3pDgDkSVAFpuLGAIDcAKBnAAdoSjdSAYzQBVSlAwyArjoCSVAFxwF+kACMisw0QBypECnPkYURQHNZHOYrKqhpw2kQA6gQAFgBiXigKVOR6DlBGCtwQ5mFQ9jpxzInk2ToA2gC6fnJqEAoecFAs+jgw5th4IAREZJS09IwwzKwo7AA8OZEwsfFFADSCIgIAfHAAvHoCqSKKmQLm6DKbOttUe3AAjLOHWwouKGcCACoQIAJXHFdHRGIzSWelMgOXygJzOACZPjc7g8AFJEKCIN4yD6A67HYCncwAZkhx1urgeAGUwMAANb3d5XcrvKRAA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -3576,10 +3576,10 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `DelimiterCasedProperties` - Convert object properties to delimiter case but not recursively.
+- [`DelimiterCasedProperties`](source/delimiter-cased-properties.d.ts) - Convert object properties to delimiter case but not recursively.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gERQG1MGFKAYQEMBnFAEwAUoJVZgVyBfOAM3pDgHIlUAWg4sYvANwAoScAB2hKB1IBjNAFVKUDJICumgJJUAXHFk6QAIyJS9RAHKkQKE+RhQ5AcymtpyiLNc4KBYdHBgTbDwQAiIySlp6RhhmcgAeDSIAGj5BXgA+OABebV5bKEFgKl4TAEZMyVLNQVlHFGq+ABUIEF561nEgA">TS Playground</a> | <a href="source/delimiter-cased-properties.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gERQG1MGFKAYQEMBnFAEwAUoJVZgVyBfOAM3pDgHIlUAWg4sYvANwAoScAB2hKB1IBjNAFVKUDJICumgJJUAXHFk6QAIyJS9RAHKkQKE+RhQ5AcymtpyiLNc4KBYdHBgTbDwQAiIySlp6RhhmcgAeDSIAGj5BXgA+OABebV5bKEFgKl4TAEZMyVLNQVlHFGq+ABUIEF561nEgA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -3597,10 +3597,10 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `Get` - Get a deeply-nested property from an object using a key path, like Lodash's `.get()` function.
+- [`Get`](source/get.d.ts) - Get a deeply-nested property from an object using a key path, like Lodash's `.get()` function.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gcRTAvnAMyghDgHIlUBaAlAZxjIG4AoUSWOAKjgEM64AGwgATfgAtCxUmWFi645ixYBjCADsGcAOY44AXjgAeAEL8UAFWQoANHAAKvGJJQAPGCnUiBDKMHXacAA+cFAovCIagohwvv7aANoAugB8ABQQAEYAVigqMABccGZ0ltZ2YE7iRY7OAJRF2DCm5laodrXiKQYpLHISAHS6MBk5eTAVVXWsbOoeUAS8KmgAgmDAAEr0kJpo6CziwDB0RfuHx0UrUFC8iEb7APrAIkVxASwPdBAArlDLpyx1LwQChLtdbvcWNpgAA3TyvGB+ALJFiLEDAaIIpHaFi4XqZYCwcQAEScoNiiPiuNxvVw1NUGi0wwAcsC0IY0rx1ls6DtSpdudtGSg6j0oThOYLecK7GRznQBvKEgAGJIDT4-P4oAZAkFkaYsAD0hv03SuNzu6GhcPUWPiySYhGBGMQdoCeOCcG+XhQBH8KBEymNDiqfEEX1i3zAHGOfFC4Ui6mifHBMQgBAp2LoDM08BZbIA6kdxJ1zbcDHBJZshbsBdXpbtRabxSMufW+bY4Ak5Uc6GQbD3jv3yMrh2QNb9lmPdSgyEk+AI1LmDcbTXAy5brfDM-ako60S63doPSFvSJff7A0bDXBmRoqHF8nAQKJQSwmkY3okkrKAMzD9BH0KJ1wxQD1V26L93xwIwtjUKARE-SkAjsL8UllAgIAgACgKKRFvjA7pgzXL8gA">TS Playground</a> | <a href="source/get.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gcRTAvnAMyghDgHIlUBaAlAZxjIG4AoUSWOAKjgEM64AGwgATfgAtCxUmWFi645ixYBjCADsGcAOY44AXjgAeAEL8UAFWQoANHAAKvGJJQAPGCnUiBDKMHXacAA+cFAovCIagohwvv7aANoAugB8ABQQAEYAVigqMABccGZ0ltZ2YE7iRY7OAJRF2DCm5laodrXiKQYpLHISAHS6MBk5eTAVVXWsbOoeUAS8KmgAgmDAAEr0kJpo6CziwDB0RfuHx0UrUFC8iEb7APrAIkVxASwPdBAArlDLpyx1LwQChLtdbvcWNpgAA3TyvGB+ALJFiLEDAaIIpHaFi4XqZYCwcQAEScoNiiPiuNxvVw1NUGi0wwAcsC0IY0rx1ls6DtSpdudtGSg6j0oThOYLecK7GRznQBvKEgAGJIDT4-P4oAZAkFkaYsAD0hv03SuNzu6GhcPUWPiySYhGBGMQdoCeOCcG+XhQBH8KBEymNDiqfEEX1i3zAHGOfFC4Ui6mifHBMQgBAp2LoDM08BZbIA6kdxJ1zbcDHBJZshbsBdXpbtRabxSMufW+bY4Ak5Uc6GQbD3jv3yMrh2QNb9lmPdSgyEk+AI1LmDcbTXAy5brfDM-ako60S63doPSFvSJff7A0bDXBmRoqHF8nAQKJQSwmkY3okkrKAMzD9BH0KJ1wxQD1V26L93xwIwtjUKARE-SkAjsL8UllAgIAgACgKKRFvjA7pgzXL8gA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -3640,10 +3640,10 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `Join` - Join an array of strings and/or numbers using the given string as a delimiter.
+- [`Join`](source/join.d.ts) - Join an array of strings and/or numbers using the given string as a delimiter.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gKQsAdgXzgDMoIQ4ByJVAWiJQGcYKBuAKDYHpO4BZYAB4oAJnAAUTKHgDmDOADI4uAK4gARiigMAlHGAwUIBizhRGygDbxgDAFyUiECADoADM7UBDAF4U2AYwhcJjgwTxgAC3tsPAAeAG0KRwgKABo4V3SKL18AXSznCgA+OABeOETktIysnIpc5wArHFwxCkLtdi4eAHlcC0Q4SRk9AyMTMwZLazsHJw9PKAXfAKCQsMjoloSkp2rsxf26-MpCkvLKvdrD67ymlraOru44PoGlVQ0oUcNjU3MrHpZhQAIzOABMzgAzH5AsF4BsonAYrgEiD0uD0lCTu1imUKui4Ji4Nj7nhHhROhwXm9BmpgNI8NYxn9JtMgZQwZCYat4aFwkiUWjcBiRSTcDizvj4iCxeCxVCJWTWriqd1Xv06U4LChPLgfuN-lNATZ7FQoMoUM4iJ4LAwrTALShYWsEQKtnF4o7LekbXaUOlvShJXiLkHfbb7YGnQ1muTVc8eABhIIwTx4OQqCwWGwRA2sgEzM3JZzLUsCRArOHrd3I7aXFLpZS4YQoIh4ES3apZixZCt5Aqhiq7RtwZut9u4TuUOrpHt9yv1ZUUtUvAAKixgwFtCGUYB1QwinlQcjEkzdUE85AsniYnSN7NNcAABmAzO2BM4ACToYa4aT4M+vI1psdaehQb5toI1Sls4f7SPEuQhucw6QR+S5xiqTzUjwG6wNuFi7vuaAMEeJ7iOe-KXuQ7ZaDA95siaszPj+8H4HByhEB+QHVm6oFCvEsHwYhWRTFx0HIdKFBiehsYPAmOFwAAKnuOpyPovxwAA7voeY9rmY64MAawTIWHK4nAAA+lARCg2YuBQVmnFp0AWMIjnWRQtn2c4LlQG5Lp8oiHqook3kWCkTnjlBU7CFkfkBU5PaSRcXl2RF+wJe5cnxk8QA">TS Playground</a> | <a href="source/join.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gKQsAdgXzgDMoIQ4ByJVAWiJQGcYKBuAKDYHpO4BZYAB4oAJnAAUTKHgDmDOADI4uAK4gARiigMAlHGAwUIBizhRGygDbxgDAFyUiECADoADM7UBDAF4U2AYwhcJjgwTxgAC3tsPAAeAG0KRwgKABo4V3SKL18AXSznCgA+OABeOETktIysnIpc5wArHFwxCkLtdi4eAHlcC0Q4SRk9AyMTMwZLazsHJw9PKAXfAKCQsMjoloSkp2rsxf26-MpCkvLKvdrD67ymlraOru44PoGlVQ0oUcNjU3MrHpZhQAIzOABMzgAzH5AsF4BsonAYrgEiD0uD0lCTu1imUKui4Ji4Nj7nhHhROhwXm9BmpgNI8NYxn9JtMgZQwZCYat4aFwkiUWjcBiRSTcDizvj4iCxeCxVCJWTWriqd1Xv06U4LChPLgfuN-lNATZ7FQoMoUM4iJ4LAwrTALShYWsEQKtnF4o7LekbXaUOlvShJXiLkHfbb7YGnQ1muTVc8eABhIIwTx4OQqCwWGwRA2sgEzM3JZzLUsCRArOHrd3I7aXFLpZS4YQoIh4ES3apZixZCt5Aqhiq7RtwZut9u4TuUOrpHt9yv1ZUUtUvAAKixgwFtCGUYB1QwinlQcjEkzdUE85AsniYnSN7NNcAABmAzO2BM4ACToYa4aT4M+vI1psdaehQb5toI1Sls4f7SPEuQhucw6QR+S5xiqTzUjwG6wNuFi7vuaAMEeJ7iOe-KXuQ7ZaDA95siaszPj+8H4HByhEB+QHVm6oFCvEsHwYhWRTFx0HIdKFBiehsYPAmOFwAAKnuOpyPovxwAA7voeY9rmY64MAawTIWHK4nAAA+lARCg2YuBQVmnFp0AWMIjnWRQtn2c4LlQG5Lp8oiHqook3kWCkTnjlBU7CFkfkBU5PaSRcXl2RF+wJe5cnxk8QA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -3678,10 +3678,10 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `KebabCase` - Convert a string literal to kebab-case.
+- [`KebabCase`](source/kebab-case.d.ts) - Convert a string literal to kebab-case.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gaRQIwIY4DCeAzigL5wBmUEIcA5EqgLRUokwMDcAULwHoBcAMqgwAGxT8AxhAB2nOCTooAanijACUgFxxs+IqRQAeBlQgQAQpoYA+OAF5GliC3xQe-IXACCACYAbnjyMigB-MxohgTEZAEACrSosMAcpgAqji7ovADamHDA8nAA1iiIEFRwmXCkBrhxJqaY9gC6+pmF7bzkfLwlMChQVHjhcIQSwADyYDDACiQYvAFQiABKAK7y+jhWUqF8JTISWwEoAGLAesowWvIA5nxu+vJbIDgjfOSyS-BQPAAdyms3mi0U+lixgSyQgqQWGVBcwWSxyKwYa0QLCgOwY+nuWxQABpeAwTmcLmwbih8YxPAA6ABWJAYpNecAAjAAmADMfW4QA">TS Playground</a> | <a href="source/kebab-case.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gaRQIwIY4DCeAzigL5wBmUEIcA5EqgLRUokwMDcAULwHoBcAMqgwAGxT8AxhAB2nOCTooAanijACUgFxxs+IqRQAeBlQgQAQpoYA+OAF5GliC3xQe-IXACCACYAbnjyMigB-MxohgTEZAEACrSosMAcpgAqji7ovADamHDA8nAA1iiIEFRwmXCkBrhxJqaY9gC6+pmF7bzkfLwlMChQVHjhcIQSwADyYDDACiQYvAFQiABKAK7y+jhWUqF8JTISWwEoAGLAesowWvIA5nxu+vJbIDgjfOSyS-BQPAAdyms3mi0U+lixgSyQgqQWGVBcwWSxyKwYa0QLCgOwY+nuWxQABpeAwTmcLmwbih8YxPAA6ABWJAYpNecAAjAAmADMfW4QA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -3711,10 +3711,10 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `KebabCasedPropertiesDeep` - Convert object properties to kebab case recursively.
+- [`KebabCasedPropertiesDeep`](source/kebab-cased-properties-deep.d.ts) - Convert object properties to kebab case recursively.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA2gaRQIwIY4DCeAzigCYAKUEqswKJAIiimALpwBmNIcA5ElQBaLoxj8A3AChpwAHYwUULngDGaAKpkocAN7SArjoCS5AFxx5hkDmUzjygHJ4QKSyRhQFAcxkBfWQUlFXUtHQB1YBgACwAxbxR5chJ9I1N5LghLbXt05QSGZJIcnXR2ANk1CHlPOChGQwAbGEtsfCJSCmpaZRgGZlYwAB5cqCjYwqSUgD44AF40-kcoYQUs-ksDZZ018k24AEYAGmkd5WF5VxQD-gAVCBB+U-9T89WeIpSD9Gltlb2BwATG8AVc3LcAFLKKCIZ7SV5-M4A4D7SwAZlBu3BN0s-AAymBgABrG4vU7sF6SIA">TS Playground</a> | <a href="source/kebab-cased-properties-deep.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA2gaRQIwIY4DCeAzigCYAKUEqswKJAIiimALpwBmNIcA5ElQBaLoxj8A3AChpwAHYwUULngDGaAKpkocAN7SArjoCS5AFxx5hkDmUzjygHJ4QKSyRhQFAcxkBfWQUlFXUtHQB1YBgACwAxbxR5chJ9I1N5LghLbXt05QSGZJIcnXR2ANk1CHlPOChGQwAbGEtsfCJSCmpaZRgGZlYwAB5cqCjYwqSUgD44AF40-kcoYQUs-ksDZZ018k24AEYAGmkd5WF5VxQD-gAVCBB+U-9T89WeIpSD9Gltlb2BwATG8AVc3LcAFLKKCIZ7SV5-M4A4D7SwAZlBu3BN0s-AAymBgABrG4vU7sF6SIA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -3749,10 +3749,10 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `KebabCasedProperties` - Convert object properties to kebab case but not recursively.
+- [`KebabCasedProperties`](source/kebab-cased-properties.d.ts) - Convert object properties to kebab case but not recursively.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gaRQIwIY4DCeAzigCYAKUEqswKJAvnAGY0hwDkSqAtK0YwuAbgBQY4ADsYKKKzwBjNAFUyUDGICu6gJLkAXHClaQOOeJ1yAcnhAojJGFGkBzcUwmKIUp3CiMWgA2MEbY+ESkFNS0cjAMJAA8anIAfHAAvJpcVlB8wORcRgCMADRiOep8UnYoRdwAKhAgXOVMIkA">TS Playground</a> | <a href="source/kebab-cased-properties.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gaRQIwIY4DCeAzigCYAKUEqswKJAvnAGY0hwDkSqAtK0YwuAbgBQY4ADsYKKKzwBjNAFUyUDGICu6gJLkAXHClaQOOeJ1yAcnhAojJGFGkBzcUwmKIUp3CiMWgA2MEbY+ESkFNS0cjAMJAA8anIAfHAAvJpcVlB8wORcRgCMADRiOep8UnYoRdwAKhAgXOVMIkA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -3770,10 +3770,10 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `LastArrayElement` - Extracts the type of the last element of an array.
+- [`LastArrayElement`](source/last-array-element.d.ts) - Extracts the type of the last element of an array.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gGQIYGcYCCUU2iAogDYogoB2MAvnAGZQQhwDkSqAtMynycA3AChRAExQBjCtihpmAV1rSYwCLThz8AeWYAeAGpwUADxh0JuOAuwTNFRHGy1EAbQC6APgAU8kkQALjgjAEoQnHwiQMpqOhhjbzFRaU18F2JSOABeOHdOZggITgAaOAAmTxSeFAhmbTwYfX8sxDCxAHpOnO84WiUQACMUKCA">TS Playground</a> | <a href="source/last-array-element.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gGQIYGcYCCUU2iAogDYogoB2MAvnAGZQQhwDkSqAtMynycA3AChRAExQBjCtihpmAV1rSYwCLThz8AeWYAeAGpwUADxh0JuOAuwTNFRHGy1EAbQC6APgAU8kkQALjgjAEoQnHwiQMpqOhhjbzFRaU18F2JSOABeOHdOZggITgAaOAAmTxSeFAhmbTwYfX8sxDCxAHpOnO84WiUQACMUKCA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -3788,10 +3788,10 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `PascalCase` - Converts a string literal to pascal-case.
+- [`PascalCase`](source/pascal-case.d.ts) - Converts a string literal to pascal-case.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gBQIYGcDG2ANgMJ4oC+cAZlBCHAORKoC01KuMjA3AFB8A9ILgBlUGCIoB+CADsucXPRQA1bFGDYARlIBccHAWJlcKADyNqECK20bGAPjgBeJgDEbAIQf8hIgEEAEwA3bDl8FCCBFjQjQlJyTDowXHMAFWc3dD4AbQBpOGA5OABrFEQIajh0uDxDPATTC3zHAF0DdIK2vgo-YpgUKGpsSLgAJWwAdwB5MBhgeVwMPkYgqERWKABXOUYDbRspcP4rbaIiAH0RkGAiREu5bBAUfaUYTTkAc35rCAM5NsQNohvwKDIlvAgtpxpxzjADGQXokzEFkhBULBgJxzABZCBBFBEdGpLIrAAiG3GuwMH22KAANHx3OciO5nndEAA5Z4oAyMexQAB0ACtcIwmZ5-nAAIwAJgAzL0eEA">TS Playground</a> | <a href="source/pascal-case.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gBQIYGcDG2ANgMJ4oC+cAZlBCHAORKoC01KuMjA3AFB8A9ILgBlUGCIoB+CADsucXPRQA1bFGDYARlIBccHAWJlcKADyNqECK20bGAPjgBeJgDEbAIQf8hIgEEAEwA3bDl8FCCBFjQjQlJyTDowXHMAFWc3dD4AbQBpOGA5OABrFEQIajh0uDxDPATTC3zHAF0DdIK2vgo-YpgUKGpsSLgAJWwAdwB5MBhgeVwMPkYgqERWKABXOUYDbRspcP4rbaIiAH0RkGAiREu5bBAUfaUYTTkAc35rCAM5NsQNohvwKDIlvAgtpxpxzjADGQXokzEFkhBULBgJxzABZCBBFBEdGpLIrAAiG3GuwMH22KAANHx3OciO5nndEAA5Z4oAyMexQAB0ACtcIwmZ5-nAAIwAJgAzL0eEA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -3821,10 +3821,10 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `PascalCasedPropertiesDeep` - Convert object properties to pascal case recursively.
+- [`PascalCasedPropertiesDeep`](source/pascal-cased-properties-deep.d.ts) - Convert object properties to pascal case recursively.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gBQIYGcDG2ANgMJ4oAmmUEqswKuAIiimAL5wBmNIcA5ElQBaLoxj8A3AChpwAHYwUULtnxoAqrmUZpAV21QAkhQBcceXpAAjZTIPKActhApzuGFAUBzGe1kKSipqmoYA6sAwABYAYl4o8hS4ug7G8lwQ5lp2+oZxDIm4WYYA2gC6frL4EPIecFCMekQw5jgExGTaVDR0MAzMrGAAPNlQEdH5CUkAfHAAvLqjRumZi4Ym5gCMADTSo86u5vwAKhAg-Lvsu6OTheYl0uh762ZwAEzXhgduAgBSylBEBdpFdHs9lBs4ABmT5OFw-fgAZTAwAA1ihgaCypdJEA">TS Playground</a> | <a href="source/pascal-cased-properties-deep.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gBQIYGcDG2ANgMJ4oAmmUEqswKuAIiimAL5wBmNIcA5ElQBaLoxj8A3AChpwAHYwUULtnxoAqrmUZpAV21QAkhQBcceXpAAjZTIPKActhApzuGFAUBzGe1kKSipqmoYA6sAwABYAYl4o8hS4ug7G8lwQ5lp2+oZxDIm4WYYA2gC6frL4EPIecFCMekQw5jgExGTaVDR0MAzMrGAAPNlQEdH5CUkAfHAAvLqjRumZi4Ym5gCMADTSo86u5vwAKhAg-Lvsu6OTheYl0uh762ZwAEzXhgduAgBSylBEBdpFdHs9lBs4ABmT5OFw-fgAZTAwAA1ihgaCypdJEA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -3859,10 +3859,10 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `PascalCasedProperties` - Convert object properties to pascal case but not recursively.
+- [`PascalCasedProperties`](source/pascal-cased-properties.d.ts) - Convert object properties to pascal case but not recursively.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gBQIYGcDG2ANgMJ4oAmmUEqswKuAvnAGY0hwDkSqAtK0YwuAbgBQY4ADsYKKK2z40AVVxyMYgK5qoASQoAuOFM0gARnPHa5AOWwgUR3DCjSA5uKYT8EKc7hQjJpEMEY4BMRkalQ0dDAMuAA8qnIAfHAAvBopeoZwAIwANGI5dg5GXAAqECBcxUwiQA">TS Playground</a> | <a href="source/pascal-cased-properties.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gBQIYGcDG2ANgMJ4oAmmUEqswKuAvnAGY0hwDkSqAtK0YwuAbgBQY4ADsYKKK2z40AVVxyMYgK5qoASQoAuOFM0gARnPHa5AOWwgUR3DCjSA5uKYT8EKc7hQjJpEMEY4BMRkalQ0dDAMuAA8qnIAfHAAvBopeoZwAIwANGI5dg5GXAAqECBcxUwiQA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -3880,10 +3880,10 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `Replace` - Represents a string with some or all matches replaced by a replacement.
+- [`Replace`](source/replace.d.ts) - Represents a string with some or all matches replaced by a replacement.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBAbwEoFMwBsCGBjFBfOAMyghDgHIYBPMFAWkJQGcZyBuAKA4BMVssoKIgFcAdthjAIouIIw4UAHg4BJUWGHwUADxgpR3JnBZRgogOYAaDgGUUmKNgAWcHXoNGTZqx1TzcIPpauvqGxjCmFhwAfAAUHGYaMABccGpJ1kz2jk6pdg7O1nJYAUGpfiUogaIwHACU5WiViumalnD5Oe0VCtUw0Zw8fAJChGISUjLFCgCC6OjKrcHuYV4W1p3OriEe4ZE+PaU12yueEd4x8YmaqUuZ2c55D05FTb1lcIdVQfWN-kp3DrPbpvI4wdoITDzVIRYT4AZcAD0iLgABUnEJBDBhFAZNRaHBgEYYBjtjh4GtzHB0MA9FAoe1RBB4AArYQsOAAA0pnIAdFxprhYuQMfMIHAAPzkdrkKUywB8G4AQ3fIdU4yIAvNEKKL0OKleQBaCUMKdeKJXKKBbyIBlchVasRmu1KDFcGtUsN-zm6GFAEYAAzJAAsACZkn6-dKKMlI+Q6HaOBqteR-XQQ3RwwaOIKUF7hQB9PPslBQABymECBZjlZl8cTFCLpfLKEz2dz5AAslQ4ABhCAQdBo2noZsyig11UJh1Jzu9-uoofNoA">TS Playground</a> | <a href="source/replace.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBAbwEoFMwBsCGBjFBfOAMyghDgHIYBPMFAWkJQGcZyBuAKA4BMVssoKIgFcAdthjAIouIIw4UAHg4BJUWGHwUADxgpR3JnBZRgogOYAaDgGUUmKNgAWcHXoNGTZqx1TzcIPpauvqGxjCmFhwAfAAUHGYaMABccGpJ1kz2jk6pdg7O1nJYAUGpfiUogaIwHACU5WiViumalnD5Oe0VCtUw0Zw8fAJChGISUjLFCgCC6OjKrcHuYV4W1p3OriEe4ZE+PaU12yueEd4x8YmaqUuZ2c55D05FTb1lcIdVQfWN-kp3DrPbpvI4wdoITDzVIRYT4AZcAD0iLgABUnEJBDBhFAZNRaHBgEYYBjtjh4GtzHB0MA9FAoe1RBB4AArYQsOAAA0pnIAdFxprhYuQMfMIHAAPzkdrkKUywB8G4AQ3fIdU4yIAvNEKKL0OKleQBaCUMKdeKJXKKBbyIBlchVasRmu1KDFcGtUsN-zm6GFAEYAAzJAAsACZkn6-dKKMlI+Q6HaOBqteR-XQQ3RwwaOIKUF7hQB9PPslBQABymECBZjlZl8cTFCLpfLKEz2dz5AAslQ4ABhCAQdBo2noZsyig11UJh1Jzu9-uoofNoA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -3928,10 +3928,10 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `ScreamingSnakeCase` - Convert a string literal to screaming-snake-case.
+- [`ScreamingSnakeCase`](source/screaming-snake-case.d.ts) - Convert a string literal to screaming-snake-case.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gZQMZRQQxGADsBzTY-AaxQGF8BnFAXzgDMoIQ4ByJVALRsUDGDwDcAKEnYIxUXAZcUANXxRg+AEYAbFAC44OPIRLlKNekwA8PNhAgAhdTwB8cALy8AYgHlfAPqOAIIAShJAA">TS Playground</a> | <a href="source/screaming-snake-case.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gZQMZRQQxGADsBzTY-AaxQGF8BnFAXzgDMoIQ4ByJVALRsUDGDwDcAKEnYIxUXAZcUANXxRg+AEYAbFAC44OPIRLlKNekwA8PNhAgAhdTwB8cALy8AYgHlfAPqOAIIAShJAA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -3941,10 +3941,10 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `SnakeCase` - Convert a string literal to snake-case.
+- [`SnakeCase`](source/snake-case.d.ts) - Convert a string literal to snake-case.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gZQHYEMDWKAwrgM4oC+cAZlBCHAORKoC01KpMjA3AFB8A9ILiZQYADYoBAYwjYucUvRQA1XFGC4ARlIBcovIRLkAPI2oQIAIQ2MAfHAC8TSxAD62u-yEiAggAmAG642DIoAQIsaDgExGQRAAp0qLDAnKYAKo4u6HwA2gDScMDYcISIENRwmXBkhnEmKKaF9gC6BplFbXwUPqUwKFDUuOFwALIQASgSyRBgpBh8wKQAErhgYIgG2lZSofzUAK4SEgBiuCDAEogAcpcoBlya2ADmh1YG2Ecg2kP8FFk8kUAW0ACVOCcYAZYsYEgE5qkYOlSKZJtNZilSDklowVu4ABYbLaMAwwKBHFAAGj4FhOEncIyuN3ceBAKFJTBIUAkuFEVxgBMYNLcBgAjAAmADMvR4QA">TS Playground</a> | <a href="source/snake-case.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gZQHYEMDWKAwrgM4oC+cAZlBCHAORKoC01KpMjA3AFB8A9ILiZQYADYoBAYwjYucUvRQA1XFGC4ARlIBcovIRLkAPI2oQIAIQ2MAfHAC8TSxAD62u-yEiAggAmAG642DIoAQIsaDgExGQRAAp0qLDAnKYAKo4u6HwA2gDScMDYcISIENRwmXBkhnEmKKaF9gC6BplFbXwUPqUwKFDUuOFwALIQASgSyRBgpBh8wKQAErhgYIgG2lZSofzUAK4SEgBiuCDAEogAcpcoBlya2ADmh1YG2Ecg2kP8FFk8kUAW0ACVOCcYAZYsYEgE5qkYOlSKZJtNZilSDklowVu4ABYbLaMAwwKBHFAAGj4FhOEncIyuN3ceBAKFJTBIUAkuFEVxgBMYNLcBgAjAAmADMvR4QA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -3974,10 +3974,10 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `SnakeCasedPropertiesDeep` - Convert object properties to snake case recursively.
+- [`SnakeCasedPropertiesDeep`](source/snake-cased-properties-deep.d.ts) - Convert object properties to snake case recursively.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gZQHYEMDWKAwrgM4oAmAClBKrMCqQCIopgC+cAZrSHAHIkqALTcmMAQG4AUDODYYKKN1wBjNAFVyUDDICuOgJIUAXHGz6QAI2WzDygHK4QKc6RhQFAc1kc5Ckoq6lo6AOrAMAAWAGJeKNgUpHoOUEbY3BDm2nYGOnGMiaTZOgDaALp+cmoQ2B5wUEz6ADYw5jgExGSUNHTKMIwsbGAAPDlQEdEFCUkAfHAAvCk6APoKmeboecprZnAAjAA021AreK7mAgAqECACxxzHqSu8hUnmpTJbz8B7AExPVbnNyCABSyigiHuMkeXxOu3MAGZATtgZdMGBgIRobDyg8pEA">TS Playground</a> | <a href="source/snake-cased-properties-deep.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gZQHYEMDWKAwrgM4oAmAClBKrMCqQCIopgC+cAZrSHAHIkqALTcmMAQG4AUDODYYKKN1wBjNAFVyUDDICuOgJIUAXHGz6QAI2WzDygHK4QKc6RhQFAc1kc5Ckoq6lo6AOrAMAAWAGJeKNgUpHoOUEbY3BDm2nYGOnGMiaTZOgDaALp+cmoQ2B5wUEz6ADYw5jgExGSUNHTKMIwsbGAAPDlQEdEFCUkAfHAAvCk6APoKmeboecprZnAAjAA021AreK7mAgAqECACxxzHqSu8hUnmpTJbz8B7AExPVbnNyCABSyigiHuMkeXxOu3MAGZATtgZdMGBgIRobDyg8pEA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -4012,10 +4012,10 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `SnakeCasedProperties` - Convert object properties to snake case but not recursively.
+- [`SnakeCasedProperties`](source/snake-cased-properties.d.ts) - Convert object properties to snake case but not recursively.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gZQHYEMDWKAwrgM4oAmAClBKrMCqQL5wBmtIcA5EqgLRsmMbgG4AUOODYYKKG1wBjNAFVyUDOICu6gJIUAXHGxaQAIzkSdcgHK4QKI6RhRpAcwnNJiiNmdwoJi0AGxgjHAJiMkoaOjkYRlIAHjU5AD44AF5NaygAfWBDOABGABptdTy8ByNuABUIEG5y5lEgA">TS Playground</a> | <a href="source/snake-cased-properties.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gZQHYEMDWKAwrgM4oAmAClBKrMCqQL5wBmtIcA5EqgLRsmMbgG4AUOODYYKKG1wBjNAFVyUDOICu6gJIUAXHGxaQAIzkSdcgHK4QKI6RhRpAcwnNJiiNmdwoJi0AGxgjHAJiMkoaOjkYRlIAHjU5AD44AF5NaygAfWBDOABGABptdTy8ByNuABUIEG5y5lEgA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -4033,10 +4033,10 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `Split` - Represents an array of strings split using a given character or character set.
+- [`Split`](source/split.d.ts) - Represents an array of strings split using a given character or character set.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gZTAG2DAXzgDMoIQ4ByJVAWmJQGcZKBuAKHYBMUBjHAIZQ0xAK4A7XjGARxcRrnwAeTHBQAPGCnFdG8mFGDiA5gBo4AETWbtu-YZMA+ABTMHxgFxxM5xijBCAjDQXhYAlF7YeDAq5haOHOw0aACSWhQAvFTEEBCUcAA+VABGQvlFlKUAXuVUAO4COFx5HLyyzHD4KCB6WZQ5EKalUEMCVaYNTS3sOCjwQlACiF5p3QDaALqJC0twWQrRzl095pSmlGGsQA">TS Playground</a> | <a href="source/split.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gZTAG2DAXzgDMoIQ4ByJVAWmJQGcZKBuAKHYBMUBjHAIZQ0xAK4A7XjGARxcRrnwAeTHBQAPGCnFdG8mFGDiA5gBo4AETWbtu-YZMA+ABTMHxgFxxM5xijBCAjDQXhYAlF7YeDAq5haOHOw0aACSWhQAvFTEEBCUcAA+VABGQvlFlKUAXuVUAO4COFx5HLyyzHD4KCB6WZQ5EKalUEMCVaYNTS3sOCjwQlACiF5p3QDaALqJC0twWQrRzl095pSmlGGsQA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -4052,10 +4052,10 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `Trim` - Remove leading and trailing spaces from a string.
+- [`Trim`](source/trim.d.ts) - Remove leading and trailing spaces from a string.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gFSqAvnAMyghDgHIlUBaAlAZxjIG4AoF7UAHjMIgnIB8LAPTCAvAPIE+ZIA">TS Playground</a> | <a href="source/trim.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gFSqAvnAMyghDgHIlUBaAlAZxjIG4AoF7UAHjMIgnIB8LAPTCAvAPIE+ZIA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -4068,10 +4068,10 @@ Click the type source for complete docs.
 
 ### Type
 
-- `GlobalThis` - Declare locally scoped properties on `globalThis`.
+- [`GlobalThis`](source/global-this.d.ts) - Declare locally scoped properties on `globalThis`.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gcQDYQEYCG2AKgBbADOAvnAGZQQhwDkSqAtLShTMwNwAoAWzQBRAB4woBHPiIU4AXjizCJcgoBkGAVBQEAJhAB22RCoAyAeQBCAQQsB9YlYDSogHIAuODyjBjAHNBKkEBAApA3DUySjgCBQkpGWj5AEoAOkxreycXdw8+IA">TS Playground</a> | <a href="source/global-this.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gcQDYQEYCG2AKgBbADOAvnAGZQQhwDkSqAtLShTMwNwAoAWzQBRAB4woBHPiIU4AXjizCJcgoBkGAVBQEAJhAB22RCoAyAeQBCAQQsB9YlYDSogHIAuODyjBjAHNBKkEBAApA3DUySjgCBQkpGWj5AEoAOkxreycXdw8+IA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -4085,10 +4085,10 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `InvariantOf` - Create an [invariant type](https://basarat.gitbook.io/typescript/type-system/type-compatibility#footnote-invariance), which is a type that does not accept supertypes and subtypes.
+- [`InvariantOf`](source/invariant-of.d.ts) - Create an [invariant type](https://basarat.gitbook.io/typescript/type-system/type-compatibility#footnote-invariance), which is a type that does not accept supertypes and subtypes.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gSQHYDcCGUw+2MA8gGYC+cFUEIcA5EqgLQUoDOMTA3ACgBAYwA2+LlzgBBbKHyiMIiNh5QArsJjQAFGHUAjUcGFxs+ECgBccNcGwBzAJToqAtyPGS4AYXzwUAA8YFGwAEylZeUV0AUsIAHcdJww3D1EUeBJo6SgofEQbKJAFAG0AXTgAXjhS7JLRcsEM+GF-XPzC338K6tq2mCaheoUOgr6BscQ+OAB6WbgyAGtx4Ao4YQgCIhIYARHRKYA6fS4ACx1sFASZOQadJhIIGDOUKDgDpicnGfm4AAV1OcUGEPtgwdE4PZtBt2nkCiI4Z0jhRoABRfDCC6mKoAPg2R3iSW+vwW0lEokSILgBnUMAANHA3vR3v44BpSKAUEIWlC8IRiKRiqN4V0cNtBeQKAAeYWiXG9Gp1O4KSoSODigW7SiylXyirNTJ8iW7PwwKY2TU7Ug6s0KypKgZqqRWyW2-z2wQCewmoV6qZ9H1a0hmqakuBovLQGwAFWQaCYru1MrtFSYUKk2GeH0kwAc5iMaBhrATSZtMrl9qYRyAA">TS Playground</a> | <a href="source/invariant-of.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gSQHYDcCGUw+2MA8gGYC+cFUEIcA5EqgLQUoDOMTA3ACgBAYwA2+LlzgBBbKHyiMIiNh5QArsJjQAFGHUAjUcGFxs+ECgBccNcGwBzAJToqAtyPGS4AYXzwUAA8YFGwAEylZeUV0AUsIAHcdJww3D1EUeBJo6SgofEQbKJAFAG0AXTgAXjhS7JLRcsEM+GF-XPzC338K6tq2mCaheoUOgr6BscQ+OAB6WbgyAGtx4Ao4YQgCIhIYARHRKYA6fS4ACx1sFASZOQadJhIIGDOUKDgDpicnGfm4AAV1OcUGEPtgwdE4PZtBt2nkCiI4Z0jhRoABRfDCC6mKoAPg2R3iSW+vwW0lEokSILgBnUMAANHA3vR3v44BpSKAUEIWlC8IRiKRiqN4V0cNtBeQKAAeYWiXG9Gp1O4KSoSODigW7SiylXyirNTJ8iW7PwwKY2TU7Ug6s0KypKgZqqRWyW2-z2wQCewmoV6qZ9H1a0hmqakuBovLQGwAFWQaCYru1MrtFSYUKk2GeH0kwAc5iMaBhrATSZtMrl9qYRyAA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -4116,10 +4116,10 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `LiteralToPrimitiveDeep` - Like `LiteralToPrimitive` except it converts literal types inside an object or array deeply.
+- [`LiteralToPrimitiveDeep`](source/literal-to-primitive-deep.d.ts) - Like `LiteralToPrimitive` except it converts literal types inside an object or array deeply.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gGWDFUCGANgCoQAKUoOwAbigCIopgA0cxAzgMIQB2AZsADmAKQ58AvnH5QIIOAHIkqALT8UHGAoDcAKFCRYCDgGM+godNnyFYfDAAWAehgQXp88IB0AK3G8dXV1+AFdeExhgPjgAEwgAZTkUR2BeIQB1HAdieJ4BYQAKM3yhAC44bFwCEnJKEGo6RmYAHk48izE+AD4ASgw4L0G4CSCnJzgAOQg4E3xNVMtgDjheJhiUGIRpuw5lxzRlNBMHFBMAa104xJBkhwXMxxz2wpgPEp69XTG4AEl+CpweCIpAoVEijSYYDgSxWEHgIQ4GzYiAgIRWay2Mzm8H20PA0Fwmxi9nwcEIwDOBzuHFKlwSSRSaQe2VyniEBVexQscDm7G4bM6vA+QA">TS Playground</a> | <a href="source/literal-to-primitive-deep.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gGWDFUCGANgCoQAKUoOwAbigCIopgA0cxAzgMIQB2AZsADmAKQ58AvnH5QIIOAHIkqALT8UHGAoDcAKFCRYCDgGM+godNnyFYfDAAWAehgQXp88IB0AK3G8dXV1+AFdeExhgPjgAEwgAZTkUR2BeIQB1HAdieJ4BYQAKM3yhAC44bFwCEnJKEGo6RmYAHk48izE+AD4ASgw4L0G4CSCnJzgAOQg4E3xNVMtgDjheJhiUGIRpuw5lxzRlNBMHFBMAa104xJBkhwXMxxz2wpgPEp69XTG4AEl+CpweCIpAoVEijSYYDgSxWEHgIQ4GzYiAgIRWay2Mzm8H20PA0Fwmxi9nwcEIwDOBzuHFKlwSSRSaQe2VyniEBVexQscDm7G4bM6vA+QA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -4136,10 +4136,10 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `LiteralToPrimitive` - Given a [literal type](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#literal-types) return the {@link Primitive primitive type} it belongs to, or `never` if it's not a primitive.
+- [`LiteralToPrimitive`](source/literal-to-primitive.d.ts) - Given a [literal type](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#literal-types) return the {@link Primitive primitive type} it belongs to, or `never` if it's not a primitive.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gGWDFUCGANgCoQAKUoOwAbigL5wBmUEIcA5EqgLRMoBnGBwDcAKDEB6SXAByEOBDpRCEfABMBcAHYoU6-QgUBzFPBgALNAGNoUFNfj2YAVyjaEyFGKYvtj4AgPMEIXAQAeYjgUAA9cbU0dFxAAIzw4AB84FOBjYG14LKFKbWMAPgAKGIAuOGIAGjhEWuIASlrsXAISckoQajpIsowxZzcPGLgAajgKxDh8LXxtRFbxegkQsIqOfA5GjhSONbhpOGL84zEtgQqARkaAJhOz7WS0qGvQ27vtJ+0XjIcnkCkA">TS Playground</a> | <a href="source/literal-to-primitive.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gGWDFUCGANgCoQAKUoOwAbigL5wBmUEIcA5EqgLRMoBnGBwDcAKDEB6SXAByEOBDpRCEfABMBcAHYoU6-QgUBzFPBgALNAGNoUFNfj2YAVyjaEyFGKYvtj4AgPMEIXAQAeYjgUAA9cbU0dFxAAIzw4AB84FOBjYG14LKFKbWMAPgAKGIAuOGIAGjhEWuIASlrsXAISckoQajpIsowxZzcPGLgAajgKxDh8LXxtRFbxegkQsIqOfA5GjhSONbhpOGL84zEtgQqARkaAJhOz7WS0qGvQ27vtJ+0XjIcnkCkA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -4156,10 +4156,10 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `LiteralUnion` - Allows creating a union type by combining primitive types and literal types without sacrificing auto-completion in IDEs for the literal type part of the union.
+- [`LiteralUnion`](source/literal-union.d.ts) - Allows creating a union type by combining primitive types and literal types without sacrificing auto-completion in IDEs for the literal type part of the union.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gGWDFUCGANgKoB2wEpAvnAGZQQhwDkSqAtLSgM4zMDcAKEEB6EXABCKWtBTC2aAAop4AXhYATCAHNmcAD4sAxvj4G4vKMFLahgo5V5xUMAFxxlalgNHiAyjD4sAjI1tpw1nCIEACuUHAAKsgofkZWYDDsKKT4AEaEKBpwAJIAIgCiAHS+cACasXAAVI0A7sCEhHCkEDDNcNoqcPgxMBDsDuAFMBSkdNBwAAZa2gtDpEULJjCrhDh4RNzVNQCCtLhQ8skeKgBMcOrY50RkMwA8zMt6hsxbzAA0FhgVhsAD47A5SE4XO5PHd1MwfGI6g1mm0On0BvBhqNxowwFMZnN4ksdKt8OtFlsdnsCIRDkA">TS Playground</a> | <a href="source/literal-union.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gGWDFUCGANgKoB2wEpAvnAGZQQhwDkSqAtLSgM4zMDcAKEEB6EXABCKWtBTC2aAAop4AXhYATCAHNmcAD4sAxvj4G4vKMFLahgo5V5xUMAFxxlalgNHiAyjD4sAjI1tpw1nCIEACuUHAAKsgofkZWYDDsKKT4AEaEKBpwAJIAIgCiAHS+cACasXAAVI0A7sCEhHCkEDDNcNoqcPgxMBDsDuAFMBSkdNBwAAZa2gtDpEULJjCrhDh4RNzVNQCCtLhQ8skeKgBMcOrY50RkMwA8zMt6hsxbzAA0FhgVhsAD47A5SE4XO5PHd1MwfGI6g1mm0On0BvBhqNxowwFMZnN4ksdKt8OtFlsdnsCIRDkA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -4182,10 +4182,10 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `Opaque` - Create an opaque type, which hides its internal details from the public, and can only be created by being used explicitly.
+- [`Opaque`](source/opaque.d.ts) - Create an opaque type, which hides its internal details from the public, and can only be created by being used explicitly.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3geTAQwI4CuKAvnAGZQQhwDkSqAtGSgM4w0DcAUF-WgIIBjQRAIA7GADkCIAEYoocALxxs+IgB4xM+VAA0tISPFSdCmgD5ufOEdESAQjgA2OMYLQq1hFFrP7DYXsYJ1d3FEtuLgB6aLgAFQALNAADeIgAaxQxFLhcKBwQFBgFOBdnCAB3FgRkuBFwYGdSmAg4ABNgMmYobJhgHBK4eRhKlGyEZFYDSuTenBqAInEMsSqxRbhKpuc4NZgAOjgAMWg4FAAPQrBmgxExFmB2lrqyCGcK7bEAczg2KAIghgBF6LAAXLwpglEsAfpgxJ5VLgfBp-rDvlZIahoej4pU2l5kZo0T9MTE4ulamgGmAmgoDDBkiw0HwajhemUPlUUO0EG15PUFvBWuccIJEnAIIzSgsqYg4IkcAA3Fl1FiFNDiZ5QZyIdGTVBHJIoeXstCyKUSlIk34AMgwcAA+o6IESUM6wXAVmtKmI4MQUgdyQk2sqIE9asAavJFUrgKIAohRFtRM5ebC2CgcLzcCwatK4It0lkNnl2RqSgFnMAsn8IEGbJIUJUkuj4YjvMSYFB0QYaK24QjIli0E2WzCfniCUj1L4bX2B98p8Pg5IqnKaByac0Srq-ih8oMWVMWAYWG0C28uV9ftsPuQcE0+fUqLTmkGyOIgfG-YJ5iUx0Xds4AACgASk9QCJ2+YD0GDfgaiTAhBT9ZkUDuIV9QoKgyj+bt9SjPCdk5T4eSOAAJbkVUTZMQBweV9kFNg4CgtsEWfVjJ3xAw3F5OMPDgaj1SDXpgSgP0aARSpIx+SUhzKGpOJghFuGIHhYhxGo712MhH12EUaTpHj82SU0OU-MR2g1CRynlTpugUPoDVYIN7mYxlcXxZR6n-FAlPbcCFJY5tFynKINPIxyaDZfY5nOK5wGaSUyElN0DXRD8v36CBf18uwTGkOQFHAz18okQrdAwLhRJBP0ACYgrK0wiqgVSeAs78crgb5igAWRyk1TigJqQLFYxyv8UqggK-wINsabHBcNwBLgmrxLgAAWRqFpCJbwja4NWy04jDKSlhAQ8PNPw+RAgx6mB+oRRAhpGv8sxKJqKuKsCwPCuIHAIYUYS0nK6AMeRBBwAhmTgYB4EVfN+TQS4bmAQQ4b3XNmV5WU3DgFJPv8XI+DuvqBue6ARrq371LiABNZNIb9aG0FdWdBJcIgamrWtpTM7I6FS9nWnrLg3PgMbgi+xQVDeo9CZa8C-s0rZiMY060HO4RWBYa7dVcnLmKkhXKpUSWZpauAAGo4Dq5WENwx5nj2KV0LgJCUNA3i-kSVN2jAr0Yd6QQQUeFVnJqN5FCQxQ2Z8CPnzo3nkmof4cp6xRvd91A9flLNHhaC8pgbKEAAUFHPP0VDgp5PU7XxtBagxy6gSvMTEDVPRtVSOCAA">TS Playground</a> | <a href="source/opaque.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3geTAQwI4CuKAvnAGZQQhwDkSqAtGSgM4w0DcAUF-WgIIBjQRAIA7GADkCIAEYoocALxxs+IgB4xM+VAA0tISPFSdCmgD5ufOEdESAQjgA2OMYLQq1hFFrP7DYXsYJ1d3FEtuLgB6aLgAFQALNAADeIgAaxQxFLhcKBwQFBgFOBdnCAB3FgRkuBFwYGdSmAg4ABNgMmYobJhgHBK4eRhKlGyEZFYDSuTenBqAInEMsSqxRbhKpuc4NZgAOjgAMWg4FAAPQrBmgxExFmB2lrqyCGcK7bEAczg2KAIghgBF6LAAXLwpglEsAfpgxJ5VLgfBp-rDvlZIahoej4pU2l5kZo0T9MTE4ulamgGmAmgoDDBkiw0HwajhemUPlUUO0EG15PUFvBWuccIJEnAIIzSgsqYg4IkcAA3Fl1FiFNDiZ5QZyIdGTVBHJIoeXstCyKUSlIk34AMgwcAA+o6IESUM6wXAVmtKmI4MQUgdyQk2sqIE9asAavJFUrgKIAohRFtRM5ebC2CgcLzcCwatK4It0lkNnl2RqSgFnMAsn8IEGbJIUJUkuj4YjvMSYFB0QYaK24QjIli0E2WzCfniCUj1L4bX2B98p8Pg5IqnKaByac0Srq-ih8oMWVMWAYWG0C28uV9ftsPuQcE0+fUqLTmkGyOIgfG-YJ5iUx0Xds4AACgASk9QCJ2+YD0GDfgaiTAhBT9ZkUDuIV9QoKgyj+bt9SjPCdk5T4eSOAAJbkVUTZMQBweV9kFNg4CgtsEWfVjJ3xAw3F5OMPDgaj1SDXpgSgP0aARSpIx+SUhzKGpOJghFuGIHhYhxGo712MhH12EUaTpHj82SU0OU-MR2g1CRynlTpugUPoDVYIN7mYxlcXxZR6n-FAlPbcCFJY5tFynKINPIxyaDZfY5nOK5wGaSUyElN0DXRD8v36CBf18uwTGkOQFHAz18okQrdAwLhRJBP0ACYgrK0wiqgVSeAs78crgb5igAWRyk1TigJqQLFYxyv8UqggK-wINsabHBcNwBLgmrxLgAAWRqFpCJbwja4NWy04jDKSlhAQ8PNPw+RAgx6mB+oRRAhpGv8sxKJqKuKsCwPCuIHAIYUYS0nK6AMeRBBwAhmTgYB4EVfN+TQS4bmAQQ4b3XNmV5WU3DgFJPv8XI+DuvqBue6ARrq371LiABNZNIb9aG0FdWdBJcIgamrWtpTM7I6FS9nWnrLg3PgMbgi+xQVDeo9CZa8C-s0rZiMY060HO4RWBYa7dVcnLmKkhXKpUSWZpauAAGo4Dq5WENwx5nj2KV0LgJCUNA3i-kSVN2jAr0Yd6QQQUeFVnJqN5FCQxQ2Z8CPnzo3nkmof4cp6xRvd91A9flLNHhaC8pgbKEAAUFHPP0VDgp5PU7XxtBagxy6gSvMTEDVPRtVSOCAA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -4241,10 +4241,10 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `UnwrapOpaque` - Revert an opaque type back to its original type by removing the readonly `[tag]`.
+- [`UnwrapOpaque`](source/unwrap-opaque.d.ts) - Revert an opaque type back to its original type by removing the readonly `[tag]`.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3geTAQwI4CuKANHAKoB2A7lDmNvkQL5wBmUEIcA5EqgLSsUAZxjcA3AChJfNAEEAxgogEKMACrI0AXjgNCKADzcAynIBqASQByAcRPc4AHx4BhABIBRVwGkbt7lJuRWVVDS1uAD4pSWUKUTgQCAoURAAhRBCVNU1UAC44ACUUZSgAE0NKGjp9IkMssNyUSNIKAhAAIxQoSLhddEkzKzsTAoBOMeJJD28-OwKABgA6AEZJJhiAek24AHVgGAALFXgq2npcA1IjtFYIABt7iCpgCgBzOBQADzAoEWFgMk4FQVPcyghDhwqHAcAgtJ8oBwoEtYskEkkUog+olkqkMg0clolkN-CZxHBtnB1CYEUiCgAFDioWBY0wWUmOMoQERwCgQeDfYCiaSUuQwGAocAwV4fGAQOC4YTCGEUXnJfi1NCyBDys41S5EYHAR5wWhCtCw7XdJEo7W7ZIwe1QADW2L1F0YRlEUBl0SAA">TS Playground</a> | <a href="source/unwrap-opaque.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3geTAQwI4CuKANHAKoB2A7lDmNvkQL5wBmUEIcA5EqgLSsUAZxjcA3AChJfNAEEAxgogEKMACrI0AXjgNCKADzcAynIBqASQByAcRPc4AHx4BhABIBRVwGkbt7lJuRWVVDS1uAD4pSWUKUTgQCAoURAAhRBCVNU1UAC44ACUUZSgAE0NKGjp9IkMssNyUSNIKAhAAIxQoSLhddEkzKzsTAoBOMeJJD28-OwKABgA6AEZJJhiAek24AHVgGAALFXgq2npcA1IjtFYIABt7iCpgCgBzOBQADzAoEWFgMk4FQVPcyghDhwqHAcAgtJ8oBwoEtYskEkkUog+olkqkMg0clolkN-CZxHBtnB1CYEUiCgAFDioWBY0wWUmOMoQERwCgQeDfYCiaSUuQwGAocAwV4fGAQOC4YTCGEUXnJfi1NCyBDys41S5EYHAR5wWhCtCw7XdJEo7W7ZIwe1QADW2L1F0YRlEUBl0SAA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -4265,20 +4265,20 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `Primitive` - Matches any [primitive value](https://developer.mozilla.org/en-US/docs/Glossary/Primitive).
+- [`Primitive`](source/primitive.d.ts) - Matches any [primitive value](https://developer.mozilla.org/en-US/docs/Glossary/Primitive).
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/Q">TS Playground</a> | <a href="source/primitive.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/Q">TS Playground</a>
 	</summary>
 
 	```ts
 	```
 	</details>
 
-- `UnionToIntersection` - Convert a union type to an intersection type using [distributive conditional types](https://www.typescriptlang.org/docs/handbook/release-notes/typescript-2-8.html#distributive-conditional-types).
+- [`UnionToIntersection`](source/union-to-intersection.d.ts) - Convert a union type to an intersection type using [distributive conditional types](https://www.typescriptlang.org/docs/handbook/release-notes/typescript-2-8.html#distributive-conditional-types).
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gVQHbAtgFQgElsYUoBnFAYxj2wF84AzKCEOAciVQFoWKSjC4BuAFDjeaHAzgBeDDAAWKABQBKAFxwAbhGAATZgB8MAcygoAhjDXWo5ncKjBs57XoPG4Z9EJprVB0AIwgIABsbJgkpZDRScipaenwFOFl8IkSKajoGAB5M7AA+CQB6cvkSpVVNHX0jUThLGzsHJzgXNw8G72aAoJRQ8KjrGKA">TS Playground</a> | <a href="source/union-to-intersection.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gVQHbAtgFQgElsYUoBnFAYxj2wF84AzKCEOAciVQFoWKSjC4BuAFDjeaHAzgBeDDAAWKABQBKAFxwAbhGAATZgB8MAcygoAhjDXWo5ncKjBs57XoPG4Z9EJprVB0AIwgIABsbJgkpZDRScipaenwFOFl8IkSKajoGAB5M7AA+CQB6cvkSpVVNHX0jUThLGzsHJzgXNw8G72aAoJRQ8KjrGKA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -4291,10 +4291,10 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `UnknownRecord` - Represents an object with `unknown` value. You probably want this instead of `{}`.
+- [`UnknownRecord`](source/unknown-record.d.ts) - Represents an object with `unknown` value. You probably want this instead of `{}`.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gVQHYGtsQDu2ASigMbQAmAvnAGZQQhwDkSqAtPSgM4ysA3AChh9AK7ZyMYBGwIIAKV5yAFBABGAKwowAXHBz4ipCtQCUGYVBQxxUeYoDKAeQByAOn5Rg2AObA9Ijq2rrmIjSiMEoq2KroABYoADbJEAashNDJVKw04cIA9IUAvAB8bOgAREmpEFV6VVlQOVU0rKISUjJycMC8LqHSqgBuAIbJ4igGksbE5gbjk2j9hngExGSUUFRWNnYOCMgoEPRwS1NwJddsmjrSrHAAZE-nE5cAhDfY4qkRov1BvcYPFamkMs0cnkCsVyggoFMAQMhiDWGCIKwYaUKvQJrwUEA">TS Playground</a> | <a href="source/unknown-record.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gVQHYGtsQDu2ASigMbQAmAvnAGZQQhwDkSqAtPSgM4ysA3AChh9AK7ZyMYBGwIIAKV5yAFBABGAKwowAXHBz4ipCtQCUGYVBQxxUeYoDKAeQByAOn5Rg2AObA9Ijq2rrmIjSiMEoq2KroABYoADbJEAashNDJVKw04cIA9IUAvAB8bOgAREmpEFV6VVlQOVU0rKISUjJycMC8LqHSqgBuAIbJ4igGksbE5gbjk2j9hngExGSUUFRWNnYOCMgoEPRwS1NwJddsmjrSrHAAZE-nE5cAhDfY4qkRov1BvcYPFamkMs0cnkCsVyggoFMAQMhiDWGCIKwYaUKvQJrwUEA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -4321,10 +4321,10 @@ Click the type source for complete docs.
 
 ### Type Guard
 
-- `IfAny` - An if-else-like type that resolves depending on whether the given type is `any`.
+- [`IfAny`](source/if-any.d.ts) - An if-else-like type that resolves depending on whether the given type is `any`.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gSQGYEEB2iAvnNlBCHAORKoC02KAzjFQNwBQHtaAygBYQArgBsAJgCEUAFShC0AXjg4CiADwBDQgD5OAej0LtCOSi484A4eKkSNUOEpWE1VfBHhbEVADTVsEBC+1ABG9lS6HAZGoeFAA">TS Playground</a> | <a href="source/if-any.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gSQGYEEB2iAvnNlBCHAORKoC02KAzjFQNwBQHtaAygBYQArgBsAJgCEUAFShC0AXjg4CiADwBDQgD5OAej0LtCOSi484A4eKkSNUOEpWE1VfBHhbEVADTVsEBC+1ABG9lS6HAZGoeFAA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -4338,10 +4338,10 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `IfNever` - An if-else-like type that resolves depending on whether the given type is `never`.
+- [`IfNever`](source/if-never.d.ts) - An if-else-like type that resolves depending on whether the given type is `never`.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gSQGYDkUBuKUAvnNlBCHAORKoC02KAzjDQNwBQX9aAygAsIAVwA2AEwBCKACpQRaALxwc+IlAA8AO0LEAfNwD0RpfoQKUPPnCGjJMqQEMocFWr1aa2iPF0aaABpabAgIINoAIxcaQy4TMyiYoA">TS Playground</a> | <a href="source/if-never.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gSQGYDkUBuKUAvnNlBCHAORKoC02KAzjDQNwBQX9aAygAsIAVwA2AEwBCKACpQRaALxwc+IlAA8AO0LEAfNwD0RpfoQKUPPnCGjJMqQEMocFWr1aa2iPF0aaABpabAgIINoAIxcaQy4TMyiYoA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -4355,10 +4355,10 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `IfUnknown` - An if-else-like type that resolves depending on whether the given type is `unknown`.
+- [`IfUnknown`](source/if-unknown.d.ts) - An if-else-like type that resolves depending on whether the given type is `unknown`.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gSQGYFUB2A1vhAO74C+c2UEIcA5EqgLTYoDOMDA3AFB9maAMoALCAFcANgBMAQigAqUCWgC8cHAWJl8AHglES5AHz8A9ObUmEKlAKFwxk2QrkBDKHA1ajuvQwk8IY65AwANIzYEBARjABGngxmfJbWCUlAA">TS Playground</a> | <a href="source/if-unknown.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gSQGYFUB2A1vhAO74C+c2UEIcA5EqgLTYoDOMDA3AFB9maAMoALCAFcANgBMAQigAqUCWgC8cHAWJl8AHglES5AHz8A9ObUmEKlAKFwxk2QrkBDKHA1ajuvQwk8IY65AwANIzYEBARjABGngxmfJbWCUlAA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -4372,10 +4372,10 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `IsAny` - Returns a boolean for whether the given type is `any`.
+- [`IsAny`](source/is-any.d.ts) - Returns a boolean for whether the given type is `any`.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gSQM4EEB2iAvnAGZQQhwDkSqAtKStjNQNwBQHAxhPiwmQoAJgHkARgCsU3eAF4MAQwBccAIwAaOONUAmEouxxe-GJxMDFhCdNmqriOAvQr1WnXH2cOpAK75ZYD44AHMUGAAeUTgUAA8YFHxhIwAKHAJEKIA+GPjE5IQoXzQAfgwSVQAlGWhhCJYoYHwQrXxfEHEUKCyASi0AaVyEpKMAaxRECFI4aIVxyenRLJSIKVVRLXnVfp6MDihw3yh8OFXJAG15gF1OIi4LeDoRXCdQ8JSnsSkZGC1qRWoPU4AHpgXIcmp7nxLIQXgowjAUg4bD8-gCgRxQeC4A4gA">TS Playground</a> | <a href="source/is-any.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gSQM4EEB2iAvnAGZQQhwDkSqAtKStjNQNwBQHAxhPiwmQoAJgHkARgCsU3eAF4MAQwBccAIwAaOONUAmEouxxe-GJxMDFhCdNmqriOAvQr1WnXH2cOpAK75ZYD44AHMUGAAeUTgUAA8YFHxhIwAKHAJEKIA+GPjE5IQoXzQAfgwSVQAlGWhhCJYoYHwQrXxfEHEUKCyASi0AaVyEpKMAaxRECFI4aIVxyenRLJSIKVVRLXnVfp6MDihw3yh8OFXJAG15gF1OIi4LeDoRXCdQ8JSnsSkZGC1qRWoPU4AHpgXIcmp7nxLIQXgowjAUg4bD8-gCgRxQeC4A4gA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -4396,10 +4396,10 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `IsEqual` - Returns a boolean for whether the two given types are equal.
+- [`IsEqual`](source/is-equal.d.ts) - Returns a boolean for whether the two given types are equal.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gSQM4FECOArgIYA2AvnAGZQQhwDkSqAtFStjAwNwBQvAegFwAKgAtg2BMjRQUMQlAB2U4nABGECKRTEl1aHADuY+aagJTcAObAAbin3EoUYojjAlAY1KEAJhyWaLYO+sAwKCAAdILCAAY4BCSkcR5ShNgofggQcF50YM5oMFYhjnDOru7E8JDY4cAQ+gAMFUrZJcH25eGRbR2m+nIKyghQhGjAVEHVcnAoRGQxzGiY3r4B2AA8AGpkE-MAHhHtUnLEfk2k1UqIANoAugA0cJgRIAB8cAC8vHu+aBQx0cfjOukuSmucDu-wmd2azzgUWRnnYFjknAevAA-K88ItSLt9ih4Yi3pEvkCTqCxhMcbSULwAFyvdb+DhbDEwF7kz7M6hkTLcIA">TS Playground</a> | <a href="source/is-equal.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gSQM4FECOArgIYA2AvnAGZQQhwDkSqAtFStjAwNwBQvAegFwAKgAtg2BMjRQUMQlAB2U4nABGECKRTEl1aHADuY+aagJTcAObAAbin3EoUYojjAlAY1KEAJhyWaLYO+sAwKCAAdILCAAY4BCSkcR5ShNgofggQcF50YM5oMFYhjnDOru7E8JDY4cAQ+gAMFUrZJcH25eGRbR2m+nIKyghQhGjAVEHVcnAoRGQxzGiY3r4B2AA8AGpkE-MAHhHtUnLEfk2k1UqIANoAugA0cJgRIAB8cAC8vHu+aBQx0cfjOukuSmucDu-wmd2azzgUWRnnYFjknAevAA-K88ItSLt9ih4Yi3pEvkCTqCxhMcbSULwAFyvdb+DhbDEwF7kz7M6hkTLcIA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -4416,10 +4416,10 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `IsStringLiteral` - Returns a boolean for whether the given type is a `string` [literal type](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#literal-types).
+- [`IsStringLiteral`](source/is-string-literal.d.ts) - Returns a boolean for whether the given type is a `string` [literal type](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#literal-types).
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gSQM4GUZTAB2A5gDLAwpQCGANgL5wBmUEIcA5EqgLTMpsMTgG4AUGJ5oAwjTCV6wAF4oAJvkKkAPABU4KAB5Uiq7HCGaSAPjgBeODg3FylavV03Dx0wigBXNAB+OFl5GEUVDzgALnMCZ3ExAHokuAALGBgwbGiUkko0vwAjADoAY3YkxBoiAGsUFGI6CBMWpKIaGGAANxReVRpsNKSi5qKkkEGqKCTsKDKksrkFOmUUEphsMWY-IjKulrglsIiUXX0jFBMzACUUGlUWukQtC2crKwAKYjA-GFidABKWKhFZrdTxbQ6GzoMRQFAwPxQIhwb5EX4wErYVZlFCfAAMABo4ABGQEbCAAVTAqCgsmweMBcAA1HAfn8sTi8WSmYMQstwqsVBDLB5xAwJBUiEI4BA-hi7EcBadPpw0ig6M1iQB3aB0VQAQk4gPEKVsNk4AAkNVq4LqoPqjUA">TS Playground</a> | <a href="source/is-string-literal.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gSQM4GUZTAB2A5gDLAwpQCGANgL5wBmUEIcA5EqgLTMpsMTgG4AUGJ5oAwjTCV6wAF4oAJvkKkAPABU4KAB5Uiq7HCGaSAPjgBeODg3FylavV03Dx0wigBXNAB+OFl5GEUVDzgALnMCZ3ExAHokuAALGBgwbGiUkko0vwAjADoAY3YkxBoiAGsUFGI6CBMWpKIaGGAANxReVRpsNKSi5qKkkEGqKCTsKDKksrkFOmUUEphsMWY-IjKulrglsIiUXX0jFBMzACUUGlUWukQtC2crKwAKYjA-GFidABKWKhFZrdTxbQ6GzoMRQFAwPxQIhwb5EX4wErYVZlFCfAAMABo4ABGQEbCAAVTAqCgsmweMBcAA1HAfn8sTi8WSmYMQstwqsVBDLB5xAwJBUiEI4BA-hi7EcBadPpw0ig6M1iQB3aB0VQAQk4gPEKVsNk4AAkNVq4LqoPqjUA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -4437,10 +4437,10 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `IsNumericLiteral` - Returns a boolean for whether the given type is a `number` or `bigint` [literal type](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#literal-types).
+- [`IsNumericLiteral`](source/is-numeric-literal.d.ts) - Returns a boolean for whether the given type is a `number` or `bigint` [literal type](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#literal-types).
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gSQM4DkCuIKUwAxgDLAzECGANgL5wBmUEIcA5EqgLTMpsMTgG4AUGID0kuAAsYMMNgBc0gOZVZ+AEYA6Uu0nAAdhFI1jvNW3xgjxgVCgoAJrx6DJ2uhG2SQNELEkthQpJIe2F4QEHQoFrw+GuEAosYu2ADqmrow2GIecGkZ2TCyADwAKgBq9PgoADRwlcVZmnAoAB7U6dhwQiTGagB8cAC8YjV1aF09Gf0wg2piAPxwOADKiyZqlNRQ9FWtpbKjsyi9CFD1q+vYW0t7tHRVtXT1Z90X84s3a1PvGZfS4AAwAJOgBjsGBCWr0TgwQbdfigxMoWPRsKj0doYnELGi4LjYvFjISAfUOsD5sZCNpiLccAQiCQKFRnq9pp85n0UbdjppyuD0BSUIimnCSpphoTmJjsRi6FjxGJmPhjKQYMAIMYOvDBZhjGB8PBzpcoUM4AAfOC0kD0qBNYpUnkLJbDAAUJmNMHRhp9TW+6OKAEoMGJnDB8FBdcLvSbEbpvm0yh7vmHAkV9WVyv6TU70sNxAwJMmTh7ODRtKROE1ODWQ+JpGNRnyxGXNB6AIwAJgAzAAWACsADY68OR5xG1JJC2rjcxAZjEI9S5xlxe33OHBMxa1CqO6nK9XN7XV9Pm6NifjjEA">TS Playground</a> | <a href="source/is-numeric-literal.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gSQM4DkCuIKUwAxgDLAzECGANgL5wBmUEIcA5EqgLTMpsMTgG4AUGID0kuAAsYMMNgBc0gOZVZ+AEYA6Uu0nAAdhFI1jvNW3xgjxgVCgoAJrx6DJ2uhG2SQNELEkthQpJIe2F4QEHQoFrw+GuEAosYu2ADqmrow2GIecGkZ2TCyADwAKgBq9PgoADRwlcVZmnAoAB7U6dhwQiTGagB8cAC8YjV1aF09Gf0wg2piAPxwOADKiyZqlNRQ9FWtpbKjsyi9CFD1q+vYW0t7tHRVtXT1Z90X84s3a1PvGZfS4AAwAJOgBjsGBCWr0TgwQbdfigxMoWPRsKj0doYnELGi4LjYvFjISAfUOsD5sZCNpiLccAQiCQKFRnq9pp85n0UbdjppyuD0BSUIimnCSpphoTmJjsRi6FjxGJmPhjKQYMAIMYOvDBZhjGB8PBzpcoUM4AAfOC0kD0qBNYpUnkLJbDAAUJmNMHRhp9TW+6OKAEoMGJnDB8FBdcLvSbEbpvm0yh7vmHAkV9WVyv6TU70sNxAwJMmTh7ODRtKROE1ODWQ+JpGNRnyxGXNB6AIwAJgAzAAWACsADY68OR5xG1JJC2rjcxAZjEI9S5xlxe33OHBMxa1CqO6nK9XN7XV9Pm6NifjjEA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -4479,10 +4479,10 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `IsBooleanLiteral` - Returns a boolean for whether the given type is a `true` or `false` [literal type](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#literal-types).
+- [`IsBooleanLiteral`](source/is-boolean-literal.d.ts) - Returns a boolean for whether the given type is a `true` or `false` [literal type](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#literal-types).
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gSQM4CEIQA2KAhgHYAywMKUJhAvnAGZQQhwDkSqAtMymwxOAbgBQYgMYQyQuMAAmcALxwAjACYAzOLE80AcRQxMCgDwBBbAGUYUYGQDmcFAA8aZBdjgAjAsXIAPhUxHHwiUkpqWnpLGzsHR2C3Dy8EKABXFDEAfjgrW3snF3cUT287LNy4AAMAEnR9CGZ5BQYasQAuBGQUZtauuDIMkB9aOAAfOCEix11mDLJJGGAZOEdjUzjCxJLU7z8I8hUWemwUQIAKCDAVmWwc7vQSeNnugoSnBgBKDDEoYwZKBkODXW6rWQ5AB0Lx2xTy9XQinacG6il+LzgRhM5g+s0C4gYEmksngw1GtFMJw2OMu33EAHoGcpgpotMT7vAZokqaoaaZLs9XolupUUD9Gczgpw2ZwJAoUJJCCQAXASXJMmQViAUOEAmRuod9eJ1fAUNQABaUpR8zYKQWwz6Obqa7W6-yRCViJksoYjMZQSbTJ1AA">TS Playground</a> | <a href="source/is-boolean-literal.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gSQM4CEIQA2KAhgHYAywMKUJhAvnAGZQQhwDkSqAtMymwxOAbgBQYgMYQyQuMAAmcALxwAjACYAzOLE80AcRQxMCgDwBBbAGUYUYGQDmcFAA8aZBdjgAjAsXIAPhUxHHwiUkpqWnpLGzsHR2C3Dy8EKABXFDEAfjgrW3snF3cUT287LNy4AAMAEnR9CGZ5BQYasQAuBGQUZtauuDIMkB9aOAAfOCEix11mDLJJGGAZOEdjUzjCxJLU7z8I8hUWemwUQIAKCDAVmWwc7vQSeNnugoSnBgBKDDEoYwZKBkODXW6rWQ5AB0Lx2xTy9XQinacG6il+LzgRhM5g+s0C4gYEmksngw1GtFMJw2OMu33EAHoGcpgpotMT7vAZokqaoaaZLs9XolupUUD9Gczgpw2ZwJAoUJJCCQAXASXJMmQViAUOEAmRuod9eJ1fAUNQABaUpR8zYKQWwz6Obqa7W6-yRCViJksoYjMZQSbTJ1AA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -4513,10 +4513,10 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `IsSymbolLiteral` - Returns a boolean for whether the given type is a `symbol` [literal type](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#literal-types).
+- [`IsSymbolLiteral`](source/is-symbol-literal.d.ts) - Returns a boolean for whether the given type is a `symbol` [literal type](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#literal-types).
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gSQM4GVEgBGEANgDLAwpQCGJAvnAGZQQhwDkSqAtEythgcA3AChR3NAHEUMADwB5QgCs4KAB5UAdgBNscAEooAxtB1zsBYiQA0cLQFci1AHx2A0ikRrNKXfoBrLwgmOCVlFzgAXlEcfCJSCipaEjlPREiNbT0EKAcUUQB+MJUAbXSAXVEALnsnQmoxUSYHLWMYYAgtOABzWUUVH2z9I1Moc0sE2zrnKDc4dKG-HKDEEJKIgAoIWvC7Vdr0gEoMUShZByhuiFLVirgafRl5PYWvFzF6cVMtQThJ6xJah0aJweLWTYcEiUYEkDhHMQ-P4A0gANTo+VqKJIoPBpEhADcMSh4U0+jBNuhStigSkKrUAIyMR5wJEwOw0mEpBGiAD0vKikQZ4nJlOpVjRxPpcCZD30bI5EpI6JI+R5-MFMwaUCAA">TS Playground</a> | <a href="source/is-symbol-literal.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gSQM4GVEgBGEANgDLAwpQCGJAvnAGZQQhwDkSqAtEythgcA3AChR3NAHEUMADwB5QgCs4KAB5UAdgBNscAEooAxtB1zsBYiQA0cLQFci1AHx2A0ikRrNKXfoBrLwgmOCVlFzgAXlEcfCJSCipaEjlPREiNbT0EKAcUUQB+MJUAbXSAXVEALnsnQmoxUSYHLWMYYAgtOABzWUUVH2z9I1Moc0sE2zrnKDc4dKG-HKDEEJKIgAoIWvC7Vdr0gEoMUShZByhuiFLVirgafRl5PYWvFzF6cVMtQThJ6xJah0aJweLWTYcEiUYEkDhHMQ-P4A0gANTo+VqKJIoPBpEhADcMSh4U0+jBNuhStigSkKrUAIyMR5wJEwOw0mEpBGiAD0vKikQZ4nJlOpVjRxPpcCZD30bI5EpI6JI+R5-MFMwaUCAA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -4542,10 +4542,10 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `IsLiteral` - Returns a boolean for whether the given type is a [literal type](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#literal-types).
+- [`IsLiteral`](source/is-literal.d.ts) - Returns a boolean for whether the given type is a [literal type](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#literal-types).
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gSQM4BlgwpQCGANgL5wBmUEIcA5EqgLRUrYwMDcAULwHoBcABYwYYbAC4hAcwIiArgCMAdAGM6A4ADsI64jpazaisNp3soUFABMWzDgOWkIygSGKciA7FHUCjti+MFC6siykBERkwQDKocBguCjEtuGqMNi8KAAekLAIyGgJYcmp6TqyADwAggA0cABCAHxwALy8tXB5hDq22HCcYVW8APzNPbl9A0OJoxM4+IQkpHVtvSj9g6GKKONzI7JTM4NNcBM6KABuRHBScN2b23AABgAk6OcAZIfh5J9dFZHlQVuRXhcQSt7o9eA9huE4bCHrU+LwqIodOoYMAIDo-uU0uFqpgdGBFPBnrMEVVGqUkicttT5rIWgAKXTkmAPUlcxoIsAPelgACUGF4Nhgiig+M5FNUNjApGI6hQbNeAD1PgLwY0GAwxV44MKUkSqiSyRS6YkwC0+OR+ALTZVZGyGMRlOoAIwAJgAzAw9R71Aa+EJ2m0GL6A-xNDpOIcOoxg9GGHAjTTZGinRVwmzhkHPaHBAII38qkA">TS Playground</a> | <a href="source/is-literal.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gSQM4BlgwpQCGANgL5wBmUEIcA5EqgLRUrYwMDcAULwHoBcABYwYYbAC4hAcwIiArgCMAdAGM6A4ADsI64jpazaisNp3soUFABMWzDgOWkIygSGKciA7FHUCjti+MFC6siykBERkwQDKocBguCjEtuGqMNi8KAAekLAIyGgJYcmp6TqyADwAggA0cABCAHxwALy8tXB5hDq22HCcYVW8APzNPbl9A0OJoxM4+IQkpHVtvSj9g6GKKONzI7JTM4NNcBM6KABuRHBScN2b23AABgAk6OcAZIfh5J9dFZHlQVuRXhcQSt7o9eA9huE4bCHrU+LwqIodOoYMAIDo-uU0uFqpgdGBFPBnrMEVVGqUkicttT5rIWgAKXTkmAPUlcxoIsAPelgACUGF4Nhgiig+M5FNUNjApGI6hQbNeAD1PgLwY0GAwxV44MKUkSqiSyRS6YkwC0+OR+ALTZVZGyGMRlOoAIwAJgAzAw9R71Aa+EJ2m0GL6A-xNDpOIcOoxg9GGHAjTTZGinRVwmzhkHPaHBAII38qkA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -4575,10 +4575,10 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `IsNever` - Returns a boolean for whether the given type is `never`.
+- [`IsNever`](source/is-never.d.ts) - Returns a boolean for whether the given type is `never`.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gSQM4DkUBuKUAvnAGZQQhwDkSqAtOStjLQNwBQXDaAggDsAJgB5+AGjgAhAHxwAvF35wUADxgoR2BFACuKLgH4ZqjVuE6Y+wyesGuALgoBDADbZDz8u8-cuAPQBcAAWMDBg2I5BAObAMCF6AEYAdADG1AEuIoJgAQDKoGBuiAAqyCjCAUluEEkBIC5sxAHYUGkBfNit1sCCMdgpMNi8FXD8UCj5vf3YAKIAjnru4maa2nBsUH0xUtJrFjpbO-JKQmJcOPhEUKJzamluesIo4nuy8urrlroGcHY2ODeXwoCSXPCEYh3B5PF6iaRSfgfA4bexoAF-YEeQyyfx8OBzESYciLZZuUSYFE-Y79KQAeSpRxmMVOykm022s1JK0w9M+5lRNmMcEEkKgTjgBAgwGE-nIekEaRgwAgglURJJSx5jM2zPpOppLIAFH0wHoYM5eXAIOazRa4HSAJTOQnCYnc8lWunydBcYDkOAm3LmxQKBTW23mx0YLhgKhpViDdTxI0ABkd3BIXCzXAs7q1biNtBcSTStCkxdLtAzgQCCnkopuPDzmrJRZLZYrAEYAEwAZmr3CC9cl0uEQA">TS Playground</a> | <a href="source/is-never.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gSQM4DkUBuKUAvnAGZQQhwDkSqAtOStjLQNwBQXDaAggDsAJgB5+AGjgAhAHxwAvF35wUADxgoR2BFACuKLgH4ZqjVuE6Y+wyesGuALgoBDADbZDz8u8-cuAPQBcAAWMDBg2I5BAObAMCF6AEYAdADG1AEuIoJgAQDKoGBuiAAqyCjCAUluEEkBIC5sxAHYUGkBfNit1sCCMdgpMNi8FXD8UCj5vf3YAKIAjnru4maa2nBsUH0xUtJrFjpbO-JKQmJcOPhEUKJzamluesIo4nuy8urrlroGcHY2ODeXwoCSXPCEYh3B5PF6iaRSfgfA4bexoAF-YEeQyyfx8OBzESYciLZZuUSYFE-Y79KQAeSpRxmMVOykm022s1JK0w9M+5lRNmMcEEkKgTjgBAgwGE-nIekEaRgwAgglURJJSx5jM2zPpOppLIAFH0wHoYM5eXAIOazRa4HSAJTOQnCYnc8lWunydBcYDkOAm3LmxQKBTW23mx0YLhgKhpViDdTxI0ABkd3BIXCzXAs7q1biNtBcSTStCkxdLtAzgQCCnkopuPDzmrJRZLZYrAEYAEwAZmr3CC9cl0uEQA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -4619,10 +4619,10 @@ Click the type source for complete docs.
 
 ### Utilities
 
-- `Exact` - Create a type that does not allow extra properties, meaning it only allows properties that are explicitly declared.
+- [`Exact`](source/exact.d.ts) - Create a type that does not allow extra properties, meaning it only allows properties that are explicitly declared.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/C4TwDgpgBA8gdgGxAQQMaomYA5AhgW2gF4oBvOAiALigGdgAnASzgHMBfAbgChuAzAK5xUwJgHs4UCUjQYseQgApcDVgMJxgtAPo14M9JhyUAlGXa8A9JagAVcBADKqZliiox+MAlwtaUXAAjMQFgKAgADwxafzAGMUgGUQh-AHcACwhJXEkxQIArCBEoBCZgCAZcBCgmWPiANyYAEwgmgDpuaRRDeUpFckoaAHIKQiGAGhqmmgBGdhMeayIAPigAA2a1mv9I6NorG3tIZ1cwprEUqDgxMI8vHxYA4NDwqJS6hIrktMzJYEyoHExI0Wk0oPUqgJoLUAuCVEwgghoIprmEclICkUwqVypUECYOh44PQanAIaUmgBJOBgF4kAaEYajCATKazLidRDdOTGJQscnNam04ALKDWKDYMThBjxBi0IA">TS Playground</a> | <a href="source/exact.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/C4TwDgpgBA8gdgGxAQQMaomYA5AhgW2gF4oBvOAiALigGdgAnASzgHMBfAbgChuAzAK5xUwJgHs4UCUjQYseQgApcDVgMJxgtAPo14M9JhyUAlGXa8A9JagAVcBADKqZliiox+MAlwtaUXAAjMQFgKAgADwxafzAGMUgGUQh-AHcACwhJXEkxQIArCBEoBCZgCAZcBCgmWPiANyYAEwgmgDpuaRRDeUpFckoaAHIKQiGAGhqmmgBGdhMeayIAPigAA2a1mv9I6NorG3tIZ1cwprEUqDgxMI8vHxYA4NDwqJS6hIrktMzJYEyoHExI0Wk0oPUqgJoLUAuCVEwgghoIprmEclICkUwqVypUECYOh44PQanAIaUmgBJOBgF4kAaEYajCATKazLidRDdOTGJQscnNam04ALKDWKDYMThBjxBi0IA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -4640,10 +4640,10 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `HasOptionalKeys` - Creates a type that represents `true` or `false` depending on whether the given type has any optional fields.
+- [`HasOptionalKeys`](source/has-optional-keys.d.ts) - Creates a type that represents `true` or `false` depending on whether the given type has any optional fields.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gCQIYGcDyYMwEAdtgDYDSKiuANHIcWZTXfgGYC+cnUEEHADkSVAFpOKXDGEBuAFAKxaAKpgAJthgoAyiigA3YAGMUAHgCipYkjgoAHjtIbccCACMAVihMwAfHAAvBgKUCggEIYoAGLAKBQaAFxwOAREJOTUtLhWNsBIgY7OrghQAK4oCgD8cAAUnPGJKcyZbDlcebaI-gCUwYEACgIgwLgWhhDAGv4KKaQo0VAK3EA">TS Playground</a> | <a href="source/has-optional-keys.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gCQIYGcDyYMwEAdtgDYDSKiuANHIcWZTXfgGYC+cnUEEHADkSVAFpOKXDGEBuAFAKxaAKpgAJthgoAyiigA3YAGMUAHgCipYkjgoAHjtIbccCACMAVihMwAfHAAvBgKUCggEIYoAGLAKBQaAFxwOAREJOTUtLhWNsBIgY7OrghQAK4oCgD8cAAUnPGJKcyZbDlcebaI-gCUwYEACgIgwLgWhhDAGv4KKaQo0VAK3EA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -4657,10 +4657,10 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `HasReadonlyKeys` - Creates a type that represents `true` or `false` depending on whether the given type has any readonly fields.
+- [`HasReadonlyKeys`](source/has-readonly-keys.d.ts) - Creates a type that represents `true` or `false` depending on whether the given type has any readonly fields.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gCQIYGcBKK2AJhAHYA2iA0iorgDRyEnlW30DyAZgL5zcoEEHADkSVAFpuKXDFEBuAFBKJaAKphi2GCgDKKKADdgAYxQAeAKJkYwJHBQAPXWWK44EAEYArFKZgAPjgAXgwlKBQQCCMUADFgFApiAC44HAIiUkoaOlxrW3tEYOdXdwQoAFcUJQB+OAAKbkTktJZs9jyeArskQIBKUOCABSEQYFxLIwhgYkClNLIUWKglXiA">TS Playground</a> | <a href="source/has-readonly-keys.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gCQIYGcBKK2AJhAHYA2iA0iorgDRyEnlW30DyAZgL5zcoEEHADkSVAFpuKXDFEBuAFBKJaAKphi2GCgDKKKADdgAYxQAeAKJkYwJHBQAPXWWK44EAEYArFKZgAPjgAXgwlKBQQCCMUADFgFApiAC44HAIiUkoaOlxrW3tEYOdXdwQoAFcUJQB+OAAKbkTktJZs9jyeArskQIBKUOCABSEQYFxLIwhgYkClNLIUWKglXiA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -4674,10 +4674,10 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `HasRequiredKeys` - Creates a type that represents `true` or `false` depending on whether the given type has any required fields.
+- [`HasRequiredKeys`](source/has-required-keys.d.ts) - Creates a type that represents `true` or `false` depending on whether the given type has any required fields.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gCQIYGcBKKAjgK7BQoAmA0iorgL5wBmUEIcA5EqgLTMpcMTgG4AUGJ5oA4igB2KKNhjQA8mBjAIc3AB4AKinAAbZWhQAPGPMq44EAEYArFAGMYAPjgBeDGLBsYACMAFxwciQgDoriARBgAExhQlDAcgDm4kwAZHAAFDgExGQUNHR6hiZmXpbWcrYIUCQoYgD8GNZV1mGVYKbWDGJh6J19Zq09RmMDAJTiYmnWUMzYrmi9-ShBfvGa2tjGAMokDgAK2EogE3ApaZligwtySytrcBtmCX4UpORUx2cLtgQMkYKkMlkJFI4Oo9jptr5ZAolCooLCtDoDFNNkEPOJoejtLgvoj5IplGoNBiKtjPniJK4ifBdgBBMKE+E+PxxYJhAAMABp-IEklwABbATgPcSMnTMjQAIXZVKJCO5gVCcEFwvios4Es4QtGm2GgwYMqZ9g0AGFlXDcGr0DreVqhTy9QajbTujsVXIDgDzpcwpxdhiDnAAG4HZpSs3zWVCK0wAAidupJPV8U12vdIc9km9KGGYh+JX+JyDwJDZb+lCjMZQcelQA">TS Playground</a> | <a href="source/has-required-keys.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gCQIYGcBKKAjgK7BQoAmA0iorgL5wBmUEIcA5EqgLTMpcMTgG4AUGJ5oA4igB2KKNhjQA8mBjAIc3AB4AKinAAbZWhQAPGPMq44EAEYArFAGMYAPjgBeDGLBsYACMAFxwciQgDoriARBgAExhQlDAcgDm4kwAZHAAFDgExGQUNHR6hiZmXpbWcrYIUCQoYgD8GNZV1mGVYKbWDGJh6J19Zq09RmMDAJTiYmnWUMzYrmi9-ShBfvGa2tjGAMokDgAK2EogE3ApaZligwtySytrcBtmCX4UpORUx2cLtgQMkYKkMlkJFI4Oo9jptr5ZAolCooLCtDoDFNNkEPOJoejtLgvoj5IplGoNBiKtjPniJK4ifBdgBBMKE+E+PxxYJhAAMABp-IEklwABbATgPcSMnTMjQAIXZVKJCO5gVCcEFwvios4Es4QtGm2GgwYMqZ9g0AGFlXDcGr0DreVqhTy9QajbTujsVXIDgDzpcwpxdhiDnAAG4HZpSs3zWVCK0wAAidupJPV8U12vdIc9km9KGGYh+JX+JyDwJDZb+lCjMZQcelQA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -4728,10 +4728,10 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `HasWritableKeys` - Creates a type that represents `true` or `false` depending on whether the given type has any writable fields.
+- [`HasWritableKeys`](source/has-writable-keys.d.ts) - Creates a type that represents `true` or `false` depending on whether the given type has any writable fields.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gCQIYGcDqUwM2ARgDYoDSKiuANHIcWZTXQPIBmAvnF1Agg4AciSoAtFxS4YIgNwAoReLQBVMABNsMFAGUUUAG7AAxigA8AUQB2MYojgoAHrpubccCKQBWKUzAAfHAAvBiKUCggEEYoAGLAKOSaAFxwOAREJBTUtLjWdg7BLm4eCFAAriiKAPxwABRciclpzNlsedwF9kiBAJShwQAKgiDAuJZGEMCagYppNiixUIo8QA">TS Playground</a> | <a href="source/has-writable-keys.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gCQIYGcDqUwM2ARgDYoDSKiuANHIcWZTXQPIBmAvnF1Agg4AciSoAtFxS4YIgNwAoReLQBVMABNsMFAGUUUAG7AAxigA8AUQB2MYojgoAHrpubccCKQBWKUzAAfHAAvBiKUCggEEYoAGLAKOSaAFxwOAREJBTUtLjWdg7BLm4eCFAAriiKAPxwABRciclpzNlsedwF9kiBAJShwQAKgiDAuJZGEMCagYppNiixUIo8QA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -4745,10 +4745,10 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `IfAny` - An if-else-like type that resolves depending on whether the given type is `any`.
+- [`IfAny`](source/if-any.d.ts) - An if-else-like type that resolves depending on whether the given type is `any`.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gSQGYEEB2iAvnNlBCHAORKoC02KAzjFQNwBQHtaAygBYQArgBsAJgCEUAFShC0AXjg4CiADwBDQgD5OAej0LtCOSi484A4eKkSNUOEpWE1VfBHhbEVADTVsEBC+1ABG9lS6HAZGoeFAA">TS Playground</a> | <a href="source/if-any.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gSQGYEEB2iAvnNlBCHAORKoC02KAzjFQNwBQHtaAygBYQArgBsAJgCEUAFShC0AXjg4CiADwBDQgD5OAej0LtCOSi484A4eKkSNUOEpWE1VfBHhbEVADTVsEBC+1ABG9lS6HAZGoeFAA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -4762,10 +4762,10 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `IfNever` - An if-else-like type that resolves depending on whether the given type is `never`.
+- [`IfNever`](source/if-never.d.ts) - An if-else-like type that resolves depending on whether the given type is `never`.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gSQGYDkUBuKUAvnNlBCHAORKoC02KAzjDQNwBQX9aAygAsIAVwA2AEwBCKACpQRaALxwc+IlAA8AO0LEAfNwD0RpfoQKUPPnCGjJMqQEMocFWr1aa2iPF0aaABpabAgIINoAIxcaQy4TMyiYoA">TS Playground</a> | <a href="source/if-never.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gSQGYDkUBuKUAvnNlBCHAORKoC02KAzjDQNwBQX9aAygAsIAVwA2AEwBCKACpQRaALxwc+IlAA8AO0LEAfNwD0RpfoQKUPPnCGjJMqQEMocFWr1aa2iPF0aaABpabAgIINoAIxcaQy4TMyiYoA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -4779,10 +4779,10 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `IfUnknown` - An if-else-like type that resolves depending on whether the given type is `unknown`.
+- [`IfUnknown`](source/if-unknown.d.ts) - An if-else-like type that resolves depending on whether the given type is `unknown`.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gSQGYFUB2A1vhAO74C+c2UEIcA5EqgLTYoDOMDA3AFB9maAMoALCAFcANgBMAQigAqUCWgC8cHAWJl8AHglES5AHz8A9ObUmEKlAKFwxk2QrkBDKHA1ajuvQwk8IY65AwANIzYEBARjABGngxmfJbWCUlAA">TS Playground</a> | <a href="source/if-unknown.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gSQGYFUB2A1vhAO74C+c2UEIcA5EqgLTYoDOMDA3AFB9maAMoALCAFcANgBMAQigAqUCWgC8cHAWJl8AHglES5AHz8A9ObUmEKlAKFwxk2QrkBDKHA1ajuvQwk8IY65AwANIzYEBARjABGngxmfJbWCUlAA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -4796,10 +4796,10 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `IsAny` - Returns a boolean for whether the given type is `any`.
+- [`IsAny`](source/is-any.d.ts) - Returns a boolean for whether the given type is `any`.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gSQM4EEB2iAvnAGZQQhwDkSqAtKStjNQNwBQHAxhPiwmQoAJgHkARgCsU3eAF4MAQwBccAIwAaOONUAmEouxxe-GJxMDFhCdNmqriOAvQr1WnXH2cOpAK75ZYD44AHMUGAAeUTgUAA8YFHxhIwAKHAJEKIA+GPjE5IQoXzQAfgwSVQAlGWhhCJYoYHwQrXxfEHEUKCyASi0AaVyEpKMAaxRECFI4aIVxyenRLJSIKVVRLXnVfp6MDihw3yh8OFXJAG15gF1OIi4LeDoRXCdQ8JSnsSkZGC1qRWoPU4AHpgXIcmp7nxLIQXgowjAUg4bD8-gCgRxQeC4A4gA">TS Playground</a> | <a href="source/is-any.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gSQM4EEB2iAvnAGZQQhwDkSqAtKStjNQNwBQHAxhPiwmQoAJgHkARgCsU3eAF4MAQwBccAIwAaOONUAmEouxxe-GJxMDFhCdNmqriOAvQr1WnXH2cOpAK75ZYD44AHMUGAAeUTgUAA8YFHxhIwAKHAJEKIA+GPjE5IQoXzQAfgwSVQAlGWhhCJYoYHwQrXxfEHEUKCyASi0AaVyEpKMAaxRECFI4aIVxyenRLJSIKVVRLXnVfp6MDihw3yh8OFXJAG15gF1OIi4LeDoRXCdQ8JSnsSkZGC1qRWoPU4AHpgXIcmp7nxLIQXgowjAUg4bD8-gCgRxQeC4A4gA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -4820,10 +4820,10 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `IsEqual` - Returns a boolean for whether the two given types are equal.
+- [`IsEqual`](source/is-equal.d.ts) - Returns a boolean for whether the two given types are equal.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gSQM4FECOArgIYA2AvnAGZQQhwDkSqAtFStjAwNwBQvAegFwAKgAtg2BMjRQUMQlAB2U4nABGECKRTEl1aHADuY+aagJTcAObAAbin3EoUYojjAlAY1KEAJhyWaLYO+sAwKCAAdILCAAY4BCSkcR5ShNgofggQcF50YM5oMFYhjnDOru7E8JDY4cAQ+gAMFUrZJcH25eGRbR2m+nIKyghQhGjAVEHVcnAoRGQxzGiY3r4B2AA8AGpkE-MAHhHtUnLEfk2k1UqIANoAugA0cJgRIAB8cAC8vHu+aBQx0cfjOukuSmucDu-wmd2azzgUWRnnYFjknAevAA-K88ItSLt9ih4Yi3pEvkCTqCxhMcbSULwAFyvdb+DhbDEwF7kz7M6hkTLcIA">TS Playground</a> | <a href="source/is-equal.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gSQM4FECOArgIYA2AvnAGZQQhwDkSqAtFStjAwNwBQvAegFwAKgAtg2BMjRQUMQlAB2U4nABGECKRTEl1aHADuY+aagJTcAObAAbin3EoUYojjAlAY1KEAJhyWaLYO+sAwKCAAdILCAAY4BCSkcR5ShNgofggQcF50YM5oMFYhjnDOru7E8JDY4cAQ+gAMFUrZJcH25eGRbR2m+nIKyghQhGjAVEHVcnAoRGQxzGiY3r4B2AA8AGpkE-MAHhHtUnLEfk2k1UqIANoAugA0cJgRIAB8cAC8vHu+aBQx0cfjOukuSmucDu-wmd2azzgUWRnnYFjknAevAA-K88ItSLt9ih4Yi3pEvkCTqCxhMcbSULwAFyvdb+DhbDEwF7kz7M6hkTLcIA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -4840,10 +4840,10 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `IsStringLiteral` - Returns a boolean for whether the given type is a `string` [literal type](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#literal-types).
+- [`IsStringLiteral`](source/is-string-literal.d.ts) - Returns a boolean for whether the given type is a `string` [literal type](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#literal-types).
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gSQM4GUZTAB2A5gDLAwpQCGANgL5wBmUEIcA5EqgLTMpsMTgG4AUGJ5oAwjTCV6wAF4oAJvkKkAPABU4KAB5Uiq7HCGaSAPjgBeODg3FylavV03Dx0wigBXNAB+OFl5GEUVDzgALnMCZ3ExAHokuAALGBgwbGiUkko0vwAjADoAY3YkxBoiAGsUFGI6CBMWpKIaGGAANxReVRpsNKSi5qKkkEGqKCTsKDKksrkFOmUUEphsMWY-IjKulrglsIiUXX0jFBMzACUUGlUWukQtC2crKwAKYjA-GFidABKWKhFZrdTxbQ6GzoMRQFAwPxQIhwb5EX4wErYVZlFCfAAMABo4ABGQEbCAAVTAqCgsmweMBcAA1HAfn8sTi8WSmYMQstwqsVBDLB5xAwJBUiEI4BA-hi7EcBadPpw0ig6M1iQB3aB0VQAQk4gPEKVsNk4AAkNVq4LqoPqjUA">TS Playground</a> | <a href="source/is-string-literal.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gSQM4GUZTAB2A5gDLAwpQCGANgL5wBmUEIcA5EqgLTMpsMTgG4AUGJ5oAwjTCV6wAF4oAJvkKkAPABU4KAB5Uiq7HCGaSAPjgBeODg3FylavV03Dx0wigBXNAB+OFl5GEUVDzgALnMCZ3ExAHokuAALGBgwbGiUkko0vwAjADoAY3YkxBoiAGsUFGI6CBMWpKIaGGAANxReVRpsNKSi5qKkkEGqKCTsKDKksrkFOmUUEphsMWY-IjKulrglsIiUXX0jFBMzACUUGlUWukQtC2crKwAKYjA-GFidABKWKhFZrdTxbQ6GzoMRQFAwPxQIhwb5EX4wErYVZlFCfAAMABo4ABGQEbCAAVTAqCgsmweMBcAA1HAfn8sTi8WSmYMQstwqsVBDLB5xAwJBUiEI4BA-hi7EcBadPpw0ig6M1iQB3aB0VQAQk4gPEKVsNk4AAkNVq4LqoPqjUA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -4861,10 +4861,10 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `IsNumericLiteral` - Returns a boolean for whether the given type is a `number` or `bigint` [literal type](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#literal-types).
+- [`IsNumericLiteral`](source/is-numeric-literal.d.ts) - Returns a boolean for whether the given type is a `number` or `bigint` [literal type](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#literal-types).
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gSQM4DkCuIKUwAxgDLAzECGANgL5wBmUEIcA5EqgLTMpsMTgG4AUGID0kuAAsYMMNgBc0gOZVZ+AEYA6Uu0nAAdhFI1jvNW3xgjxgVCgoAJrx6DJ2uhG2SQNELEkthQpJIe2F4QEHQoFrw+GuEAosYu2ADqmrow2GIecGkZ2TCyADwAKgBq9PgoADRwlcVZmnAoAB7U6dhwQiTGagB8cAC8YjV1aF09Gf0wg2piAPxwOADKiyZqlNRQ9FWtpbKjsyi9CFD1q+vYW0t7tHRVtXT1Z90X84s3a1PvGZfS4AAwAJOgBjsGBCWr0TgwQbdfigxMoWPRsKj0doYnELGi4LjYvFjISAfUOsD5sZCNpiLccAQiCQKFRnq9pp85n0UbdjppyuD0BSUIimnCSpphoTmJjsRi6FjxGJmPhjKQYMAIMYOvDBZhjGB8PBzpcoUM4AAfOC0kD0qBNYpUnkLJbDAAUJmNMHRhp9TW+6OKAEoMGJnDB8FBdcLvSbEbpvm0yh7vmHAkV9WVyv6TU70sNxAwJMmTh7ODRtKROE1ODWQ+JpGNRnyxGXNB6AIwAJgAzAAWACsADY68OR5xG1JJC2rjcxAZjEI9S5xlxe33OHBMxa1CqO6nK9XN7XV9Pm6NifjjEA">TS Playground</a> | <a href="source/is-numeric-literal.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gSQM4DkCuIKUwAxgDLAzECGANgL5wBmUEIcA5EqgLTMpsMTgG4AUGID0kuAAsYMMNgBc0gOZVZ+AEYA6Uu0nAAdhFI1jvNW3xgjxgVCgoAJrx6DJ2uhG2SQNELEkthQpJIe2F4QEHQoFrw+GuEAosYu2ADqmrow2GIecGkZ2TCyADwAKgBq9PgoADRwlcVZmnAoAB7U6dhwQiTGagB8cAC8YjV1aF09Gf0wg2piAPxwOADKiyZqlNRQ9FWtpbKjsyi9CFD1q+vYW0t7tHRVtXT1Z90X84s3a1PvGZfS4AAwAJOgBjsGBCWr0TgwQbdfigxMoWPRsKj0doYnELGi4LjYvFjISAfUOsD5sZCNpiLccAQiCQKFRnq9pp85n0UbdjppyuD0BSUIimnCSpphoTmJjsRi6FjxGJmPhjKQYMAIMYOvDBZhjGB8PBzpcoUM4AAfOC0kD0qBNYpUnkLJbDAAUJmNMHRhp9TW+6OKAEoMGJnDB8FBdcLvSbEbpvm0yh7vmHAkV9WVyv6TU70sNxAwJMmTh7ODRtKROE1ODWQ+JpGNRnyxGXNB6AIwAJgAzAAWACsADY68OR5xG1JJC2rjcxAZjEI9S5xlxe33OHBMxa1CqO6nK9XN7XV9Pm6NifjjEA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -4903,10 +4903,10 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `IsBooleanLiteral` - Returns a boolean for whether the given type is a `true` or `false` [literal type](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#literal-types).
+- [`IsBooleanLiteral`](source/is-boolean-literal.d.ts) - Returns a boolean for whether the given type is a `true` or `false` [literal type](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#literal-types).
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gSQM4CEIQA2KAhgHYAywMKUJhAvnAGZQQhwDkSqAtMymwxOAbgBQYgMYQyQuMAAmcALxwAjACYAzOLE80AcRQxMCgDwBBbAGUYUYGQDmcFAA8aZBdjgAjAsXIAPhUxHHwiUkpqWnpLGzsHR2C3Dy8EKABXFDEAfjgrW3snF3cUT287LNy4AAMAEnR9CGZ5BQYasQAuBGQUZtauuDIMkB9aOAAfOCEix11mDLJJGGAZOEdjUzjCxJLU7z8I8hUWemwUQIAKCDAVmWwc7vQSeNnugoSnBgBKDDEoYwZKBkODXW6rWQ5AB0Lx2xTy9XQinacG6il+LzgRhM5g+s0C4gYEmksngw1GtFMJw2OMu33EAHoGcpgpotMT7vAZokqaoaaZLs9XolupUUD9Gczgpw2ZwJAoUJJCCQAXASXJMmQViAUOEAmRuod9eJ1fAUNQABaUpR8zYKQWwz6Obqa7W6-yRCViJksoYjMZQSbTJ1AA">TS Playground</a> | <a href="source/is-boolean-literal.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gSQM4CEIQA2KAhgHYAywMKUJhAvnAGZQQhwDkSqAtMymwxOAbgBQYgMYQyQuMAAmcALxwAjACYAzOLE80AcRQxMCgDwBBbAGUYUYGQDmcFAA8aZBdjgAjAsXIAPhUxHHwiUkpqWnpLGzsHR2C3Dy8EKABXFDEAfjgrW3snF3cUT287LNy4AAMAEnR9CGZ5BQYasQAuBGQUZtauuDIMkB9aOAAfOCEix11mDLJJGGAZOEdjUzjCxJLU7z8I8hUWemwUQIAKCDAVmWwc7vQSeNnugoSnBgBKDDEoYwZKBkODXW6rWQ5AB0Lx2xTy9XQinacG6il+LzgRhM5g+s0C4gYEmksngw1GtFMJw2OMu33EAHoGcpgpotMT7vAZokqaoaaZLs9XolupUUD9Gczgpw2ZwJAoUJJCCQAXASXJMmQViAUOEAmRuod9eJ1fAUNQABaUpR8zYKQWwz6Obqa7W6-yRCViJksoYjMZQSbTJ1AA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -4937,10 +4937,10 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `IsSymbolLiteral` - Returns a boolean for whether the given type is a `symbol` [literal type](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#literal-types).
+- [`IsSymbolLiteral`](source/is-symbol-literal.d.ts) - Returns a boolean for whether the given type is a `symbol` [literal type](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#literal-types).
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gSQM4GVEgBGEANgDLAwpQCGJAvnAGZQQhwDkSqAtEythgcA3AChR3NAHEUMADwB5QgCs4KAB5UAdgBNscAEooAxtB1zsBYiQA0cLQFci1AHx2A0ikRrNKXfoBrLwgmOCVlFzgAXlEcfCJSCipaEjlPREiNbT0EKAcUUQB+MJUAbXSAXVEALnsnQmoxUSYHLWMYYAgtOABzWUUVH2z9I1Moc0sE2zrnKDc4dKG-HKDEEJKIgAoIWvC7Vdr0gEoMUShZByhuiFLVirgafRl5PYWvFzF6cVMtQThJ6xJah0aJweLWTYcEiUYEkDhHMQ-P4A0gANTo+VqKJIoPBpEhADcMSh4U0+jBNuhStigSkKrUAIyMR5wJEwOw0mEpBGiAD0vKikQZ4nJlOpVjRxPpcCZD30bI5EpI6JI+R5-MFMwaUCAA">TS Playground</a> | <a href="source/is-symbol-literal.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gSQM4GVEgBGEANgDLAwpQCGJAvnAGZQQhwDkSqAtEythgcA3AChR3NAHEUMADwB5QgCs4KAB5UAdgBNscAEooAxtB1zsBYiQA0cLQFci1AHx2A0ikRrNKXfoBrLwgmOCVlFzgAXlEcfCJSCipaEjlPREiNbT0EKAcUUQB+MJUAbXSAXVEALnsnQmoxUSYHLWMYYAgtOABzWUUVH2z9I1Moc0sE2zrnKDc4dKG-HKDEEJKIgAoIWvC7Vdr0gEoMUShZByhuiFLVirgafRl5PYWvFzF6cVMtQThJ6xJah0aJweLWTYcEiUYEkDhHMQ-P4A0gANTo+VqKJIoPBpEhADcMSh4U0+jBNuhStigSkKrUAIyMR5wJEwOw0mEpBGiAD0vKikQZ4nJlOpVjRxPpcCZD30bI5EpI6JI+R5-MFMwaUCAA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -4966,10 +4966,10 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `IsLiteral` - Returns a boolean for whether the given type is a [literal type](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#literal-types).
+- [`IsLiteral`](source/is-literal.d.ts) - Returns a boolean for whether the given type is a [literal type](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#literal-types).
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gSQM4BlgwpQCGANgL5wBmUEIcA5EqgLRUrYwMDcAULwHoBcABYwYYbAC4hAcwIiArgCMAdAGM6A4ADsI64jpazaisNp3soUFABMWzDgOWkIygSGKciA7FHUCjti+MFC6siykBERkwQDKocBguCjEtuGqMNi8KAAekLAIyGgJYcmp6TqyADwAggA0cABCAHxwALy8tXB5hDq22HCcYVW8APzNPbl9A0OJoxM4+IQkpHVtvSj9g6GKKONzI7JTM4NNcBM6KABuRHBScN2b23AABgAk6OcAZIfh5J9dFZHlQVuRXhcQSt7o9eA9huE4bCHrU+LwqIodOoYMAIDo-uU0uFqpgdGBFPBnrMEVVGqUkicttT5rIWgAKXTkmAPUlcxoIsAPelgACUGF4Nhgiig+M5FNUNjApGI6hQbNeAD1PgLwY0GAwxV44MKUkSqiSyRS6YkwC0+OR+ALTZVZGyGMRlOoAIwAJgAzAw9R71Aa+EJ2m0GL6A-xNDpOIcOoxg9GGHAjTTZGinRVwmzhkHPaHBAII38qkA">TS Playground</a> | <a href="source/is-literal.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gSQM4BlgwpQCGANgL5wBmUEIcA5EqgLRUrYwMDcAULwHoBcABYwYYbAC4hAcwIiArgCMAdAGM6A4ADsI64jpazaisNp3soUFABMWzDgOWkIygSGKciA7FHUCjti+MFC6siykBERkwQDKocBguCjEtuGqMNi8KAAekLAIyGgJYcmp6TqyADwAggA0cABCAHxwALy8tXB5hDq22HCcYVW8APzNPbl9A0OJoxM4+IQkpHVtvSj9g6GKKONzI7JTM4NNcBM6KABuRHBScN2b23AABgAk6OcAZIfh5J9dFZHlQVuRXhcQSt7o9eA9huE4bCHrU+LwqIodOoYMAIDo-uU0uFqpgdGBFPBnrMEVVGqUkicttT5rIWgAKXTkmAPUlcxoIsAPelgACUGF4Nhgiig+M5FNUNjApGI6hQbNeAD1PgLwY0GAwxV44MKUkSqiSyRS6YkwC0+OR+ALTZVZGyGMRlOoAIwAJgAzAw9R71Aa+EJ2m0GL6A-xNDpOIcOoxg9GGHAjTTZGinRVwmzhkHPaHBAII38qkA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -4999,10 +4999,10 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `IsNever` - Returns a boolean for whether the given type is `never`.
+- [`IsNever`](source/is-never.d.ts) - Returns a boolean for whether the given type is `never`.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gSQM4DkUBuKUAvnAGZQQhwDkSqAtOStjLQNwBQXDaAggDsAJgB5+AGjgAhAHxwAvF35wUADxgoR2BFACuKLgH4ZqjVuE6Y+wyesGuALgoBDADbZDz8u8-cuAPQBcAAWMDBg2I5BAObAMCF6AEYAdADG1AEuIoJgAQDKoGBuiAAqyCjCAUluEEkBIC5sxAHYUGkBfNit1sCCMdgpMNi8FXD8UCj5vf3YAKIAjnru4maa2nBsUH0xUtJrFjpbO-JKQmJcOPhEUKJzamluesIo4nuy8urrlroGcHY2ODeXwoCSXPCEYh3B5PF6iaRSfgfA4bexoAF-YEeQyyfx8OBzESYciLZZuUSYFE-Y79KQAeSpRxmMVOykm022s1JK0w9M+5lRNmMcEEkKgTjgBAgwGE-nIekEaRgwAgglURJJSx5jM2zPpOppLIAFH0wHoYM5eXAIOazRa4HSAJTOQnCYnc8lWunydBcYDkOAm3LmxQKBTW23mx0YLhgKhpViDdTxI0ABkd3BIXCzXAs7q1biNtBcSTStCkxdLtAzgQCCnkopuPDzmrJRZLZYrAEYAEwAZmr3CC9cl0uEQA">TS Playground</a> | <a href="source/is-never.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gSQM4DkUBuKUAvnAGZQQhwDkSqAtOStjLQNwBQXDaAggDsAJgB5+AGjgAhAHxwAvF35wUADxgoR2BFACuKLgH4ZqjVuE6Y+wyesGuALgoBDADbZDz8u8-cuAPQBcAAWMDBg2I5BAObAMCF6AEYAdADG1AEuIoJgAQDKoGBuiAAqyCjCAUluEEkBIC5sxAHYUGkBfNit1sCCMdgpMNi8FXD8UCj5vf3YAKIAjnru4maa2nBsUH0xUtJrFjpbO-JKQmJcOPhEUKJzamluesIo4nuy8urrlroGcHY2ODeXwoCSXPCEYh3B5PF6iaRSfgfA4bexoAF-YEeQyyfx8OBzESYciLZZuUSYFE-Y79KQAeSpRxmMVOykm022s1JK0w9M+5lRNmMcEEkKgTjgBAgwGE-nIekEaRgwAgglURJJSx5jM2zPpOppLIAFH0wHoYM5eXAIOazRa4HSAJTOQnCYnc8lWunydBcYDkOAm3LmxQKBTW23mx0YLhgKhpViDdTxI0ABkd3BIXCzXAs7q1biNtBcSTStCkxdLtAzgQCCnkopuPDzmrJRZLZYrAEYAEwAZmr3CC9cl0uEQA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -5041,10 +5041,10 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `IsUnknown` - Returns a boolean for whether the given type is `unknown`.
+- [`IsUnknown`](source/is-unknown.d.ts) - Returns a boolean for whether the given type is `unknown`.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gSQM4FUB2A1vhAO74C+cAZlBCHAORKoC01K2MjA3AFB8A9ILgALGDDDYAXMIDmwGKICuAIwB0AY3qCwAQwBWKTXtJ6AboJjB8iVnIA2EVXoesu0FINVPVgkHpcKFCC2FCagjYAJigAHuow2HwsaACCmtYQ+AA8ACoAyjB6MCgANHC5AAp6iE56UXAAvHDmEMBRAHxNfDgExGQ5VTV1nXBxJfhR2AhQyih8APxwABRcxSjSFYXrAJRNXQVFJaV8m6tHG1sX5fq1EPWbQ3f1e40H2yX8fJoOgdOFnjyHxQXXQ3yyXFmGWgyzAUGA5nWcDWJUewL26AoAjixmUJTy1WeDWarXaHWWegywCym3SmUGwPKTxGHRuw3uUQWj0JIx2aIuGGSomA2HUKLQzUp9OWShFYuucFuvP4UBQMGUUHwCGFovF-CxQhE6mNcAgSmCcBAatEECmfAN2nwXGRME8TTg+BQpDgANVy3QiIcc02AEYKDt+DEfnpVXBHc7sPQUABRWIlTWuAAixT0m2URBI5C+HlV6hxmjxKHOSLeKwDrmDLvW6kDczgAGo4GGdhHDbWAAbMjn9uAiuD90lRfsCEsoMuxXElZbV46K9kvfZ11uXcUthtoTtKjnh8oAVl7wgHQ-qI7H-dP074s-ni6rK7Ka6Jry6-u3m1324dp+IwnsiSapum+BZjmF6CLWyZQHQUAyOOUrUvgt7TP2778rsm6HOs-ZAA">TS Playground</a> | <a href="source/is-unknown.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gSQM4FUB2A1vhAO74C+cAZlBCHAORKoC01K2MjA3AFB8A9ILgALGDDDYAXMIDmwGKICuAIwB0AY3qCwAQwBWKTXtJ6AboJjB8iVnIA2EVXoesu0FINVPVgkHpcKFCC2FCagjYAJigAHuow2HwsaACCmtYQ+AA8ACoAyjB6MCgANHC5AAp6iE56UXAAvHDmEMBRAHxNfDgExGQ5VTV1nXBxJfhR2AhQyih8APxwABRcxSjSFYXrAJRNXQVFJaV8m6tHG1sX5fq1EPWbQ3f1e40H2yX8fJoOgdOFnjyHxQXXQ3yyXFmGWgyzAUGA5nWcDWJUewL26AoAjixmUJTy1WeDWarXaHWWegywCym3SmUGwPKTxGHRuw3uUQWj0JIx2aIuGGSomA2HUKLQzUp9OWShFYuucFuvP4UBQMGUUHwCGFovF-CxQhE6mNcAgSmCcBAatEECmfAN2nwXGRME8TTg+BQpDgANVy3QiIcc02AEYKDt+DEfnpVXBHc7sPQUABRWIlTWuAAixT0m2URBI5C+HlV6hxmjxKHOSLeKwDrmDLvW6kDczgAGo4GGdhHDbWAAbMjn9uAiuD90lRfsCEsoMuxXElZbV46K9kvfZ11uXcUthtoTtKjnh8oAVl7wgHQ-qI7H-dP074s-ni6rK7Ka6Jry6-u3m1324dp+IwnsiSapum+BZjmF6CLWyZQHQUAyOOUrUvgt7TP2778rsm6HOs-ZAA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -5081,10 +5081,10 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `MergeDeep` - Merge two objects or two arrays/tuples recursively into a new type.
+- [`MergeDeep`](source/merge-deep.d.ts) - Merge two objects or two arrays/tuples recursively into a new type.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gWRVA5igERRTAF84AzKCEOAciVQFoKUBnGOgbgCgfG0AMQgQ4AXgw8ANsFYAuOADsAriABGOXsBgoQbBRyjBFuANoBdXgEMF6NQZhGTXOAGMFakVJRXFLgCYKKuo4FqS84XzGOlAUVq5oAEJWUJKKViAoDk64Wjp6QaoaUBbWtvZKRZpwgXCeEN6+YRF8AnDCEMmpEth4hMRgADwdADRwXQB8vAD005KzcACQMvKVIVAzc4vpmdnGuTwLi9q6+mvFpYdbNhgVwcUu7nVePn41Hi9N5pELpK3IQhEXXEcF6+CIJGGIjGXTG6BSUCsiDBKEwEH8WXobDAUB8-jopCmV3mWxWmPummJ2wymMM+02SxOBTgAAo6SY4AAfc44ACUlyONzshXWjw+DVeAQULIpqW59Uain53wZpCAA">TS Playground</a> | <a href="source/merge-deep.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gWRVA5igERRTAF84AzKCEOAciVQFoKUBnGOgbgCgfG0AMQgQ4AXgw8ANsFYAuOADsAriABGOXsBgoQbBRyjBFuANoBdXgEMF6NQZhGTXOAGMFakVJRXFLgCYKKuo4FqS84XzGOlAUVq5oAEJWUJKKViAoDk64Wjp6QaoaUBbWtvZKRZpwgXCeEN6+YRF8AnDCEMmpEth4hMRgADwdADRwXQB8vAD005KzcACQMvKVIVAzc4vpmdnGuTwLi9q6+mvFpYdbNhgVwcUu7nVePn41Hi9N5pELpK3IQhEXXEcF6+CIJGGIjGXTG6BSUCsiDBKEwEH8WXobDAUB8-jopCmV3mWxWmPummJ2wymMM+02SxOBTgAAo6SY4AAfc44ACUlyONzshXWjw+DVeAQULIpqW59Uain53wZpCAA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -5120,10 +5120,10 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `OptionalKeysOf` - Extract all optional keys from the given type.
+- [`OptionalKeysOf`](source/optional-keys-of.d.ts) - Extract all optional keys from the given type.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3geTDYEB2AhgDYDSKiAzpgGYA0cAogB4DGKOAvnDVBCHADkSVAFoaKSjEEBuAFBzg+GCig1C7OAFVKqjHKIgUALjhSoSgObzKAVyiGTZmBfzWFxW6wDWiAHK2IABGqgD8pviBIVDynAqsBFJwAEqMALKYAGqMAPoAYgCSjAAyACJwALxwAMqIwRDEABSCUCggEABuaDTAKMQAJmZ1QQ2CAJTyImhaYP2EKtiq83j4ADyMysBIcCjMKvj9lHAQQQBWKKwwAHyVTGwcMKsACoSwwCTrm0hXDNi4BCRyFRaJ9cN8bgAyfQAbSBcCUcD+K0BFGoNFBW0QVwAuuEmF9ELCKNi4AAfBDIFAQGgpdJZXKFEqlWLyOQJfBJWyzeYoACMphmcwWqCgywIqx0qhuVXQBkIRlMggAgsRgOxBHJOKz2ZzuSoAEwCvUoRai-5rSVQaX6RyKgBCJ0EdDknh8-iiqlMqQy2XyRTKmpkQA">TS Playground</a> | <a href="source/optional-keys-of.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3geTDYEB2AhgDYDSKiAzpgGYA0cAogB4DGKOAvnDVBCHADkSVAFoaKSjEEBuAFBzg+GCig1C7OAFVKqjHKIgUALjhSoSgObzKAVyiGTZmBfzWFxW6wDWiAHK2IABGqgD8pviBIVDynAqsBFJwAEqMALKYAGqMAPoAYgCSjAAyACJwALxwAMqIwRDEABSCUCggEABuaDTAKMQAJmZ1QQ2CAJTyImhaYP2EKtiq83j4ADyMysBIcCjMKvj9lHAQQQBWKKwwAHyVTGwcMKsACoSwwCTrm0hXDNi4BCRyFRaJ9cN8bgAyfQAbSBcCUcD+K0BFGoNFBW0QVwAuuEmF9ELCKNi4AAfBDIFAQGgpdJZXKFEqlWLyOQJfBJWyzeYoACMphmcwWqCgywIqx0qhuVXQBkIRlMggAgsRgOxBHJOKz2ZzuSoAEwCvUoRai-5rSVQaX6RyKgBCJ0EdDknh8-iiqlMqQy2XyRTKmpkQA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -5152,10 +5152,10 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `ReadonlyKeysOf` - Extract all readonly keys from the given type.
+- [`ReadonlyKeysOf`](source/readonly-keys-of.d.ts) - Extract all readonly keys from the given type.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gJRQQwCYQB2ANogNIqIDOA8gGYC+cdUEIcA5EqgLR0pUYHANwAoUcEIwUUOjgDGaAKpUZGUYRwgUALjiCokgOZiqAVyibteg8bFRcBEojjA8ewmZAAjGWIbi3MpgeDjS2FSQhKoAPACiUsBIcCgAHtKEeFRwEN4AVijyMAB8cAC8cAAKwPIA1vGJSAA0cNj4RKQU1PQNMEmIxcViovJEgnBmIWEoAIx6SlPhAlGxKjKlFegS7nAzAEwAzE2iDMJAA">TS Playground</a> | <a href="source/readonly-keys-of.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gJRQQwCYQB2ANogNIqIDOA8gGYC+cdUEIcA5EqgLR0pUYHANwAoUcEIwUUOjgDGaAKpUZGUYRwgUALjiCokgOZiqAVyibteg8bFRcBEojjA8ewmZAAjGWIbi3MpgeDjS2FSQhKoAPACiUsBIcCgAHtKEeFRwEN4AVijyMAB8cAC8cAAKwPIA1vGJSAA0cNj4RKQU1PQNMEmIxcViovJEgnBmIWEoAIx6SlPhAlGxKjKlFegS7nAzAEwAzE2iDMJAA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -5175,10 +5175,10 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `ReadonlyTuple` - Create a type that represents a read-only tuple of the given type and length.
+- [`ReadonlyTuple`](source/readonly-tuple.d.ts) - Create a type that represents a read-only tuple of the given type and length.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBAbwEoFMCGATCA7ANgTwBUBXMXFAXzgDMoIQ4ByGfMFAWmpQGcZGBuAFCCWbOADEU2AMbBsAc0LoGAXjipMOAiTIoAPLyhz5AGjgBmAHxDB0nLzjziPGJJnGlaEAC4JU2QqeqnAA2owAUhDcABaMZowAssDS0WgouHFMSBAARiiwjAC6NnbYDtH0KG4Bisq+1R7KcGphAOIo0PIomREQ0dhFQgD0QyqWcPl0UHCEAMoATObz876ErChwhsYhhXDA3HDYEPBo3NzA8thoOeRwMBB360wNgcqMwk4uL7VeAHRgxBiAApGLMvIwAJTDUbjSbQGYLczmACcvgACnQ2LB8EwATFGHAsDxDscJgAPfbwHCPMSMb5BRhAA">TS Playground</a> | <a href="source/readonly-tuple.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBAbwEoFMCGATCA7ANgTwBUBXMXFAXzgDMoIQ4ByGfMFAWmpQGcZGBuAFCCWbOADEU2AMbBsAc0LoGAXjipMOAiTIoAPLyhz5AGjgBmAHxDB0nLzjziPGJJnGlaEAC4JU2QqeqnAA2owAUhDcABaMZowAssDS0WgouHFMSBAARiiwjAC6NnbYDtH0KG4Bisq+1R7KcGphAOIo0PIomREQ0dhFQgD0QyqWcPl0UHCEAMoATObz876ErChwhsYhhXDA3HDYEPBo3NzA8thoOeRwMBB360wNgcqMwk4uL7VeAHRgxBiAApGLMvIwAJTDUbjSbQGYLczmACcvgACnQ2LB8EwATFGHAsDxDscJgAPfbwHCPMSMb5BRhAA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -5196,10 +5196,10 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `RequiredDeep` - Create a type from another type with all keys and nested keys set to required.
+- [`RequiredDeep`](source/required-deep.d.ts) - Create a type from another type with all keys and nested keys set to required.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gJRQRwK7BQoAmAIiimAL5wBmUEIcA5EqgLS0oDOMzA3AChBbNAGUUMGMAB2Ac25wAvBhEoAHjACixYDGgB+AFyraEGTDHAAXimNwZeEACMUUOAB84eGcRS1ZEiEzCwBhCAAbQxNeKFk5T29ff0DiYPMYAHUUYDkACxh7Rxc3RJ8-AJkgwSpBAEM8fQBjRjAIyTsTZwhIlDqZMuTK6ob9bjqAN064bt7+wYrUoSohEWQ0bHxCEgkpeMUVTYIiMgowAB5d6XluAD4hAHoHhHW4I+3iK-3lVSe4AEgYBptLp9FATOhBH9-v8QpYbCgTMVXFBHs8YXDwlFwXBYvE0QDYRlsrkCkinCiCf9atDRhAWuB2kCuj12v0qXTxlMWXMZASqEA">TS Playground</a> | <a href="source/required-deep.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gJRQRwK7BQoAmAIiimAL5wBmUEIcA5EqgLS0oDOMzA3AChBbNAGUUMGMAB2Ac25wAvBhEoAHjACixYDGgB+AFyraEGTDHAAXimNwZeEACMUUOAB84eGcRS1ZEiEzCwBhCAAbQxNeKFk5T29ff0DiYPMYAHUUYDkACxh7Rxc3RJ8-AJkgwSpBAEM8fQBjRjAIyTsTZwhIlDqZMuTK6ob9bjqAN064bt7+wYrUoSohEWQ0bHxCEgkpeMUVTYIiMgowAB5d6XluAD4hAHoHhHW4I+3iK-3lVSe4AEgYBptLp9FATOhBH9-v8QpYbCgTMVXFBHs8YXDwlFwXBYvE0QDYRlsrkCkinCiCf9atDRhAWuB2kCuj12v0qXTxlMWXMZASqEA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -5228,10 +5228,10 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `RequiredKeysOf` - Extract all required keys from the given type.
+- [`RequiredKeysOf`](source/required-keys-of.d.ts) - Extract all required keys from the given type.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gJRQRwK7BQoAmA0iogM4DyAZgL5y1QQhwDkSqAtLSpTHYBuAFAjiKAMYAbAIZEmeAHaSYwCEriSismCgBqs6cGK71SgDwBRJWqRwUADz1LilOBABGAKykwANHDkiA7OKK7u2PiEJME0tNa2wEgAfHAAvHBRBERkFPGJdogpKQAUtMAo0sQAXEEUgQBuRia60HWlzdJ4KHU2RQDawQC6AJQZaZ4QENIoskqjdYbGpjDQAGJKoiLAtihQtLKSaACqlPsYIkqyIL1wAlC7AOailHhQ17d1D8-b3ZIAa0QADk8CBPPsAPx1JRgiFQUT0MSSDQCOBdVprKAARgyWh0emWmPMFjO+zK7E+KHYTSMPQm6LpKAAdLMlE8YAALOAWOAAJgArKNRCilGiMatoHy8do5oSWqsSWSoBS3h8btTad00Ok0l0eqzwhzubzBcKgA">TS Playground</a> | <a href="source/required-keys-of.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gJRQRwK7BQoAmA0iogM4DyAZgL5y1QQhwDkSqAtLSpTHYBuAFAjiKAMYAbAIZEmeAHaSYwCEriSismCgBqs6cGK71SgDwBRJWqRwUADz1LilOBABGAKykwANHDkiA7OKK7u2PiEJME0tNa2wEgAfHAAvHBRBERkFPGJdogpKQAUtMAo0sQAXEEUgQBuRia60HWlzdJ4KHU2RQDawQC6AJQZaZ4QENIoskqjdYbGpjDQAGJKoiLAtihQtLKSaACqlPsYIkqyIL1wAlC7AOailHhQ17d1D8-b3ZIAa0QADk8CBPPsAPx1JRgiFQUT0MSSDQCOBdVprKAARgyWh0emWmPMFjO+zK7E+KHYTSMPQm6LpKAAdLMlE8YAALOAWOAAJgArKNRCilGiMatoHy8do5oSWqsSWSoBS3h8btTad00Ok0l0eqzwhzubzBcKgA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -5251,10 +5251,10 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `TaggedUnion` - Create a union of types that share a common discriminant property.
+- [`TaggedUnion`](source/tagged-union.d.ts) - Create a union of types that share a common discriminant property.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gFQIYHNcoAmAqgHbASkC+cAZlBCHAORKoC0tKAzjMwNwAoQWzQ58RADwAxYCgA2hbnBQAPGClJK4AJRQBjaIUm8owUrgA0cAK6kA1qQgB3UgD44AXjjiCJcpSSrMgozNayCkpuwgD0MT4AFmJ4fmQUpLYwwPLASHBQRDb6PAhJcNggEHbwELRwAEYQ2ShQYPLYGnCkKERECBBw+gUdaNgIKX126XDOuQlwIDbyWW1oICgg9S3c1iDY9ua4pWiGhGvQJ5T6wNwoAHQiIXAAogBumjAAsjzceGjevik6EEAHlUKRnuoWqRsPJiFB5AAuDCCGwI5GmQ5CYCEZGkGybFpCdoWGx-DEwMwWIRUISYCD4eQoABC2H09mZNhgMEoADUbsB6tlcohkcDXgL6kzkY0IEzsKQaUIAApo-QJbC3TncyjKgrcW64lFgMzFPEErZQIRZdbIgAiIyVggActgJbgOukAMowEYAYQ1FiIYsEMPdnsoAH4KVTcE6qG4hII4nAABItNA3Y5wX7rBBPIYoEaEGZzKrwGAJLNc4VIB6iF7vUhfH5-LyCAA+KNEyOYYM0kI0UBhcIRAlR6JzlKxghx5sJVsEJNwZIIMZnVE7GB7LHpjJZbI5XJ5pH53EFtcQAjgEvPUpQMogcqL1C36B3zFVUHVmpZx91+qGteJrAGaXQWkSCCgA+cAOhom5du+IS9q64ZZJQPr+oGfjXmGwAeuhpDRlOsa0kAA">TS Playground</a> | <a href="source/tagged-union.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gFQIYHNcoAmAqgHbASkC+cAZlBCHAORKoC0tKAzjMwNwAoQWzQ58RADwAxYCgA2hbnBQAPGClJK4AJRQBjaIUm8owUrgA0cAK6kA1qQgB3UgD44AXjjiCJcpSSrMgozNayCkpuwgD0MT4AFmJ4fmQUpLYwwPLASHBQRDb6PAhJcNggEHbwELRwAEYQ2ShQYPLYGnCkKERECBBw+gUdaNgIKX126XDOuQlwIDbyWW1oICgg9S3c1iDY9ua4pWiGhGvQJ5T6wNwoAHQiIXAAogBumjAAsjzceGjevik6EEAHlUKRnuoWqRsPJiFB5AAuDCCGwI5GmQ5CYCEZGkGybFpCdoWGx-DEwMwWIRUISYCD4eQoABC2H09mZNhgMEoADUbsB6tlcohkcDXgL6kzkY0IEzsKQaUIAApo-QJbC3TncyjKgrcW64lFgMzFPEErZQIRZdbIgAiIyVggActgJbgOukAMowEYAYQ1FiIYsEMPdnsoAH4KVTcE6qG4hII4nAABItNA3Y5wX7rBBPIYoEaEGZzKrwGAJLNc4VIB6iF7vUhfH5-LyCAA+KNEyOYYM0kI0UBhcIRAlR6JzlKxghx5sJVsEJNwZIIMZnVE7GB7LHpjJZbI5XJ5pH53EFtcQAjgEvPUpQMogcqL1C36B3zFVUHVmpZx91+qGteJrAGaXQWkSCCgA+cAOhom5du+IS9q64ZZJQPr+oGfjXmGwAeuhpDRlOsa0kAA">TS Playground</a>
 	</summary>
 
 	```ts
@@ -5295,10 +5295,10 @@ Click the type source for complete docs.
 	```
 	</details>
 
-- `WritableKeysOf` - Extract all writable keys from the given type.
+- [`WritableKeysOf`](source/writable-keys-of.d.ts) - Extract all writable keys from the given type.
 	<details>
 	<summary>
-		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gdSsGBDAIwBsUBpFRAZwHkAzAXzlqghDgHIlUBaWlSmOwDcAKBHAAdjBRRaeAMZoAqpRkYREvCBQAuOAJwSA5qMoBXKJu16DkkyKgo8AEwgSiiOMGd6JZkAQyovRiXMpgznjSAEooAI5m-DAAPACiUrieKAAe0hLOlHAQBABWKPIwAHxwALxwAArA8gDWaRlIADRw2LiEJORUdG0wmZWVoiLybgJwZhFRKACMekrzMfGJAskqMtV16BpauhwAgkRNKOwdIuaWR3rsJ-LaVyL0QkA">TS Playground</a> | <a href="source/writable-keys-of.d.ts">Source</a>
+		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gdSsGBDAIwBsUBpFRAZwHkAzAXzlqghDgHIlUBaWlSmOwDcAKBHAAdjBRRaeAMZoAqpRkYREvCBQAuOAJwSA5qMoBXKJu16DkkyKgo8AEwgSiiOMGd6JZkAQyovRiXMpgznjSAEooAI5m-DAAPACiUrieKAAe0hLOlHAQBABWKPIwAHxwALxwAArA8gDWaRlIADRw2LiEJORUdG0wmZWVoiLybgJwZhFRKACMekrzMfGJAskqMtV16BpauhwAgkRNKOwdIuaWR3rsJ-LaVyL0QkA">TS Playground</a>
 	</summary>
 
 	```ts

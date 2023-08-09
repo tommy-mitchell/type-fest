@@ -8,21 +8,21 @@ const lzstring = require('lz-string');
 const resolve = relativePath => path.resolve(__dirname, relativePath);
 
 /** @param {string} string_ https://stackoverflow.com/a/46959528/10292952 */
-const titleCase = string_ => string_.replace(/\b\S/g, t => t.toUpperCase());
+const titleCase = string_ => string_.replaceAll(/\b\S/g, t => t.toUpperCase());
 
 // https://gist.github.com/thevangelist/8ff91bac947018c9f3bfaad6487fa149?permalink_comment_id=2837584#gistcomment-2837584
 /** @param {string} string_ */
 const kebabCase = string_ => (
 	string_
-		.replace(/([A-Z])([A-Z])/g, '$1-$2')
-		.replace(/([a-z])([A-Z])/g, '$1-$2')
-		.replace(/[\s_]+/g, '-')
+		.replaceAll(/([A-Z])([A-Z])/g, '$1-$2')
+		.replaceAll(/([a-z])([A-Z])/g, '$1-$2')
+		.replaceAll(/[\s_]+/g, '-')
 		.toLowerCase()
 );
 
 /** @param {string} example @returns {string} */
 const makeTsPlaygroundLink = example => {
-	const source = example.replace(/^`+|`+$/g, '').trim();
+	const source = example.replaceAll(/^`+|`+$/g, '').trim();
 	const code = lzstring.compressToEncodedURIComponent(source);
 
 	return `https://www.typescriptlang.org/play?#code/${code}`;
@@ -48,7 +48,7 @@ const getTypesFromSourceFiles = (entryFileName, sourceDirectoryName) => {
 	const sourceDirectory = resolve(sourceDirectoryName);
 
 	const sourceFileNames = fs.readdirSync(sourceDirectory).map(fileName =>
-		path.resolve(sourceDirectory, fileName).replace(/\\/g, '/'),
+		path.resolve(sourceDirectory, fileName).replaceAll('\\', '/'),
 	);
 
 	const program = ts.createProgram([entryFile, ...sourceFileNames], {});
