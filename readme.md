@@ -40,34 +40,15 @@
 			<br>
 			<br>
 			<br>
-			<a href="https://www.useanvil.com/?utm_source=sindresorhus#gh-light-mode-only">
-				<div>
-					<img src="https://sindresorhus.com/assets/thanks/anvil-logo-light.svg" width="200" alt="Anvil">
-				</div>
-				<br>
-				<b>Paperwork that makes the data work.</b>
-				<div>
-					<sub>
-					Easy APIs for paperwork. PDF generation, e-signature and embeddable no-code webforms.
-					<br>
-					The easiest way to build paperwork automation into your product.
-					</sub>
-				</div>
+			<a href="https://transloadit.com?utm_source=sindresorhus&utm_medium=referral&utm_campaign=sponsorship&utm_content=type-fest">
+				<picture>
+					<source width="350" media="(prefers-color-scheme: dark)" srcset="https://sindresorhus.com/assets/thanks/transloadit-logo-dark.svg">
+					<source width="350" media="(prefers-color-scheme: light)" srcset="https://sindresorhus.com/assets/thanks/transloadit-logo.svg">
+					<img width="350" src="https://sindresorhus.com/assets/thanks/transloadit-logo.svg" alt="Transloadit logo">
+				</picture>
 			</a>
-			<a href="https://www.useanvil.com/?utm_source=sindresorhus#gh-dark-mode-only">
-				<div>
-					<img src="https://sindresorhus.com/assets/thanks/anvil-logo-dark.svg" width="200" alt="Anvil">
-				</div>
-				<br>
-				<b>Paperwork that makes the data work.</b>
-				<div>
-					<sub>
-					Easy APIs for paperwork. PDF generation, e-signature and embeddable no-code webforms.
-					<br>
-					The easiest way to build paperwork automation into your product.
-					</sub>
-				</div>
-			</a>
+			<br>
+			<br>
 		</p>
 	</div>
 	<br>
@@ -95,7 +76,7 @@ PR welcome for additional commonly needed types and docs improvements. Read the 
 npm install type-fest
 ```
 
-*Requires TypeScript >=4.7*
+*Requires TypeScript >=5.1*
 
 ## Usage
 
@@ -117,6 +98,7 @@ type FooWithoutRainbow = Except<Foo, 'rainbow'>;
 
 ### Type Categories
 
+<<<<<<< HEAD
 - [Array](#array)
 - [Async](#async)
 - [Change Case](#change-case)
@@ -134,6 +116,134 @@ type FooWithoutRainbow = Except<Foo, 'rainbow'>;
 - [Template Literal](#template-literal)
 - [Type](#type)
 - [Utilities](#utilities)
+=======
+### Basic
+
+- [`Primitive`](source/primitive.d.ts) - Matches any [primitive value](https://developer.mozilla.org/en-US/docs/Glossary/Primitive).
+- [`Class`](source/basic.d.ts) - Matches a [`class`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes).
+- [`Constructor`](source/basic.d.ts) - Matches a [`class` constructor](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes).
+- [`AbstractClass`](source/basic.d.ts) - Matches an [`abstract class`](https://www.typescriptlang.org/docs/handbook/classes.html#abstract-classes).
+- [`AbstractConstructor`](source/basic.d.ts) - Matches an [`abstract class`](https://www.typescriptlang.org/docs/handbook/release-notes/typescript-4-2.html#abstract-construct-signatures) constructor.
+- [`TypedArray`](source/typed-array.d.ts) - Matches any [typed array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray), like `Uint8Array` or `Float64Array`.
+- [`ObservableLike`](source/observable-like.d.ts) - Matches a value that is like an [Observable](https://github.com/tc39/proposal-observable).
+
+### Utilities
+
+- [`EmptyObject`](source/empty-object.d.ts) - Represents a strictly empty plain object, the `{}` value.
+- [`IsEmptyObject`](source/empty-object.d.ts) - Returns a `boolean` for whether the type is strictly equal to an empty plain object, the `{}` value.
+- [`UnknownRecord`](source/unknown-record.d.ts) - Represents an object with `unknown` value. You probably want this instead of `{}`.
+- [`Except`](source/except.d.ts) - Create a type from an object type without certain keys. This is a stricter version of [`Omit`](https://www.typescriptlang.org/docs/handbook/utility-types.html#omittype-keys).
+- [`Writable`](source/writable.d.ts) - Create a type that strips `readonly` from all or some of an object's keys. The inverse of `Readonly<T>`.
+- [`WritableDeep`](source/writable-deep.d.ts) - Create a deeply mutable version of an `object`/`ReadonlyMap`/`ReadonlySet`/`ReadonlyArray` type. The inverse of `ReadonlyDeep<T>`. Use `Writable<T>` if you only need one level deep.
+- [`Merge`](source/merge.d.ts) - Merge two types into a new type. Keys of the second type overrides keys of the first type.
+- [`MergeDeep`](source/merge-deep.d.ts) - Merge two objects or two arrays/tuples recursively into a new type.
+- [`MergeExclusive`](source/merge-exclusive.d.ts) - Create a type that has mutually exclusive keys.
+- [`OverrideProperties`](source/override-properties.d.ts) - Override only existing properties of the given type. Similar to `Merge`, but enforces that the original type has the properties you want to override.
+- [`RequireAtLeastOne`](source/require-at-least-one.d.ts) - Create a type that requires at least one of the given keys.
+- [`RequireExactlyOne`](source/require-exactly-one.d.ts) - Create a type that requires exactly a single key of the given keys and disallows more.
+- [`RequireAllOrNone`](source/require-all-or-none.d.ts) - Create a type that requires all of the given keys or none of the given keys.
+- [`RequireOneOrNone`](source/require-one-or-none.d.ts) - Create a type that requires exactly a single key of the given keys and disallows more, or none of the given keys.
+- [`RequiredDeep`](source/required-deep.d.ts) - Create a deeply required version of another type. Use [`Required<T>`](https://www.typescriptlang.org/docs/handbook/utility-types.html#requiredtype) if you only need one level deep.
+- [`OmitIndexSignature`](source/omit-index-signature.d.ts) - Omit any index signatures from the given object type, leaving only explicitly defined properties.
+- [`PickIndexSignature`](source/pick-index-signature.d.ts) - Pick only index signatures from the given object type, leaving out all explicitly defined properties.
+- [`PartialDeep`](source/partial-deep.d.ts) - Create a deeply optional version of another type. Use [`Partial<T>`](https://www.typescriptlang.org/docs/handbook/utility-types.html#partialtype) if you only need one level deep.
+- [`PartialOnUndefinedDeep`](source/partial-on-undefined-deep.d.ts) - Create a deep version of another type where all keys accepting `undefined` type are set to optional.
+- [`ReadonlyDeep`](source/readonly-deep.d.ts) - Create a deeply immutable version of an `object`/`Map`/`Set`/`Array` type. Use [`Readonly<T>`](https://www.typescriptlang.org/docs/handbook/utility-types.html#readonlytype) if you only need one level deep.
+- [`LiteralUnion`](source/literal-union.d.ts) - Create a union type by combining primitive types and literal types without sacrificing auto-completion in IDEs for the literal type part of the union. Workaround for [Microsoft/TypeScript#29729](https://github.com/Microsoft/TypeScript/issues/29729).
+- [`Opaque`](source/opaque.d.ts) - Create an [opaque type](https://codemix.com/opaque-types-in-javascript/).
+- [`UnwrapOpaque`](source/opaque.d.ts) - Revert an [opaque type](https://codemix.com/opaque-types-in-javascript/) back to its original type.
+- [`InvariantOf`](source/invariant-of.d.ts) - Create an [invariant type](https://basarat.gitbook.io/typescript/type-system/type-compatibility#footnote-invariance), which is a type that does not accept supertypes and subtypes.
+- [`SetOptional`](source/set-optional.d.ts) - Create a type that makes the given keys optional.
+- [`SetReadonly`](source/set-readonly.d.ts) - Create a type that makes the given keys readonly.
+- [`SetRequired`](source/set-required.d.ts) - Create a type that makes the given keys required.
+- [`SetNonNullable`](source/set-non-nullable.d.ts) - Create a type that makes the given keys non-nullable.
+- [`ValueOf`](source/value-of.d.ts) - Create a union of the given object's values, and optionally specify which keys to get the values from.
+- [`ConditionalKeys`](source/conditional-keys.d.ts) - Extract keys from a shape where values extend the given `Condition` type.
+- [`ConditionalPick`](source/conditional-pick.d.ts) - Like `Pick` except it selects properties from a shape where the values extend the given `Condition` type.
+- [`ConditionalPickDeep`](source/conditional-pick-deep.d.ts) - Like `ConditionalPick` except that it selects the properties deeply.
+- [`ConditionalExcept`](source/conditional-except.d.ts) - Like `Omit` except it removes properties from a shape where the values extend the given `Condition` type.
+- [`UnionToIntersection`](source/union-to-intersection.d.ts) - Convert a union type to an intersection type.
+- [`LiteralToPrimitive`](source/literal-to-primitive.d.ts) - Convert a [literal type](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#literal-types) to the [primitive type](source/primitive.d.ts) it belongs to.
+- [`LiteralToPrimitiveDeep`](source/literal-to-primitive-deep.d.ts) - Like `LiteralToPrimitive` except it converts literal types inside an object or array deeply.
+- [`Stringified`](source/stringified.d.ts) - Create a type with the keys of the given type changed to `string` type.
+- [`IterableElement`](source/iterable-element.d.ts) - Get the element type of an `Iterable`/`AsyncIterable`. For example, an array or a generator.
+- [`Entry`](source/entry.d.ts) - Create a type that represents the type of an entry of a collection.
+- [`Entries`](source/entries.d.ts) - Create a type that represents the type of the entries of a collection.
+- [`SetReturnType`](source/set-return-type.d.ts) - Create a function type with a return type of your choice and the same parameters as the given function type.
+- [`Simplify`](source/simplify.d.ts) - Useful to flatten the type output to improve type hints shown in editors. And also to transform an interface into a type to aide with assignability.
+- [`Get`](source/get.d.ts) - Get a deeply-nested property from an object using a key path, like [Lodash's `.get()`](https://lodash.com/docs/latest#get) function.
+- [`StringKeyOf`](source/string-key-of.d.ts) - Get keys of the given type as strings.
+- [`Schema`](source/schema.d.ts) - Create a deep version of another object type where property values are recursively replaced into a given value type.
+- [`Exact`](source/exact.d.ts) - Create a type that does not allow extra properties.
+- [`OptionalKeysOf`](source/optional-keys-of.d.ts) - Extract all optional keys from the given type.
+- [`HasOptionalKeys`](source/has-optional-keys.d.ts) - Create a `true`/`false` type depending on whether the given type has any optional fields.
+- [`RequiredKeysOf`](source/required-keys-of.d.ts) - Extract all required keys from the given type.
+- [`HasRequiredKeys`](source/has-required-keys.d.ts) - Create a `true`/`false` type depending on whether the given type has any required fields.
+- [`ReadonlyKeysOf`](source/readonly-keys-of.d.ts) - Extract all readonly keys from the given type.
+- [`HasReadonlyKeys`](source/has-readonly-keys.d.ts) - Create a `true`/`false` type depending on whether the given type has any readonly fields.
+- [`WritableKeysOf`](source/writable-keys-of.d.ts) - Extract all writable (non-readonly) keys from the given type.
+- [`HasWritableKeys`](source/has-writable-keys.d.ts) - Create a `true`/`false` type depending on whether the given type has any writable fields.
+- [`Spread`](source/spread.d.ts) - Mimic the type inferred by TypeScript when merging two objects or two arrays/tuples using the spread syntax.
+- [`IsEqual`](source/is-equal.d.ts) - Returns a boolean for whether the two given types are equal.
+- [`TaggedUnion`](source/tagged-union.d.ts) - Create a union of types that share a common discriminant property.
+
+### Type Guard
+
+#### `IsType` vs. `IfType`
+
+For every `IsT` type (e.g. `IsAny`), there is an associated `IfT` type that can help simplify conditional types. While the `IsT` types return a `boolean`, the `IfT` types act like an `If`/`Else` - they resolve to the given `TypeIfT` or `TypeIfNotT` depending on whether `IsX` is `true` or not. By default, `IfT` returns a `boolean`:
+
+```ts
+type IfAny<T, TypeIfAny = true, TypeIfNotAny = false> = (
+	IsAny<T> extends true ? TypeIfAny : TypeIfNotAny
+);
+```
+
+#### Usage
+
+```ts
+import type {IsAny, IfAny} from 'type-fest';
+
+type ShouldBeTrue = IsAny<any> extends true ? true : false;
+//=> true
+
+type ShouldBeFalse = IfAny<'not any'>;
+//=> false
+
+type ShouldBeNever = IfAny<'not any', 'not never', 'never'>;
+//=> 'never'
+```
+
+- [`IsLiteral`](source/is-literal.d.ts) - Returns a boolean for whether the given type is a [literal type](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#literal-types).
+- [`IsStringLiteral`](source/is-literal.d.ts) - Returns a boolean for whether the given type is a `string` [literal type](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#literal-types).
+- [`IsNumericLiteral`](source/is-literal.d.ts) - Returns a boolean for whether the given type is a `number` or `bigint` [literal type](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#literal-types).
+- [`IsBooleanLiteral`](source/is-literal.d.ts) - Returns a boolean for whether the given type is a `true` or `false` [literal type](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#literal-types).
+- [`IsSymbolLiteral`](source/is-literal.d.ts) - Returns a boolean for whether the given type is a `symbol` [literal type](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#literal-types).
+- [`IsAny`](source/is-any.d.ts) - Returns a boolean for whether the given type is `any`. (Conditional version: [`IfAny`](source/if-any.d.ts).)
+- [`IsNever`](source/is-never.d.ts) - Returns a boolean for whether the given type is `never`. (Conditional version: [`IfNever`](source/if-never.d.ts).)
+- [`IsUnknown`](source/is-unknown.d.ts) - Returns a boolean for whether the given type is `unknown`. (Conditional version: [`IfUnknown`](source/if-unknown.d.ts).)
+
+### JSON
+
+- [`Jsonify`](source/jsonify.d.ts) - Transform a type to one that is assignable to the `JsonValue` type.
+- [`Jsonifiable`](source/jsonifiable.d.ts) - Matches a value that can be losslessly converted to JSON.
+- [`JsonPrimitive`](source/basic.d.ts) - Matches a JSON primitive.
+- [`JsonObject`](source/basic.d.ts) - Matches a JSON object.
+- [`JsonArray`](source/basic.d.ts) - Matches a JSON array.
+- [`JsonValue`](source/basic.d.ts) - Matches any valid JSON value.
+
+### Async
+
+- [`Promisable`](source/promisable.d.ts) - Create a type that represents either the value or the value wrapped in `PromiseLike`.
+- [`AsyncReturnType`](source/async-return-type.d.ts) - Unwrap the return type of a function that returns a `Promise`.
+- [`Asyncify`](source/asyncify.d.ts) - Create an async version of the given function type.
+
+### String
+
+- [`Trim`](source/trim.d.ts) - Remove leading and trailing spaces from a string.
+- [`Split`](source/split.d.ts) - Represents an array of strings split using a given character or character set.
+- [`Replace`](source/replace.d.ts) - Represents a string with some or all matches replaced by a replacement.
+>>>>>>> main
 
 ### Array
 
@@ -627,11 +737,30 @@ type FooWithoutRainbow = Except<Foo, 'rainbow'>;
 
 ### Change case
 
+<<<<<<< HEAD
 - `CamelCase` - Convert a string literal to camel-case.
 	<details>
 	<summary>
 		Example | <a href="https://www.typescriptlang.org/play?#code/JYWwDg9gTgLgBDAnmApnA3gYQIYhQGxwGcUBfOAMyghDgHIlUBaClImOgbgChuB6PnADKoMPhS8AxhAB27OERooAatijBsAI3EAuODjyFsJADx0KECE01q6APjgBeehYgAhWz36CAggBMAN2wZSRQ-XkY0AwJiMIAFalRYYDYTABUHZ3RuAG0AaThgGTgAaxRECAo4NLhjfVwY4xQTPLsAXT00-LbuUi8imBQoCmxQuAAlbAB3AHkwGGBZIgxuOj8oRCYoAFcZOj1NS3FgnnNt-HwAfRGQYHxES5kG-YUYdRkAcx5XPRltkE0Qx4bh84z07HeX24AEUAKoALUucIAGr9-oCoKcZmkABIAUXGTAAYgBJPEAGQAIi9DhBjjIeKQpEt4H5NOM2OcYHpokYSH4EhAkgtUpNZvNFnJMit1ohxrs9G9tigADTcCjnfBE3B3RAAOQaejoNigADoAFZEOhqn5wACMACYAMxqk1G1zW7gAR22AC9odsAB56ABsaogMAAFkMiSl8H49CN8CRepwgA">TS Playground</a> | <a href="source/camel-case.d.ts">Source</a>
 	</summary>
+=======
+- [`CamelCase`](source/camel-case.d.ts) - Convert a string literal to camel-case (`fooBar`).
+- [`CamelCasedProperties`](source/camel-cased-properties.d.ts) - Convert object properties to camel-case (`fooBar`).
+- [`CamelCasedPropertiesDeep`](source/camel-cased-properties-deep.d.ts) - Convert object properties to camel-case recursively (`fooBar`).
+- [`KebabCase`](source/kebab-case.d.ts) - Convert a string literal to kebab-case (`foo-bar`).
+- [`KebabCasedProperties`](source/kebab-cased-properties.d.ts) - Convert a object properties to kebab-case recursively (`foo-bar`).
+- [`KebabCasedPropertiesDeep`](source/kebab-cased-properties-deep.d.ts) - Convert object properties to kebab-case (`foo-bar`).
+- [`PascalCase`](source/pascal-case.d.ts) - Converts a string literal to pascal-case (`FooBar`)
+- [`PascalCasedProperties`](source/pascal-cased-properties.d.ts) - Converts object properties to pascal-case (`FooBar`)
+- [`PascalCasedPropertiesDeep`](source/pascal-cased-properties-deep.d.ts) - Converts object properties to pascal-case (`FooBar`)
+- [`SnakeCase`](source/snake-case.d.ts) - Convert a string literal to snake-case (`foo_bar`).
+- [`SnakeCasedProperties`](source/snake-cased-properties.d.ts) - Convert object properties to snake-case (`foo_bar`).
+- [`SnakeCasedPropertiesDeep`](source/snake-cased-properties-deep.d.ts) - Convert object properties to snake-case recursively (`foo_bar`).
+- [`ScreamingSnakeCase`](source/screaming-snake-case.d.ts) - Convert a string literal to screaming-snake-case (`FOO_BAR`).
+- [`DelimiterCase`](source/delimiter-case.d.ts) - Convert a string literal to a custom string delimiter casing.
+- [`DelimiterCasedProperties`](source/delimiter-cased-properties.d.ts) - Convert object properties to a custom string delimiter casing.
+- [`DelimiterCasedPropertiesDeep`](source/delimiter-cased-properties-deep.d.ts) - Convert object properties to a custom string delimiter casing recursively.
+>>>>>>> main
 
 	```ts
 	import type {CamelCase} from 'type-fest';
@@ -4219,6 +4348,7 @@ type FooWithoutRainbow = Except<Foo, 'rainbow'>;
 - `PartialBy` - See [`SetOptional`](https://github.com/sindresorhus/type-fest/blob/main/source/set-optional.d.ts)
 - `RecordDeep`- See [`Schema`](https://github.com/sindresorhus/type-fest/blob/main/source/schema.d.ts)
 - `Mutable`- See [`Writable`](https://github.com/sindresorhus/type-fest/blob/main/source/writable.d.ts)
+- `Prettify`- See [`Simplify`](https://github.com/sindresorhus/type-fest/blob/main/source/simplify.d.ts)
 
 ## Tips
 

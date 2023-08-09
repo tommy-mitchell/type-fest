@@ -1,6 +1,10 @@
 import type {Primitive} from './primitive';
 import type {Simplify} from './simplify';
 import type {Trim} from './trim';
+import type {IsAny} from './is-any';
+
+// TODO: Remove for v5.
+export type {UnknownRecord} from './unknown-record';
 
 /**
 Infer the length of the given array `<T>`.
@@ -75,11 +79,6 @@ export type Whitespace =
 	| '\u{FEFF}';
 
 export type WordSeparators = '-' | '_' | Whitespace;
-
-/**
-Matches any unknown record.
-*/
-export type UnknownRecord = Record<PropertyKey, unknown>;
 
 /**
 Matches any unknown array or tuple.
@@ -159,23 +158,6 @@ export type IsNumeric<T extends string> = T extends `${number}`
 	: false;
 
 /**
-Returns a boolean for whether the the type is `any`.
-
-@link https://stackoverflow.com/a/49928360/1490091
-*/
-export type IsAny<T> = 0 extends 1 & T ? true : false;
-
-/**
-Returns a boolean for whether the the type is `never`.
-*/
-export type IsNever<T> = [T] extends [never] ? true : false;
-
-/**
-Returns a boolean for whether the the type is `unknown`.
-*/
-export type IsUnknown<T> = IsNever<T> extends false ? T extends unknown ? unknown extends T ? IsAny<T> extends false ? true : false : false : false : false;
-
-/**
 For an object T, if it has any properties that are a union with `undefined`, make those into optional properties instead.
 
 @example
@@ -251,9 +233,24 @@ Needed to handle the case of a single call signature with properties.
 Multiple call signatures cannot currently be supported due to a TypeScript limitation.
 @see https://github.com/microsoft/TypeScript/issues/29732
 */
-export type HasMultipleCallSignatures<T extends (...arguments: any[]) => unknown> =
-	T extends {(...arguments: infer A): unknown; (...arguments: any[]): unknown}
+export type HasMultipleCallSignatures<T extends (...arguments_: any[]) => unknown> =
+	T extends {(...arguments_: infer A): unknown; (...arguments_: any[]): unknown}
 		? unknown[] extends A
 			? false
 			: true
 		: false;
+
+/**
+Returns a boolean for whether the given `boolean` is not `false`.
+*/
+export type IsNotFalse<T extends boolean> = [T] extends [false] ? false : true;
+
+/**
+Returns a boolean for whether the given type is `null`.
+*/
+export type IsNull<T> = [T] extends [null] ? true : false;
+
+/**
+Disallows any of the given keys.
+*/
+export type RequireNone<KeysType extends PropertyKey> = Partial<Record<KeysType, never>>;
