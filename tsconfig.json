@@ -9,6 +9,7 @@
 		]
 	},
 	"exclude": [
-		"test-d/**/*"
+		"test-d/**/*",
+		"script"
 	]
 }

@@ -35,7 +35,7 @@
 		"generics"
 	],
 	"devDependencies": {
-		"@sindresorhus/tsconfig": "4.0.0",
+		"@sindresorhus/tsconfig": "~0.7.0",
 		"@types/node": "^20.4.9",
 		"dot-prop": "^8.0.2",
 		"eslint-formatter-pretty": "^5.0.0",
