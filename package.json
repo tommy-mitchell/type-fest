@@ -35,13 +35,17 @@
 		"generics"
 	],
 	"devDependencies": {
-		"@sindresorhus/tsconfig": "~0.7.0",
+		"@sindresorhus/tsconfig": "4.0.0",
+		"@types/node": "^20.4.9",
+		"dot-prop": "^8.0.2",
+		"eslint-formatter-pretty": "^5.0.0",
 		"expect-type": "^0.15.0",
 		"liquidjs": "^10.6.1",
 		"lz-string": "^1.5.0",
+		"ts-node": "^10.9.1",
 		"tsd": "^0.28.1",
 		"typescript": "^5.0.4",
-		"xo": "^0.55.0"
+		"xo": "^0.56.0"
 	},
 	"xo": {
 		"rules": {

@@ -1,0 +1,14 @@
+{
+	"extends": "@sindresorhus/tsconfig",
+	"include": ["readme", "test"],
+	"compilerOptions": {
+		"noEmit": true,
+		"lib": [
+			"ES2021",
+			"DOM"
+		]
+	},
+	"ts-node": {
+		"transpileOnly": true,
+	}
+}
