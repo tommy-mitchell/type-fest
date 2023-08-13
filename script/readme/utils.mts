@@ -11,7 +11,7 @@ export const resolve = (relativePath: string) => path.resolve(
 );
 
 // https://stackoverflow.com/a/46959528/10292952
-export const titleCase = (string_: string) => string_.replaceAll(/\b\S/g, t => t.toUpperCase());
+export const titleCase = (value: string) => value.replaceAll(/\b\S/g, t => t.toUpperCase());
 
 export const encodeTsPlaygroundLink = (example: string): string => {
 	const source = example.replaceAll(/^`+|`+$/g, '').trim();

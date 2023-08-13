@@ -15,8 +15,8 @@
 		"node": ">=16"
 	},
 	"scripts": {
-		"readme": "npm run test && node script/readme/generate-readme.js",
-		"test": "xo && tsd && tsc && node script/test/source-files-extension.js"
+		"readme": "npm run test && ts-node-esm script/readme/generate-readme.mts",
+		"test": "xo && tsd && tsc && ts-node-esm script/test/source-files-extension.mts"
 	},
 	"files": [
 		"index.d.ts",
