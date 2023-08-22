@@ -15,7 +15,8 @@
 		"node": ">=16"
 	},
 	"scripts": {
-		"readme": "npm run test && ts-node-esm script/readme/generate-readme.mts",
+		"prepare": "husky install",
+		"readme": "ts-node-esm script/readme/generate-readme.mts",
 		"test": "xo && tsd && tsc && ts-node-esm script/test/source-files-extension.mts"
 	},
 	"files": [
@@ -40,6 +41,7 @@
 		"dot-prop": "^8.0.2",
 		"eslint-formatter-pretty": "^5.0.0",
 		"expect-type": "^0.15.0",
+		"husky": "^8.0.3",
 		"liquidjs": "^10.6.1",
 		"lz-string": "^1.5.0",
 		"ts-node": "^10.9.1",
