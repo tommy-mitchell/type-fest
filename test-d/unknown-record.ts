@@ -13,4 +13,4 @@ expectError(foo = 42);
 expectError(foo = null);
 
 expectType<unknown>(foo.bar);
-expectType<unknown>(foo['bar']);
+expectType<unknown>(foo['bar']); // eslint-disable-line @typescript-eslint/dot-notation

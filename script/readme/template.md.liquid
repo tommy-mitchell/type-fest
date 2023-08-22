@@ -80,7 +80,7 @@ npm install type-fest
 
 ## Usage
 
-[TS Playground](https://tsplay.dev/type-fest_example)
+[Playground](https://tsplay.dev/type-fest_example)
 
 ```ts
 import type {Except} from 'type-fest';
